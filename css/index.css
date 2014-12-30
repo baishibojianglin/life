@@ -129,6 +129,7 @@ position:absolute;
 z-index:10;
 top:75px;
 left:212px;
+
 }
 .jl_div1c2_b dt
 {
@@ -137,8 +138,9 @@ height:340px;
 float:left;
 margin-right:5px;
 background-color:#00F;
+display:none;
 }
-.jl_div1c2_b dt img
+.jl_div1c2_b img
 {width:100%;
 height:100%;
 }
