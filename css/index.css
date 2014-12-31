@@ -7,7 +7,7 @@ a{text-decoration:none;}
 {
 width:100%;
 height:532px;
-background-color:#960;
+background-color:#FFF;
 position:relative;
 }
 .jl_div10
@@ -17,7 +17,7 @@ margin:auto;
 border:1px;
 border-style:solid;
 border-color:transparent;
-background-color:#060;
+background-color:#FFF;
 position:relative;
 }
 
@@ -26,7 +26,7 @@ position:relative;
 width:100%;
 height:30px;
 margin:30px auto 0 auto;
-background-color:#CF0;
+background-color:#FFF;
 }
 .jl_div1b_dt1
 {width:50px;
@@ -109,7 +109,7 @@ margin:10px auto 0 auto;
 height:78px;
 float:left;
 margin:0 5px 5px 0;
-border:1px solid #F9FAFC;
+border:1px solid #E3E7EA;
 }
 .jl_div1c2_a dt img
 {width:100%;
@@ -122,6 +122,11 @@ height:360px;
 border-top:5px solid #E3E7EA;
 float:left;
 }
+.jl_div1c3 img
+{
+width:100%;
+height:100%;
+}
 .jl_div1c2_b
 {width:735px;
 height:340px;
@@ -129,7 +134,7 @@ position:absolute;
 z-index:10;
 top:75px;
 left:212px;
-
+display:none;
 }
 .jl_div1c2_b dt
 {
@@ -144,3 +149,16 @@ display:none;
 {width:100%;
 height:100%;
 }
+.jl_div1d
+{
+	width:100%;
+	height:85px;
+	margin-top:21px;
+}
+.jl_div1d img
+{width:100%;
+height:100%;
+}
+a:link {color: #FF0000}
+a:visited {color: #00FF00}
+a:hover {border-color:#F00;}
