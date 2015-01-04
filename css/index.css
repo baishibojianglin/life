@@ -74,6 +74,7 @@ font-weight:500;
 font-size:14px;
 float:left;
 margin-left:15px;
+cursor:pointer;
 }
 
 .jl_div1c
@@ -159,4 +160,4 @@ height:100%;
 {width:100%;
 height:100%;
 }	
-.jl_div1c2_a a>dt:hover {border-color: #FF00FF}	    
+.jl_div1c2_a a>dt:hover {border-color:#F60;}	    

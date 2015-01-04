@@ -1,6 +1,18 @@
 // JavaScript Document
 $(function(){
+//jl第一部分特效代码
 
+/*加类*/
+$(".jl_div1b dt").eq(0).addClass("jl_div1b_dt1");
+$(".jl_div1b dt").eq(1).addClass("jl_div1b_dt2");
+$(".jl_div1b dt").eq(2).addClass("jl_div1b_dt3");	
+$(".jl_div1b dt").eq(3).addClass("jl_div1b_dt4");
+$(".jl_div1b dt").eq(4).addClass("jl_div1b_dt5");
+$(".jl_div1b dt").eq(5).addClass("jl_div1b_dt6");
+
+
+
+/*淡入代码*/
 $(".jl_div1c3").mouseover(function(){
 	$(".jl_div1c2_b").show();
 	$(".jl_div1c2_b dt").eq(2).fadeIn(200);
@@ -17,21 +29,25 @@ $(".jl_div1c2_b").mouseout(function(){
 	});	
 	
 	
-	
-	
-	
-	
-});
+/*换一批*/
+var jl_2=1;
+var jl_1=$(".jl_div1c2_a").size();
 
-function getId(id)
-{
-	return documment.getElementById(id);
-}
-function bianse(a)
-{
-	$(a).css({"border-color":"#F00"});
-}
-function bianse1(a)
-{
-	$(a).css({"border-color":"#E3E7EA"});
-}
+for(i=1;i<jl_1;i++)
+{$(".jl_div1c2_a").eq(i).hide();}
+
+$(".jl_div1b dt").eq(5).click(function(){
+if(jl_2==jl_1)
+{jl_2=0;}
+$(".jl_div1c2_a").hide();
+$(".jl_div1c2_a").eq(jl_2).show();
+jl_2++;		
+	});
+$(".jl_div1b dt").eq(5).mouseover(function(){
+$(this).css({"color":"red"});
+	});	
+$(".jl_div1b dt").eq(5).mouseout(function(){
+$(this).css({"color":"#666666"});
+	});		
+		
+});
