@@ -1,0 +1,342 @@
+@charset "utf-8";
+
+body{font-size:62.5%;font-family:Microsoft YaHei;}
+a{text-decoration:none;}
+ul{list-style-type:none;}
+*{margin:0;padding:0;}
+
+.lb_daos01{
+width:100%;
+height:40px;
+background-image:url("../images/jcd1_01.gif");
+background-repeat:repeat-x;
+}
+.lb_daos02{
+width:60%;
+min-width:1160px;
+height:40px;
+margin:0 auto;
+}
+
+.lb_daos04{
+width:200px;
+height:40px;
+float:left;
+background-image:url("../images/jcd1_02.gif");
+background-repeat:no-repeat;
+background-size:100% 100%;
+}
+.lb_daos05{
+width:142px;
+height:40px;
+float:left;
+}
+.lb_daos05 a{
+line-height:40px;
+padding-left:15px;
+font-size:1.4em;
+color:#FFFFFF;
+}
+.lb_daos06{
+width:43px;
+height:40px;
+float:left;
+}
+.lb_daos03{
+width:200px;
+height:30px;
+
+}
+.lb_daos03 a{
+overflow:hidden;
+}
+.white{
+background-color:#FFFFFF;
+}
+.gray{
+background-color:#F0F2F5;
+}
+.lb_daos07{
+width:170px;
+height:30px;
+float:left;
+}
+.lb_daos08{
+margin:0px 10px;
+width:20px;
+height:30px;
+float:left;
+}
+.lb_daos09{
+width:auto;
+height:30px;
+line-height:30px;
+font-size:1.4em;
+color:#535353;
+float:left;
+}
+.lb_daos10{
+float:right;
+width:30px;
+height:30px;
+}
+.lb_daos10 img{
+margin-right:11px;
+}
+.lb_daos11{
+width:700px;
+height:40px;
+float:left;
+}
+.padding{
+margin-left:40px;
+}
+.lb_daos12{
+height:40px;
+float:left;
+padding-right:30px;
+}
+.lb_daos12 a{
+line-height:40px;
+font-size:1.4em;
+color:#333333;
+}
+.lb_daos12 a:hover{
+line-height:40px;
+font-size:1.4em;
+color:#FF6600;
+border-bottom:1px solid #FF6600;
+}
+.lb_daos13{
+width:auto;
+margin:0px 16px;
+height:40px;
+float:right;
+}
+.lb_daos14{
+width:24px;
+height:40px;
+float:left;
+}
+.lb_daos15 {
+font-size:2em;
+color:#333333;
+line-height:40px;
+font-weight:bold;
+font-style:italic;
+float:left;
+}
+.lb_daos16{
+font-size:2em;
+color:#FF6600;
+font-weight:bold;
+font-style:italic;
+}
+.lb_daos017{
+width:60%;
+min-width:1160px;
+min-height:10px;
+margin:0 auto;
+}
+.lb_daos018{
+width:200px;
+min-height:10px;
+position:relative;
+}
+.lb_daos019{
+width:600px;
+min-height:10px;
+position:absolute;
+left:202px;
+top:0px;
+background-color:#FFFFFF;
+border:2px solid #418BEF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********************/
+.xiadao_01{
+width:588px;
+height:50px;
+margin:6px;
+background-image:url("../images/rds_05.jpg");
+background-repeat:repeat-x;
+}
+.xiadao_01 tr{
+width:558px;
+}
+.xiadao_02{
+width:auto;
+height:30px;
+border:ipx solid #8DB9F4;
+background-color:#FFFFFF;
+margin:8px 0px 8px 10px;
+border-radius:4px;
+-moz-border-radius:4px; /* ÀÏµÄ Firefox */
+}
+.xiadao_03{
+font-size:1.4em;
+color:#747474;
+padding:4px 6px 6px 10px;
+float:left;
+}
+.zitise1{
+color:#747474;
+}
+.zitise2{
+color:#FF7426;
+}
+.xiadao_04{
+width:10px;
+height:30px;
+float:left;
+margin-right:10px;
+}
+.xiadao_05{
+width:150px;
+height:50px;
+float:right;
+}
+.xiadao_06{
+width:44px;
+height:50px;
+float:left; 
+}
+.xiadao_07{
+font-size:1.8em;
+color:#418BEF;
+font-style:italic;
+line-height:50px;
+font-weight:bold;
+}
+/***************/
+.lb_daowen{
+float:left;
+padding:0px 20px 0px 20px;
+}
+.lb_daowen fore1{border-top:none;border-top: 1px solid #EEE;}
+.lb_daowen dl{
+float:left;
+width:558px;
+overflow:hidden;
+}
+.fore2{border-top:1px solid #E5E5E5;margin:10px 0px;}
+.fore3{border-top:1px solid #E5E5E5;margin:10px 0px;}
+.fore4{border-top:1px solid #E5E5E5;margin:10px 0px;}
+.lb_daowen dt{
+float:left;
+width:60px;
+font-size:1.4em;
+line-height:20px;
+font-weight:bold;
+color:#418BEF;
+}
+.lb_daowen dt a{
+color:#418BEF;
+text-decoration:underline;
+}
+.lb_daowen dd{
+float:left;
+width:480px;
+overflow:hidden;
+}
+.lb_daowen dd em{
+float:left;
+height:20px;
+font-size:1.4em;
+font-style:normal;
+line-height:20px;
+margin:5px 0px;
+padding:0px 14px;
+border-left:1px solid #DADADA;
+}
+.lb_daowen dd em a{
+color:#666666;
+text-decoration:none;
+}
+.lb_daowen dd em a:hover{
+color:#FF8042;
+text-decoration:none;
+}
+/*****************************/
+.lb_ltup{
+margin:4px;
+width:592px;
+height:92px;
+float:left;
+}
+.lb_ltup1{
+width:292px;
+height:92px;
+float:left;
+margin-right:4px;
+}
+.lb_ltup2{
+width:292px;
+height:92px;
+float:left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
