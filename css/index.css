@@ -6,7 +6,7 @@ a{text-decoration:none;}
 
 
 
-/*jl第一部分样式*/
+/*耍大牌部分样式*//
 .jl_div1
 {
 width:100%;
@@ -180,7 +180,7 @@ z-index:10;
 }
 
 
-/*jl第二部分样式*/
+/*1F部分样式*/
 .jl_div1b_dt5f
 {
 width:70px;
@@ -300,7 +300,7 @@ position:relative;
 
 
 
-/*jl第三部分样式*/
+/*2F部分样式*/
 .jl_div1f2
 {
 width:100%;
@@ -329,3 +329,78 @@ border:1px solid #E3E7EA;
 border-top:5px solid #FF4F4F;
 float:left;
 }
+.jl_div1c1f_2f2
+{width:100%;
+height:110px;
+}
+.jl_div1c1f_2f2 dt
+{
+width:80px;
+height:25px;
+line-height:25px;
+text-align:center;
+font-weight:600;
+font-family:"微软雅黑";
+font-size:12px;
+color:#535353;
+background-color:#F9FAFC;
+float:left;
+margin:5px 7px;
+overflow:hidden;
+box-shadow: 3px 5px 5px #E3E7EA;
+border-left:5px solid #FF4F4F; 
+}
+.jl_div1c1f_2f2 a>dt:hover{color:#F60;}
+
+
+
+/*3F部分样式*/
+
+.jl_div1b_dt5f3
+{
+width:70px;
+height:20px;
+border:1px solid #FBB81C;
+border-radius:20px;
+-moz-border-radius:20px; /* Old Firefox */
+line-height:20px;
+float:right;
+text-align:center;
+background-color:#E450BC;
+color:#FFF;
+}
+.jl_div1c1f3
+{
+width:198px;
+height:360px;
+border:1px solid #E3E7EA;
+border-top:5px solid #E450BC;
+float:left;
+}
+.jl_div1c1f_2f3
+{width:100%;
+height:110px;
+}
+.jl_div1c1f_2f3 dt
+{
+width:80px;
+height:25px;
+line-height:25px;
+text-align:center;
+font-weight:600;
+font-family:"微软雅黑";
+font-size:12px;
+color:#535353;
+background-color:#F9FAFC;
+float:left;
+margin:5px 7px;
+overflow:hidden;
+box-shadow: 3px 5px 5px #E3E7EA;
+border-left:5px solid #E450BC; 
+}
+.jl_div1c1f_2f3 a>dt:hover{color:#F60;}
+
+
+
+
+/*4F部分样式*/
