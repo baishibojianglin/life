@@ -3,6 +3,10 @@
 *{margin:0; border:0;}
 a{text-decoration:none;}
 
+
+
+
+/*jl第一部分样式*/
 .jl_div1
 {
 width:100%;
@@ -43,6 +47,7 @@ height:100%;
 font-size:20px;
 line-height:30px;
 float:left;
+font-weight:600;
 margin-left:10px;
 }
 .jl_div1b_dt3
@@ -57,7 +62,7 @@ color:#666666;
 font-size:12px;
 line-height:30px;
 color:#666666;
-font-weight:500;
+font-weight:600;
 float:left;
 }
 .jl_div1b_dt5
@@ -172,4 +177,155 @@ position:absolute;
 top:140px;
 left:-40px;
 z-index:10;
+}
+
+
+/*jl第二部分样式*/
+.jl_div1b_dt5f
+{
+width:70px;
+height:20px;
+border:1px solid #FBB81C;
+border-radius:20px;
+-moz-border-radius:20px; /* Old Firefox */
+line-height:20px;
+float:right;
+text-align:center;
+background-color:#FBB81C;
+color:#FFF;
+}
+.jl_div1b_dt6f
+{line-height:20px;
+color:#666666;
+font-weight:500;
+font-size:14px;
+float:right;
+margin-left:15px;
+cursor:pointer;
+}
+.jl_div1c1f
+{
+width:198px;
+height:360px;
+border:1px solid #E3E7EA;
+border-top:5px solid #FBB81C;
+float:left;
+}
+.jl_div1c1f_1
+{width:100%;
+height:200px;
+}
+.jl_div1c1f_1 img
+{width:100%;
+height:100%;
+}
+.jl_div1c1f_2
+{width:100%;
+height:110px;
+}
+.jl_div1c1f_2 dt
+{
+width:80px;
+height:25px;
+line-height:25px;
+text-align:center;
+font-weight:600;
+font-family:"微软雅黑";
+font-size:12px;
+color:#535353;
+background-color:#F9FAFC;
+float:left;
+margin:5px 7px;
+overflow:hidden;
+box-shadow: 3px 5px 5px #E3E7EA;
+border-left:5px solid #FBB81C; 
+}
+.jl_div1c1f_2 a>dt:hover{color:#F60;}
+.jl_div1c1f_3
+{width:100%;
+height:50px;
+}
+.jl_div1c1f_3 img
+{
+width:100%;
+height:100%;
+}
+.jl_div1c2f
+{
+width:398px;
+height:360px;
+border-top:5px solid #E3E7EA;
+border-bottom:1px solid #E3E7EA;
+border-right:1px solid #E3E7EA;
+float:left;
+}
+.jl_div1c2f img
+{width:100%;
+height:100%;
+}
+.jl_div1c2ff
+{
+width:561px;
+height:360px;
+border-top:5px solid #E3E7EA;
+border-bottom:1px solid #E3E7EA;
+float:left;
+}
+
+.jl_div1c2ff_dt1
+{width:186px;
+height:179px;
+float:left;
+border-bottom:1px solid #E3E7EA;
+border-right:1px solid #E3E7EA;
+}
+.jl_div1c2ff dt img
+{width:100%;
+height:100%;
+}
+.jl_div1c2ff_dt2
+{width:373px;
+height:180px;
+float:left;
+border-bottom:1px solid #E3E7EA;
+border-right:1px solid #E3E7EA;
+}
+.jl_div1f1
+{
+width:100%;
+height:447px;
+background-color:#FFF;
+position:relative;
+}
+
+
+
+/*jl第三部分样式*/
+.jl_div1f2
+{
+width:100%;
+height:532px;
+background-color:#FFF;
+position:relative;
+}
+.jl_div1b_dt5f2
+{
+width:70px;
+height:20px;
+border:1px solid #FBB81C;
+border-radius:20px;
+-moz-border-radius:20px; /* Old Firefox */
+line-height:20px;
+float:right;
+text-align:center;
+background-color:#FF4F4F;
+color:#FFF;
+}
+.jl_div1c1f2
+{
+width:198px;
+height:360px;
+border:1px solid #E3E7EA;
+border-top:5px solid #FF4F4F;
+float:left;
 }
