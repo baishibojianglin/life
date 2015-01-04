@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>精彩生活馆</title>
+<link rel="shortcut icon" href="images/shopping.ico" type="image/x-icon">
+<link href="css/layout.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jq1.7.1.js"></script>
+<script type="text/javascript" src="js/js.js"></script>
+<script type="text/javascript" src="js/tlife.js"></script>
+</head>
+
+<body>
+<!---------------------------------------------------navigation----------------------------------------------->
+<div id="site-nav">
+  <div class="life-top"></div>
+  <div id="life-nav">
+    <ul class="fl lh">
+      <li class="fore1 ld">
+        <b></b>
+        <a href="javascript:addToFavorite()" rel="nofollow">收藏精彩生活馆</a>
+      </li>
+    </ul>
+	<script type="text/javascript">
+	$(document).ready(function(){
+	  $("#home-area").click(function(){
+	  $("#home-area .dd").toggle();
+	  });
+	});
+	</script>
+    <dl id="home-area">
+      <dt>
+        <b></b>
+        <strong>成都市</strong>
+        <a href="javascript:;">&gt;金牛区</a>
+        <span class="blank"></span>
+      </dt>
+      <dd class="dd">
+        <ul class="lh">
+          <li><a href="#">锦江区</a></li>
+          <li><a href="#">青羊区</a></li>
+          <li><a href="#">金牛区</a></li>
+          <li><a href="#">武侯区</a></li>
+          <li><a href="#">成华区</a></li>
+          <li><a href="#">龙泉驿区</a></li>
+          <li><a href="#">青白江区</a></li>
+          <li><a href="#">新都区</a></li>
+          <li><a href="#">温江区</a></li>
+          <li><a href="#">金堂县</a></li>
+          <li><a href="#">双流县</a></li>
+          <li><a href="#">郫县</a></li>
+          <li><a href="#">大邑县</a></li>
+          <li><a href="#">蒲江县</a></li>
+          <li><a href="#">新津县</a></li>
+          <li><a href="#">都江堰市</a></li>
+          <li><a href="#">彭州市</a></li>
+          <li><a href="#">邛崃市</a></li>
+          <li><a href="#">崇州市</a></li>
+          <li><a href="#">其他</a></li>
+        </ul>
+        <div class="close" onclick="$('#home-area').removeClass('hover')">×</div>
+      </dd>
+    </dl>
+    <ul class="fr lh">
+     <li class="fore1" id="loginbar">亲，欢迎来精彩生活馆！<span><a href="javascript:login();">[请登录]</a><a href="javascript:regist();" class="link-regist">[免费注册]</a></span></li>
+     <li class="fore2 ld">
+	   <s></s>
+       <a class="menu-hd" href="#" target="_top" rel="nofollow" tabindex="0">我的账户<b></b></a>
+        <div class="menu-bd-panel" id="myTaobaoPanel">
+          <!--<ul>
+           <li><a href="#" data-ref="LIFE_TOP_order" target="_blank">我的订单</a></li>
+           <li><a href="#" data-ref="LIFE_TOP_points" target="_blank">我的积分</a></li>
+           <li><a href="#" data-ref="LIFE_TOP_coupon" target="_blank">我的抵用券</a></li>
+           <li><a href="#" data-ref="LIFE_TOP_mycollection" target="_blank">我的收藏夹</a></li>
+           <li><a href="#" data-ref="LIFE_TOP_comment" target="_blank">评价商品</a></li>
+           <li><a href="#" data-ref="LIFE_TOP_vip" target="_blank">会员专享</a></li>
+          </ul>-->
+        </div>
+	 </li>
+	 <li class="sn-cart mini-cart menu"><i class="mui-global-iconfont">󰅈</i>
+<a class="sn-cart-link" href="#" target="_top" rel="nofollow" id="mc-menu-hd">购物车<span class="mc-count mc-pt3">0</span>件<iframe id="tmp_downloadhelper_iframe" style="display: none;"></iframe></a>
+</li>
+     <li class="fore2 ld"><s></s><a href="#"><u>招商加盟</u></a></li>
+	 <li class="fore2 ld">
+	   <s></s>
+	   <i class="mui-global-iconfont"></i>
+	   <a href="#">手机版</a>
+	   <div class="sn-qrcode" style="display: none;"><div class="sn-qrcode-content"></div><p>扫一扫，定制我的天猫！</p><b></b></div>
+	   <iframe id="tmp_downloadhelper_iframe" style="display: none;"></iframe>
+	 </li>
+     <li class="fore2 ld"><s></s><a href="#">网站导航</a></li>
+    </ul>
+  </div>
+</div>
+<!-----------------------------------------------Header------------------------------------------------->
+<div id="header">
+   <div class="headerLayout">
+     <div class="headerCon">
+		<div id="lifeLogo">
+          <a href="#">
+		   <img src="images/logo1.png" width="295" height="109">
+          </a>
+		</div>
+        <div class="header-extra">
+          <div class="header-banner">
+            <div id="J_FpEventBanner" class="fp-event-banner  hidden" style="display: block;">
+               <a href="#">
+               <img class="j_EventBannerPic event-banner-pic" src="images/logo2.png" width="190" height="109" alt=""></a>
+            </div>
+          </div>
+          <div id="lifeSearch" class="life-search">
+            <form class="lifeSearch-form" name="searchTop" action="http://list.tmall.com/search_product.htm" target="_top" accept-charset="gbk">
+              <fieldset>
+                <legend>精彩生活搜索</legend>
+                <div class="lifeSearch-input clearfix">
+                  <label for="mq" style="visibility: visible; display: none;">搜索 生活 商品/品牌/店铺</label>
+                  <div class="s-combobox" id="s-combobox-226">
+                    <div class="s-combobox-input-wrap">
+                       <input type="text" name="q" id="mq" tabindex="9" accesskey="s" autocomplete="off" autofocus="true" x-webkit-speech="" x-webkit-grammar="builtin:translate" class="s-combobox-input" role="combobox" aria-haspopup="true" title="请输入搜索文字" aria-label="请输入搜索文字">
+                    </div>
+                    <label for="mq" class="s-combobox-placeholder" style="color: rgb(102, 102, 102); visibility: visible;">Iphone 6 plus</label>
+				  </div>
+                  <button type="submit"><img src="images/sou.png" width="32" height="32"></button>
+                  <input type="hidden" name="user_action" value="initiative">
+                  <input type="hidden" name="at_topsearch" value="1">
+                  <input type="hidden" name="sort" value="st">
+                  <input id="J_Type" type="hidden" name="type" value="p">
+                  <input id="J_Cat" type="hidden" name="cat" value="all">
+                  <input type="hidden" name="vmarket" value="">
+                </div>
+              </fieldset>
+            </form>
+            <ul class="hot-query">
+			  <li>热门搜索：</li>
+			  <li><a href="#">大码女装</a></li>
+			  <li class="hot-query-highlight"><a href="#">雪地靴</a></li>
+			  <li><a href="#">羽绒衣</a></li>
+			  <li class="hot-query-highlight"><a href="#">秋冬童装</a></li>
+			  <li><a href="#">男鞋</a></li>
+			  <li><a href="#">时尚保温杯</a></li>
+			  <li class="hot-query-highlight"><a href="#">进口零食</a></li>
+			</ul>
+		  </div>
+		</div>
+     </div>
+   </div>
+</div>
+</body>
+</html>
