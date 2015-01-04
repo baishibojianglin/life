@@ -123,6 +123,7 @@ width:200px;
 height:360px;
 border-top:5px solid #E3E7EA;
 float:left;
+position:relative;
 }
 .jl_div1c3 img
 {
@@ -161,4 +162,14 @@ height:100%;
 {width:100%;
 height:100%;
 }	
-.jl_div1c2_a a>dt:hover {border-color:#F60;}	    
+.jl_div1c2_a a>dt:hover {border-color:#F60;}	
+    
+.jl_div1c3_a
+{
+width:40px;
+height:80px;
+position:absolute;
+top:140px;
+left:-40px;
+z-index:10;
+}

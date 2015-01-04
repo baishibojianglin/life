@@ -14,6 +14,7 @@ $(".jl_div1b dt").eq(5).addClass("jl_div1b_dt6");
 
 /*淡入代码*/
 $(".jl_div1c3").mouseover(function(){
+	$(".jl_div1c3_a").hide();
 	$(".jl_div1c2_b").show();
 	$(".jl_div1c2_b dt").eq(2).fadeIn(200);
 	$(".jl_div1c2_b dt").eq(1).fadeIn(500);
@@ -22,10 +23,12 @@ $(".jl_div1c3").mouseover(function(){
 $(".jl_div1c2_b").mouseover(function(){
 	$(".jl_div1c2_b").show();
 	$(".jl_div1c2_b dt").show();
+	$(".jl_div1c3_a").hide();
 	});
 $(".jl_div1c2_b").mouseout(function(){
 	$(".jl_div1c2_b").hide();
 	$(".jl_div1c2_b dt").hide();
+	$(".jl_div1c3_a").show();
 	});	
 	
 	
