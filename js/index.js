@@ -30,19 +30,21 @@ $(".jl_div1c2_b").mouseout(function(){
 	
 	
 /*换一批*/
-var jl_2=1;
-var jl_1=$(".jl_div1c2_a").size();
+var jl_1=$(".jl_div1c2_a dt").size();
+var jl_2=Math.ceil(jl_1/20);
+var j=0,i=1;
 
-for(i=1;i<jl_1;i++)
-{$(".jl_div1c2_a").eq(i).hide();}
-
-$(".jl_div1b dt").eq(5).click(function(){
-if(jl_2==jl_1)
-{jl_2=0;}
-$(".jl_div1c2_a").hide();
-$(".jl_div1c2_a").eq(jl_2).show();
-jl_2++;		
-	});
+$(".jl_div1b dt").eq(5).click(function(){	
+if(i==jl_2)
+{i=0;}
+$(".jl_div1c2_a dt").hide();
+for(j=i*20;j<(i+1)*20;j++)
+{
+$(".jl_div1c2_a dt").eq(j).show();
+}
+i++;		
+});
+	
 $(".jl_div1b dt").eq(5).mouseover(function(){
 $(this).css({"color":"red"});
 	});	
