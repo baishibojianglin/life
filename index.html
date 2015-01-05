@@ -5,15 +5,149 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE"> 
 <title>精彩生活网</title>
 <link rel="stylesheet" type="text/css" href="css/index.css" />
+<link href="css/layout.css" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="js/jq1.7.1.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
 </head>
 
 <body>
+<!--------------------------导航部分-------------------------->
+<div id="site-nav">
+  <div class="life-top"></div>
+  <div id="life-nav">
+    <ul class="fl lh">
+      <li class="fore1 ld">
+        <b></b>
+        <a href="javascript:addToFavorite()" rel="nofollow">收藏精彩生活馆</a>
+      </li>
+    </ul>
+	<script type="text/javascript">
+	$(document).ready(function(){
+	  $("#home-area").click(function(){
+	  $("#home-area .dd").toggle();
+	  });
+	});
+	</script>
+    <dl id="home-area">
+      <dt>
+        <b></b>
+        <strong>成都市</strong>
+        <a href="javascript:;">&gt;金牛区</a>
+        <span class="blank"></span>
+      </dt>
+      <dd class="dd">
+        <ul class="lh">
+          <li><a href="#">锦江区</a></li>
+          <li><a href="#">青羊区</a></li>
+          <li><a href="#">金牛区</a></li>
+          <li><a href="#">武侯区</a></li>
+          <li><a href="#">成华区</a></li>
+          <li><a href="#">龙泉驿区</a></li>
+          <li><a href="#">青白江区</a></li>
+          <li><a href="#">新都区</a></li>
+          <li><a href="#">温江区</a></li>
+          <li><a href="#">金堂县</a></li>
+          <li><a href="#">双流县</a></li>
+          <li><a href="#">郫县</a></li>
+          <li><a href="#">大邑县</a></li>
+          <li><a href="#">蒲江县</a></li>
+          <li><a href="#">新津县</a></li>
+          <li><a href="#">都江堰市</a></li>
+          <li><a href="#">彭州市</a></li>
+          <li><a href="#">邛崃市</a></li>
+          <li><a href="#">崇州市</a></li>
+          <li><a href="#">其他</a></li>
+        </ul>
+        <div class="close" onclick="$('#home-area').removeClass('hover')">×</div>
+      </dd>
+    </dl>
+    <ul class="fr lh">
+     <li class="fore1" id="loginbar">亲，欢迎来精彩生活馆！<span><a href="javascript:login();">[请登录]</a><a href="javascript:regist();" class="link-regist">[免费注册]</a></span></li>
+     <li class="fore2 ld">
+	   <s></s>
+       <a class="menu-hd" href="#" target="_top" rel="nofollow" tabindex="0">我的账户<b></b></a>
+        <div class="menu-bd-panel" id="myTaobaoPanel">
+          <!--<ul>
+           <li><a href="#" data-ref="LIFE_TOP_order" target="_blank">我的订单</a></li>
+           <li><a href="#" data-ref="LIFE_TOP_points" target="_blank">我的积分</a></li>
+           <li><a href="#" data-ref="LIFE_TOP_coupon" target="_blank">我的抵用券</a></li>
+           <li><a href="#" data-ref="LIFE_TOP_mycollection" target="_blank">我的收藏夹</a></li>
+           <li><a href="#" data-ref="LIFE_TOP_comment" target="_blank">评价商品</a></li>
+           <li><a href="#" data-ref="LIFE_TOP_vip" target="_blank">会员专享</a></li>
+          </ul>-->
+        </div>
+	 </li>
+	 <li class="sn-cart mini-cart menu"><i class="mui-global-iconfont">󰅈</i>
+<a class="sn-cart-link" href="#" target="_top" rel="nofollow" id="mc-menu-hd">购物车<span class="mc-count mc-pt3">0</span>件<iframe id="tmp_downloadhelper_iframe" style="display: none;"></iframe></a>
+</li>
+     <li class="fore2 ld"><s></s><a href="#"><u>招商加盟</u></a></li>
+	 <li class="fore2 ld">
+	   <s></s>
+	   <i class="mui-global-iconfont"></i>
+	   <a href="#">手机版</a>
+	   <div class="sn-qrcode" style="display: none;"><div class="sn-qrcode-content"></div><p>扫一扫，定制我的天猫！</p><b></b></div>
+	   <iframe id="tmp_downloadhelper_iframe" style="display: none;"></iframe>
+	 </li>
+     <li class="fore2 ld"><s></s><a href="#">网站导航</a></li>
+    </ul>
+  </div>
+</div>
+<!-----------------------------------------------Header------------------------------------------------->
+<div id="header">
+   <div class="headerLayout">
+     <div class="headerCon">
+		<div id="lifeLogo">
+          <a href="#">
+		   <img src="images/logo1.png" width="295" height="109">
+          </a>
+		</div>
+        <div class="header-extra">
+          <div class="header-banner">
+            <div id="J_FpEventBanner" class="fp-event-banner  hidden" style="display: block;">
+               <a href="#">
+               <img class="j_EventBannerPic event-banner-pic" src="images/logo2.png" width="190" height="109" alt=""></a>
+            </div>
+          </div>
+          <div id="lifeSearch" class="life-search">
+            <form class="lifeSearch-form" name="searchTop" action="http://list.tmall.com/search_product.htm" target="_top" accept-charset="gbk">
+              <fieldset>
+                <legend>精彩生活搜索</legend>
+                <div class="lifeSearch-input clearfix">
+                  <label for="mq" style="visibility: visible; display: none;">搜索 生活 商品/品牌/店铺</label>
+                  <div class="s-combobox" id="s-combobox-226">
+                    <div class="s-combobox-input-wrap">
+                       <input type="text" name="q" id="mq" tabindex="9" accesskey="s" autocomplete="off" autofocus="true" x-webkit-speech="" x-webkit-grammar="builtin:translate" class="s-combobox-input" role="combobox" aria-haspopup="true" title="请输入搜索文字" aria-label="请输入搜索文字">
+                    </div>
+                    <label for="mq" class="s-combobox-placeholder" style="color: rgb(102, 102, 102); visibility: visible;">Iphone 6 plus</label>
+				  </div>
+                  <button type="submit"><img src="images/sou.png" width="32" height="32"></button>
+                  <input type="hidden" name="user_action" value="initiative">
+                  <input type="hidden" name="at_topsearch" value="1">
+                  <input type="hidden" name="sort" value="st">
+                  <input id="J_Type" type="hidden" name="type" value="p">
+                  <input id="J_Cat" type="hidden" name="cat" value="all">
+                  <input type="hidden" name="vmarket" value="">
+                </div>
+              </fieldset>
+            </form>
+            <ul class="hot-query">
+			  <li>热门搜索：</li>
+			  <li><a href="#">大码女装</a></li>
+			  <li class="hot-query-highlight"><a href="#">雪地靴</a></li>
+			  <li><a href="#">羽绒衣</a></li>
+			  <li class="hot-query-highlight"><a href="#">秋冬童装</a></li>
+			  <li><a href="#">男鞋</a></li>
+			  <li><a href="#">时尚保温杯</a></li>
+			  <li class="hot-query-highlight"><a href="#">进口零食</a></li>
+			</ul>
+		  </div>
+		</div>
+     </div>
+   </div>
+</div>
 
+<!---------------------------耍大牌代码块---------------------->
 <table cellpadding="0" cellspacing="0" width="100%">
-
-
  <tr>
   <td>
     <div class="jl_div1">
@@ -21,12 +155,12 @@
      
       <div class="jl_div1b">
         <dl>
-          <dt><img src="images/1a.jpg"/></dt>
-          <dt>耍大牌</dt>
-          <dt> / </dt>
-          <dt>HOT BRANDS</dt>
-          <dt><img src="images/1b.jpg"/></dt>
-          <dt>换一批</dt>
+          <dt class="jl_div1b_dt1"><img src="images/1a.jpg"/></dt>
+          <dt class="jl_div1b_dt2">耍大牌</dt>
+          <dt class="jl_div1b_dt3"> / </dt>
+          <dt class="jl_div1b_dt4">HOT BRANDS</dt>
+          <dt class="jl_div1b_dt5"><img src="images/1b.jpg"/></dt>
+          <dt class="jl_div1b_dt6">换一批</dt>
         </dl>
       </div>
       
@@ -122,12 +256,71 @@
      
      
           <div class="jl_div1d"><a href="#"><img src="images/1d.jpg"/></a></div>
+   
+     </div>
+    </div>
+
+  </td>
+ </tr>
+</table>
 
 
-
-
-
-
+<!---------------------------1F代码块---------------------->
+<table cellpadding="0" cellspacing="0" width="100%">
+ <tr>
+  <td>
+    <div class="jl_div1f1">
+     <div class="jl_div10">
+     
+      <div class="jl_div1b">
+        <dl>
+          <dt class="jl_div1b_dt1"><img src="images/2a.jpg"/></dt>
+          <dt class="jl_div1b_dt2">食品饮料</dt>
+          <dt class="jl_div1b_dt3"> / </dt>
+          <dt class="jl_div1b_dt4">FOOD AND BEVERAGE</dt>
+          <a href="#"><dt class="jl_div1b_dt6f">乐天</dt></a>
+          <a href="#"><dt class="jl_div1b_dt6f">RIO</dt></a>
+          <a href="#"><dt class="jl_div1b_dt6f">芝华士</dt></a>
+          <a href="#"><dt class="jl_div1b_dt6f">好丽友</dt></a>
+          <a href="#"><dt class="jl_div1b_dt6f">金龙鱼</dt></a>
+          <dt class="jl_div1b_dt5f">品牌导购</dt>
+          
+        </dl>
+      </div>
+      
+      
+      <div class="jl_div1c">
+      
+          <div class="jl_div1c1f">
+             <a href="#"><div class="jl_div1c1f_1"><img src="images/2b.jpg"/></div></a>
+             <div class="jl_div1c1f_2">
+                <dl>
+                  <a href="#"><dt>零食</dt></a>
+                  <a href="#"><dt>生鲜</dt></a>
+                  <a href="#"><dt>进口食品</dt></a>
+                  <a href="#"><dt>粮油</dt></a>
+                  <a href="#"><dt>糕点</dt></a>
+                  <a href="#"><dt>葡萄酒</dt></a>
+                </dl>
+             </div>
+            <a href="#"><div class="jl_div1c1f_3"><img src="images/2c.jpg"/></div></a>
+          </div>
+          
+          <a href="#"><div class="jl_div1c2f"><img src="images/2d.jpg"/></div></a>
+          
+          <div class="jl_div1c2ff">
+               <dl>
+                   <a href="#"><dt class="jl_div1c2ff_dt1"><img src="images/2e_08.jpg"/></dt></a>
+                   <a href="#"><dt class="jl_div1c2ff_dt1"><img src="images/2e_03.jpg"/></dt></a>
+                   <a href="#"><dt class="jl_div1c2ff_dt1"><img src="images/2e_05.jpg"/></dt></a>
+                   <a href="#"><dt class="jl_div1c2ff_dt2"><img src="images/2e_14.jpg"/></dt></a>
+                   <a href="#"><dt class="jl_div1c2ff_dt1"><img src="images/2e_17.jpg"/></dt></a>
+               </dl>     
+          </div>
+         
+     </div>
+     
+     
      
      </div>
     </div>
@@ -136,6 +329,277 @@
  </tr>
 </table>
 
+
+
+
+<!---------------------------2F代码块---------------------->
+
+<table cellpadding="0" cellspacing="0" width="100%">
+ <tr>
+  <td>
+    <div class="jl_div1f2">
+     <div class="jl_div10">
+     
+      <div class="jl_div1b">
+        <dl>
+          <dt class="jl_div1b_dt1"><img src="images/3a.jpg"/></dt>
+          <dt class="jl_div1b_dt2">服装服饰</dt>
+          <dt class="jl_div1b_dt3"> / </dt>
+          <dt class="jl_div1b_dt4">CLOTHES</dt>
+          <a href="#"><dt class="jl_div1b_dt6f">罗蒙</dt></a>
+          <a href="#"><dt class="jl_div1b_dt6f">GAP</dt></a>
+          <a href="#"><dt class="jl_div1b_dt6f">Levis</dt></a>
+          <a href="#"><dt class="jl_div1b_dt6f">太平鸟</dt></a>
+          <a href="#"><dt class="jl_div1b_dt6f">初语</dt></a>
+          <a href="#"><dt class="jl_div1b_dt6f">ONLY</dt></a>
+          <a href="#"><dt class="jl_div1b_dt6f">M&S/马莎</dt></a>
+          <dt class="jl_div1b_dt5f2">品牌导购</dt>
+          
+        </dl>
+      </div>
+      
+      
+      <div class="jl_div1c">
+      
+          <div class="jl_div1c1f2">
+             <a href="#"><div class="jl_div1c1f_1"><img src="images/3b_03.jpg"/></div></a>
+             <div class="jl_div1c1f_2f2">
+                <dl>
+                  <a href="#"><dt>潮流女装</dt></a>
+                  <a href="#"><dt>精品男装</dt></a>
+                  <a href="#"><dt>保暖内衣</dt></a>
+                  <a href="#"><dt>羽绒服</dt></a>
+                  <a href="#"><dt>商场同款</dt></a>
+                  <a href="#"><dt>户外</dt></a>
+                </dl>
+             </div>
+             <a href="#"><div class="jl_div1c1f_3"><img src="images/3b_23.jpg"/></div></a>
+          </div>
+          
+          <a href="#"><div class="jl_div1c2f"><img src="images/3b_05.jpg"/></div></a>
+          
+          <div class="jl_div1c2ff">
+               <dl>
+                   <a href="#"><dt class="jl_div1c2ff_dt1"><img src="images/3b_07.jpg"/></dt></a>
+                   <a href="#"><dt class="jl_div1c2ff_dt1"><img src="images/3b_09.jpg"/></dt></a>
+                   <a href="#"><dt class="jl_div1c2ff_dt1"><img src="images/3b_11.jpg"/></dt></a>
+                   <a href="#"><dt class="jl_div1c2ff_dt2"><img src="images/3b_18.jpg"/></dt></a>
+                   <a href="#"><dt class="jl_div1c2ff_dt1"><img src="images/3b_20.jpg"/></dt></a>
+               </dl>     
+          </div>
+         
+     </div>
+     
+     
+          <div class="jl_div1d"><a href="#"><img src="images/3c_03.jpg"/></a></div>
+     
+     </div>
+    </div>
+
+  </td>
+ </tr>
+</table>
+
+
+
+<!---------------------------3F代码块---------------------->
+
+<table cellpadding="0" cellspacing="0" width="100%">
+ <tr>
+  <td>
+    <div class="jl_div1f1">
+     <div class="jl_div10">
+     
+      <div class="jl_div1b">
+        <dl>
+          <dt class="jl_div1b_dt1"><img src="images/4a.jpg"/></dt>
+          <dt class="jl_div1b_dt2">美容护肤</dt>
+          <dt class="jl_div1b_dt3"> / </dt>
+          <dt class="jl_div1b_dt4">BEAUTY</dt>
+          <a href="#"><dt class="jl_div1b_dt6f">Dior</dt></a>
+          <a href="#"><dt class="jl_div1b_dt6f">CHANEL</dt></a>
+          <a href="#"><dt class="jl_div1b_dt6f">美宝莲</dt></a>
+          <a href="#"><dt class="jl_div1b_dt6f">韩束</dt></a>
+          <a href="#"><dt class="jl_div1b_dt6f">欧莱雅</dt></a>
+          <a href="#"><dt class="jl_div1b_dt6f">SK-Ⅱ</dt></a>
+          <a href="#"><dt class="jl_div1b_dt6f">雅诗兰黛</dt></a> 
+          <dt class="jl_div1b_dt5f3">品牌导购</dt>
+          
+        </dl>
+      </div>
+      
+      
+      <div class="jl_div1c">
+          <div class="jl_div1c1f3">
+             <a href="#"><div class="jl_div1c1f_1"><img src="images/3b_08.jpg"/></div></a>
+             <div class="jl_div1c1f_2f3">
+                <dl>
+                  <a href="#"><dt>洁面</dt></a>
+                  <a href="#"><dt>洗发水</dt></a>
+                  <a href="#"><dt>时尚彩妆</dt></a>
+                  <a href="#"><dt>香水</dt></a>
+                  <a href="#"><dt>男士护肤</dt></a>
+                  <a href="#"><dt>女性护肤</dt></a>
+                </dl>
+             </div>
+            <a href="#"><div class="jl_div1c1f_3"><img src="images/3b_24.jpg"/></div></a>
+          </div>
+          
+          <a href="#"><div class="jl_div1c2f"><img src="images/3b_10.jpg"/></div></a>
+          
+          <div class="jl_div1c2ff">
+               <dl>
+                   <a href="#"><dt class="jl_div1c2ff_dt1"><img src="images/3b_12.jpg"/></dt></a>
+                   <a href="#"><dt class="jl_div1c2ff_dt1"><img src="images/3e.jpg"/></dt></a>
+                   <a href="#"><dt class="jl_div1c2ff_dt1"><img src="images/3e1.jpg"/></dt></a>
+                   <a href="#"><dt class="jl_div1c2ff_dt2"><img src="images/3b_22.jpg"/></dt></a>
+                   <a href="#"><dt class="jl_div1c2ff_dt1"><img src="images/3b_19.jpg"/></dt></a>
+               </dl>     
+          </div>
+         
+     </div>   
+     </div>
+    </div>
+
+  </td>
+ </tr>
+</table>
+
+<!---------------------------4F代码块---------------------->
+
+<table cellpadding="0" cellspacing="0" width="100%">
+ <tr>
+  <td>
+    <div class="jl_div1f2">
+     <div class="jl_div10">
+     
+      <div class="jl_div1b">
+        <dl>
+          <dt class="jl_div1b_dt1"><img src="images/4a.gif"/></dt>
+          <dt class="jl_div1b_dt2">医药保健</dt>
+          <dt class="jl_div1b_dt3"> / </dt>
+          <dt class="jl_div1b_dt4">HEALTH</dt>
+          <a href="#"><dt class="jl_div1b_dt6f">同仁堂</dt></a>
+          <a href="#"><dt class="jl_div1b_dt6f">云南白药</dt></a>
+          <a href="#"><dt class="jl_div1b_dt6f">汤臣倍健</dt></a>
+          <a href="#"><dt class="jl_div1b_dt6f">养生堂</dt></a>
+          <a href="#"><dt class="jl_div1b_dt6f">普丽普莱</dt></a>
+          <a href="#"><dt class="jl_div1b_dt6f">昂立</dt></a>
+          <dt class="jl_div1b_dt5f4">品牌导购</dt>
+          
+        </dl>
+      </div>
+      
+      
+      
+      <div class="jl_div1c">
+      
+          <div class="jl_div1c1f2f4">
+             <a href="#"><div class="jl_div1c1f_1"><img src="images/4b_10.jpg"/></div></a>
+             <div class="jl_div1c1f_2f2f4">
+                <dl>
+                  <a href="#"><dt>潮流女装</dt></a>
+                  <a href="#"><dt>精品男装</dt></a>
+                  <a href="#"><dt>保暖内衣</dt></a>
+                  <a href="#"><dt>羽绒服</dt></a>
+                  <a href="#"><dt>商场同款</dt></a>
+                  <a href="#"><dt>户外</dt></a>
+                </dl>
+             </div>
+             <a href="#"><div class="jl_div1c1f_3"><img src="images/4b_21.jpg"/></div></a>
+          </div>
+          
+          <a href="#"><div class="jl_div1c2f"><img src="images/4b_03.jpg"/></div></a>
+          
+          <div class="jl_div1c2ff">
+               <dl>
+                   <a href="#"><dt class="jl_div1c2ff_dt1"><img src="images/4b_05.jpg"/></dt></a>
+                   <a href="#"><dt class="jl_div1c2ff_dt1"><img src="images/4b_07.jpg"/></dt></a>
+                   <a href="#"><dt class="jl_div1c2ff_dt1"><img src="images/4c_03.jpg"/></dt></a>
+                   <a href="#"><dt class="jl_div1c2ff_dt2"><img src="images/4b_16.jpg"/></dt></a>
+                   <a href="#"><dt class="jl_div1c2ff_dt1"><img src="images/4b_19.jpg"/></dt></a>
+               </dl>     
+          </div>
+         
+     </div>
+     
+     
+          <div class="jl_div1d"><a href="#"><img src="images/banner_03.png"/></a></div>
+     
+     </div>
+    </div>
+
+  </td>
+ </tr>
+</table>
+
+<!---------------------------底部代码块---------------------->
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+  <td>
+<div class="footer">
+  <div id="footer">
+    <div class="life-ensure">
+      <a href="#"></a>
+      <a href="#"></a>
+      <a href="#"></a>
+      <a href="#"></a>
+    </div>
+	<div class="life-desc">
+      <div class="life-desc1">
+        <dl class="life-beginner">
+          <dt>新手入门</dt>
+          <dd><a href="#">购物流程</a></dd>
+          <dd><a href="#">商品验收与签收</a></dd>
+          <dd><a href="#">联系客服</a></dd>
+          <dd><a href="#">大宗商品购买政策</a></dd>
+          <dd><a href="#">常见问题</a></dd>
+        </dl>
+        <dl class="life-payment">
+          <dt>支付方式</dt>
+          <dd><a href="#">快捷支付</a></dd>
+          <dd><a href="#">财付通</a></dd>
+          <dd><a href="#">快钱</a></dd>
+          <dd><a href="#">货到付款</a></dd>
+          <dd><a href="#">新人支付</a></dd>
+        </dl>
+        <dl class="life-seller">
+          <dt>商家服务</dt>
+          <dd><a href="#">商家入驻</a></dd>
+          <dd><a href="#">商家中心</a></dd>
+          <dd><a href="#">精彩生活馆规则</a></dd>
+          <dd><a href="#">运营服务</a></dd>
+        </dl>
+        <dl class="life-safe">
+          <dt>售后保障</dt>
+          <dd><a href="#">退换货政策</a></dd>
+          <dd><a href="#">退换货地址</a></dd>
+          <dd><a href="#">退款说明</a></dd>
+          <dd><a href="#">品牌售后服务电话</a></dd>
+          <dd><a href="#">延保服务</a></dd>
+        </dl>
+        <dl class="life-mobile">
+          <dd><a href="#"><img src="images/Code.png" alt="扫一扫关注我们"/></a></dd>
+        </dl>
+      </div>
+    </div>
+	<div class="footer-info">
+      <div class="life-intro">
+        <p class="life-info">
+          <a href="#">关于精彩生活馆</a>|<a href="#">帮助中心</a>|<a href="#">联系我们</a>|<a href="#">法律声明</a>|<a href="#">人才招聘</a>|<a href="#">友情链接</a>
+        </p>
+        <p class="life-copyright">
+          <a href="#">蜀&nbsp;ICP&nbsp;备&nbsp;1300726&nbsp;号&nbsp;-5</a>|<a href="#">营业执照馆</a>|<a href="#">互联网药品信息服务资格证</a>|<a href="#">互联网药品交易服务资格证</a>
+        </p>
+        <p>Copyright©&nbsp;精彩生活馆&nbsp;2014，All&nbsp;Rights&nbsp;Reserved.</p>
+      </div>
+      <div class="life-footer"></div>
+    </div>
+  </div>
+</div>
+  </td>
+ </tr>
+</table>
 
 
 </body>

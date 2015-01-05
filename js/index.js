@@ -2,14 +2,6 @@
 $(function(){
 //jl第一部分特效代码
 
-/*加类*/
-$(".jl_div1b dt").eq(0).addClass("jl_div1b_dt1");
-$(".jl_div1b dt").eq(1).addClass("jl_div1b_dt2");
-$(".jl_div1b dt").eq(2).addClass("jl_div1b_dt3");	
-$(".jl_div1b dt").eq(3).addClass("jl_div1b_dt4");
-$(".jl_div1b dt").eq(4).addClass("jl_div1b_dt5");
-$(".jl_div1b dt").eq(5).addClass("jl_div1b_dt6");
-
 
 
 /*淡入代码*/
