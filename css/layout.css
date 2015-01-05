@@ -214,7 +214,7 @@ font-style: normal;
     font-size: 0px;
 }
 
-ul,dl{float:left;}
+/*ul,dl{float:left;}*/
 /* ----------------------------------------------Generalise------------------------------------- */
 
 /*#header, .container, #footer{display:block; position:relative; width:1160px; margin:0 auto;}*/
@@ -500,6 +500,8 @@ height: 12px;
 background: url(../images/header1.png) no-repeat;
 cursor: pointer;
 }
+
+
 /*---------------------------------------------------Footer----------------------------------------------------*/
 .footer{width:100%;min-width:1160px;height:520px;}
 .life-ensure{width:1160px;height:80px;background:url(../images/fo.png) no-repeat;margin:30px auto;padding:0;}
