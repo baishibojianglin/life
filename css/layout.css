@@ -6,29 +6,49 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fiel
     padding: 0;
 	font-family:"Microsoft YaHei";
     }
-body {font: 14px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;}
-img{border:none;}
-a{text-decoration:none;}
-h1,h2,h3,h4,h5,h6{font-size:100%;}
-
+body {font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;}
+img {border:none;}
+a {text-decoration:none;}
+h1,h2,h3,h4,h5,h6 {font-size:100%;}
 ul,li{list-style:none;}
 li {
 display: list-item;
 text-align: -webkit-match-parent;
 }
-#banner,#banner1,.content,.content1,#footer{ margin:0 auto;}
 
+
+
+
+/*----------------------------------------------Generalise------------------------------------- */
+
+#site-nav, #header, #footer {width:100%;min-width:1160px;}
+#life-nav, .life-desc1, .life-intro {width:1160px;margin:0 auto;}
+
+/*-------------------------------------------------Nav----------------------------------------- */
+#site-nav {height:32px;line-height:32px;position:relative!important;background:#F7F7F7;z-index:99999;-webkit-transform:translate3d(0,0,0);border-bottom:1px solid #e5e5e5;}
+.life-top {width:100%;height:3px;background:url(../images/Nav-01.png) repeat-x;border-bottom:1px solid #FFF;}
+#life-nav {height:29px;line-height:29px;}
+#life-nav .fl {overflow: visible;}
+.lh {overflow: hidden;zoom:1;}
+.fl {float: left;}
+#life-nav .fl .fore1 {padding-left: 16px;z-index: 13;}
+#life-nav li {color:#999;height: 30px;padding:0 15px;}
+.lh li, .lh dl, .lh .item {float: left;}
+.ld {position: relative;zoom: 1;}
+#life-nav .fl b {top:8px;left:0;width:13px;height:13px;background: url(../images/header01.png) no-repeat 0 0;cursor: pointer;}
+#life-nav b {transition: transform .2s ease-in 0s;-webkit-transition: -webkit-transform .2s ease-in 0s;}
+.ld s, .ld b, .ld .block {position: absolute;overflow: hidden;}
+#life-nav .dd{display:none;}
+#life-nav span a{padding-left:5px;}
 #home-area{float:left;position:relative;z-index:12;height:28px;padding-top:2px;width:106px;}
 
 #home-area dt{width:130px;height:24px;line-height:22px;border:1px solid #F7F7F7;position:relative;z-index:14;}
 #home-area dt b{position:relative;top:3px;margin:0 4px;background:url(../images/17.png) -5px -3px no-repeat;height:18px;width:12px;display:inline-block;}
-strong,b{color:#666;}
-#home-area dt>a,#home-area dt>strong {
+#home-area span,b,a{color:#666;}
+#home-area dt>a,#home-area dt>span {
 position: relative;
 top: -2px;
 }
-a{color:#666;text-decoration:none;}
-#life-nav .dd{display:none;}
 #home-area dd {
 position: relative;
 z-index: 13;
@@ -55,7 +75,6 @@ width: 300px;
 }
 
 #life-nav .fr {height:28px;overflow:visible;float:right;}
-#life-nav li{height:28px;padding:0 11px 0 12px;}
 .lh li{float:left;}
 .lh{overflow:hidden;zoom:1;}
 #life-nav li s {
@@ -90,7 +109,7 @@ width: 300px;
     padding-right: 14px;
 }
 #site-nav a:link, #site-nav a:visited, #site-nav .sn-container {
-    color: #999;
+    color: #666;
 }
 #site-nav .menu-hd {
     display: block;
@@ -143,8 +162,9 @@ width: 300px;
     border: solid #eee;
     border-width: 0 1px 1px;
 }
+/*--------------------------------nav a--------------------------------*/
 #site-nav a:hover, #site-nav a:active, #site-nav .menu-bd {
-    color: #c40000;
+    color: #FF6600;text-decoration:underline;
 }
 #site-nav .menu-bd a:link, #site-nav .menu-bd a:visited {
     color: #666;
@@ -205,94 +225,12 @@ font-family: mui-global-iconfont!important;
 font-size: 12px;
 font-style: normal;
 }
-.clr {
-    display: block;
-    overflow: hidden;
-    clear: both;
-    height: 0px;
-    line-height: 0;
-    font-size: 0px;
-}
 
-/*ul,dl{float:left;}*/
-/* ----------------------------------------------Generalise------------------------------------- */
-
-/*#header, .container, #footer{display:block; position:relative; width:1160px; margin:0 auto;}*/
-/* ----------------------------------------------Nav------------------------------------- */
-#site-nav {
-   width: 100%;
-   min-width: 1160px;
-   height: 32px;
-   line-height:32px;
-   position: relative!important;
-   background: #f2f2f2;
-   z-index: 99999;
-   -webkit-transform: translate3d(0,0,0);
-   border-bottom: 1px solid #e5e5e5;
-   }
-.life-top{
-   width:100%;
-   height:3px;
-   background:url(../images/Nav-01.png) repeat-x;
-   border-bottom:1px solid #FFF;
-   }
-#life-nav{
-   width:1160px;
-   height:29px;
-   line-height:29px;
-   margin:0 auto;
-   }
-#life-nav .fl {
-    overflow: visible;
-}
-.lh {
-    overflow: hidden;
-    zoom: 1;
-}
-.fl {
-    float: left;
-}
-#life-nav .fl .fore1 {
-padding-left: 16px;
-z-index: 13;
-}
-#life-nav li {
-height: 30px;
-padding: 0 15px 0 12px;
-}
-.lh li, .lh dl, .lh .item {
-float: left;
-}
-.ld {
-position: relative;
-zoom: 1;
-}
-#life-nav .fl b {
-top: 8px;
-left: 0;
-width: 13px;
-height: 13px;
-background: url(../images/20130725.png) no-repeat 0 0;
-cursor: pointer;
-}
-#life-nav b {
-    transition: transform .2s ease-in 0s;
-    -webkit-transition: -webkit-transform .2s ease-in 0s;
-}
-.ld s, .ld b, .ld .block {
-    position: absolute;
-    overflow: hidden;
-}
 
 /* ----------------------------------------------Header------------------------------------- */
-#header{
-   width:100%;
-   min-width:1160px;
-   height:160px;
-   background:#fff;
-   margin-top:-33px!important;
-   position:relative;
-   z-index:1000;
+#header{height:160px;background-color:#fff;margin-top:-33px!important;
+position:relative;
+z-index:1000;
    }
 .headerLayout{
    width:1160px!important;
@@ -300,20 +238,21 @@ cursor: pointer;
    margin:0 auto;
    }
 #header .headerCon {
-   position: relative;
+/*   position: relative;*/
    width: 1160px !important;
    }
 #lifeLogo {
-    /*float:left;*/
-   }
-#lifeLogo a{
-   display:block;
    width: 390px;
-   height:109px;
+   height: 109px;
    padding-top:18px;
+   float:right;
    }
+
 #header .header-extra {
    overflow: visible;
+   padding-top:13px;
+   float:right;
+   width:770px;
    }
 #header #lifeSearch {
     float: left;
@@ -321,10 +260,9 @@ cursor: pointer;
     -webkit-transform: translate3d(0, 0, 0);
 }
 #lifeSearch {
+    float:left;
     width: 492px !important;
-	float: right;
     padding-top: 25px;
-    width: 492px;
     overflow: hidden;
 }
 #header .lifeSearch-form {
@@ -454,7 +392,7 @@ body #lifeSearch button {
     overflow: hidden;
     font-family: "微软雅黑",arial,"宋体";
 }
-#lifeSearch button img{display:block;line-height:32px;border:none;}
+#lifeSearch button img{display:block;padding:0 7px;line-height:32px;border:none;}
 #header #lifeSearch .hot-query {
     padding-top: 6px;
 }
@@ -481,36 +419,31 @@ line-height: 1.1;
 .hot-query li.hot-query-highlight a {
 color: #FF6600;
 }
-.header-banner {
-float: none;
-position: absolute;
-top: 0;
-right: 0;
-height: 110px;
-text-align: right;
-z-index: 1;
-padding: 10px 0 0 100px;
-width: 200px;
-}
-#life-nav .fl b {
-top: 8px;
-left: 0;
-width: 12px;
-height: 12px;
-background: url(../images/header1.png) no-repeat;
-cursor: pointer;
+
+padding-left:60px;
+float:left;
+/*position: absolute;*/
+/*top: 0;*/
+/*right: 0;*/
+/*height: 110px;*/
+/*/*text-align: right;*/
+/*/*z-index: 1;*/
+/*/*padding: 10px 0 0 100px;*/
+
 }
 
+/*------------------------------------------------Footer--------------------------------------------*/
+#footer {height:520px;font-size:14px;}
+.life-ensure {width:1160px;height:80px;background:url(../images/fo.png) no-repeat;margin:30px auto;padding:0;}
+.life-ensure a {width:290px;height:80px;float:left;display:block;text-indent:-1000em;}
+.life-desc {width:100%;background-color:#F9FAFC;background:url(../images/border.png) 0 100% repeat-x;padding:25px 0;border-top:1px solid #ccc;}
+.life-desc1 {height:173px;}
+.life-desc1 dl {width:217px;float:left;padding-left:15px;}
+.life-desc1 dl dt {height:41px;line-height:41px;color:#6E6F73;font-size:20px;font-weight:550;}
+.life-desc1 dl a {width:217px;heihgt:26px;line-height:26px;display:block;overflow:hidden;text-align:left;color:#999;}
+.life-desc1 a:hover,.life-desc1 a:active {color:#FF6600;}
+.life-intro {line-height:30px;padding:40px 0 41px 0;text-align:center;color:#999;}
+.life-intro a {color: #999;margin:0 5px;}
+.life-intro a:hover,.life-intro a:active {color:#FF6600;}
+.life-footer {width:100%;height:15px;background:url(../images/Fot-01.png) repeat-x;}
 
-/*---------------------------------------------------Footer----------------------------------------------------*/
-.footer{width:100%;min-width:1160px;height:520px;}
-.life-ensure{width:1160px;height:80px;background:url(../images/fo.png) no-repeat;margin:30px auto;padding:0;}
-.life-ensure a{float:left;display:block;width:290px;height:80px;text-indent:-1000em;}
-.life-desc{width:100%;padding:25px 0;border-top:1px solid #ccc;background-color:#F9FAFC;background:url(../images/border.png) 0 100% repeat-x;}
-.life-desc1{width:1160px;height:173px;margin:0 auto;}
-.life-desc1 dl{float:left;width:217px;padding-left:15px;}
-.life-desc1 dl dt{color:#6E6F73;font-size:20px;font-weight:550;height:41px;line-height:41px;}
-.life-desc1 dl a{display:block;width:217px;overflow:hidden;text-align:left;heihgt:26px;line-height:26px;color:#9CA0A5;}
-.life-intro{width:1160px;height:px;padding:40px 0 41px 0;margin:0 auto;text-align:center;line-height:30px;color:#999;}
-.life-intro a{color:#999;margin:0 5px;}
-.life-footer{width:100%;height:15px;background:url(../images/Fot-01.png) repeat-x;}
