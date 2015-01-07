@@ -22,7 +22,8 @@
 <div id="site-nav">
   <div class="life-top"></div>
   <div id="life-nav">
-    <ul class="fl lh">
+   <div class="sn-container">
+    <ul class="enshrine">
       <li class="fore1 ld">
         <b></b>
         <a href="javascript:addToFavortie()" rel="nofollow">收藏精彩生活馆</a>
@@ -35,11 +36,11 @@
 	  });
 	});
 	</script>
-    <!--<dl id="home-area">
+    <dl id="home-area">
       <dt>
         <b></b>
         <span>成都市&nbsp;&gt;</span>
-        <a href="javascript:;">金牛区</a>
+        <a href="#">金牛区</a>
         <span class="blank"></span>
       </dt>
       <dd class="dd">
@@ -69,11 +70,13 @@
       </dd>
     </dl>
     <ul class="fr lh">
-     <li class="fore1" id="loginbar">亲，欢迎来精彩生活馆！<span><a href="javascript:login();">[请登录]</a><a href="javascript:regist();" class="link-regist">[免费注册]</a></span></li>
-     <li class="fore2 ld">
-	   <s></s>
-       <a class="menu-hd" href="#" target="_top" rel="nofollow" tabindex="0"><img src="images/header3.png"/>我的账户<b></b></a>
-        <div class="menu-bd-panel" id="myTaobaoPanel">
+     <li class="greet" id="loginbar">亲，欢迎来精彩生活馆！<span><a href="javascript:login();">[请登录]</a><a href="javascript:regist();" class="link-regist">[免费注册]</a></span></li>
+     <li class="myaccount ld">
+       <s></s>
+       <i></i>
+       <a class="menu-hd" href="#" target="_top" rel="nofollow" tabindex="0">我的账户</a>
+       <b></b>
+       <div class="menu-bd-panel" id="myTaobaoPanel">
           <!--<ul>
            <li><a href="#" data-ref="LIFE_TOP_order" target="_blank">我的订单</a></li>
            <li><a href="#" data-ref="LIFE_TOP_points" target="_blank">我的积分</a></li>
@@ -81,22 +84,26 @@
            <li><a href="#" data-ref="LIFE_TOP_mycollection" target="_blank">我的收藏夹</a></li>
            <li><a href="#" data-ref="LIFE_TOP_comment" target="_blank">评价商品</a></li>
            <li><a href="#" data-ref="LIFE_TOP_vip" target="_blank">会员专享</a></li>
-          </ul>
+          </ul>-->
         </div>
 	 </li>
 	 <li class="sn-cart mini-cart menu"><i class="mui-global-iconfont">󰅈</i>
-<a class="sn-cart-link" href="#" target="_top" rel="nofollow" id="mc-menu-hd">购物车<span class="mc-count mc-pt3">0</span>件<iframe id="tmp_downloadhelper_iframe" style="display: none;"></iframe></a>
-</li>
+       <a class="sn-cart-link" href="#" target="_top" rel="nofollow" id="mc-menu-hd">购物车<span class="mc-count mc-pt3">0</span>件<iframe id="tmp_downloadhelper_iframe" style="display: none;"></iframe></a>
+     </li>
      <li class="fore2 ld"><s></s><a href="#">招商加盟</a></li>
-	 <li class="fore2 ld">
+	 <li class="fore2 ld" id="app-life">
 	   <s></s>
 	   <i class="mui-global-iconfont"></i>
-	   <a href="#">手机版</a>
-	   <div class="sn-qrcode" style="display: none;"><div class="sn-qrcode-content"></div><p>扫一扫，定制我的天猫！</p><b></b></div>
-	   <iframe id="tmp_downloadhelper_iframe" style="display: none;"></iframe>
+	   <a href="#" target="_top" class="sn-mobile-link">手机版</a>
+	   <div class="sn-qrcode" style="display: none;">
+         <div class="sn-qrcode-content"></div>
+         <p>扫一扫，定制我的生活！</p>
+         <b></b>
+       </div>
 	 </li>
      <li class="fore2 ld"><s></s><a href="#">网站导航</a></li>
-    </ul>-->
+    </ul>
+   </div>
   </div>
 </div>
 <!-----------------------------------------------Header------------------------------------------------->
@@ -118,7 +125,7 @@
                   <label for="mq" style="visibility: visible; display: none;">搜索 生活 商品/品牌</label>
                   <div class="s-combobox" id="s-combobox-226">
                     <div class="s-combobox-input-wrap">
-                       <input type="text" name="q" id="mq" tabindex="9" accesskey="s" autocomplete="off" autofocus="true" x-webkit-speech="" x-webkit-grammar="builtin:translate" class="s-combobox-input" role="combobox"                        aria-haspopup="true" title="请输入搜索文字" aria-label="请输入搜索文字">
+                       <input type="text" name="q" id="mq" tabindex="9" accesskey="s" autocomplete="off" autofocus="true" x-webkit-speech="" x-webkit-grammar="builtin:translate" class="s-combobox-input" role="combobox" aria-haspopup="true" title="请输入搜索文字" aria-label="请输入搜索文字">
                     </div>
                     <label for="mq" class="s-combobox-placeholder" style="color: rgb(102, 102, 102); visibility: visible;">Iphone 6 plus</label>
 				  </div>
