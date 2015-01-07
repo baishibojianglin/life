@@ -83,7 +83,7 @@ position:relative;
 border:1px solid #CCC;
 }
 .jl2_divfu1_2a
-{width:210px;
+{width:100%;
 height:40px;
 position:absolute;
 bottom:0;
@@ -202,7 +202,7 @@ border:1px solid transparent;
 }
 .jl2_divfu1_2ff
 {width:1160px;
-height:610px;
+height:630px;
 }
 .jl_jpdt1
 {width:310px;
@@ -237,3 +237,138 @@ border:1px solid #CCC;
 {width:100%;
 height:100%;
 }
+/*精品男装*/
+.jl2_divfu1fff
+{
+width:1160px;
+height:810px;
+margin:10px auto 0 auto;
+border:1px solid transparent;
+
+}
+/*户外*/
+.jl2_divfu1fffh
+{
+width:1160px;
+height:720px;
+margin:10px auto 0 auto;
+border:1px solid transparent;
+
+}
+.jl2_divfu1_2ffh
+{width:1160px;
+height:660px;
+}
+.jl_divhu1
+{width:230px;
+height:660px;
+float:left;
+margin-right:10px;
+}
+.jl_divhu1a
+{width:228px;
+height:410px;
+border:1px solid #CCC;
+position:relative;
+}
+.jl_divhu1a img
+{width:100%;
+height:100%;
+}
+.jl_divhu1b
+{width:228px;
+height:200px;
+margin-top:10px;
+border:1px solid #CCC;
+position:relative;
+}
+.jl_divhu1b img
+{width:100%;
+height:100%;
+}
+.jl_divhu1d
+{width:228px;
+height:410px;
+margin-top:10px;
+border:1px solid #CCC;
+}
+.jl_divhu1c1 img
+{width:100%;
+height:100%;
+}
+.jl_divhu1c
+{width:228px;
+height:200px;
+border:1px solid #CCC;
+}
+.jl_divhu1c1
+{width:100%;
+height:150px;
+}
+.jl_divhu1c2
+{width:100%;
+height:50px;
+text-align:center;
+font-family:"微软雅黑";
+font-size:14px;
+}
+.jl_divhu1d img
+{width:100%;
+height:100%;
+}
+.jl_divhu2
+{width:470px;
+height:660px;
+float:left;
+margin-right:10px;
+}
+.jl_divhu2a
+{
+width:468px;
+height:200px;
+border:1px solid #CCC;
+}
+.jl_divhu2a img
+{width:100%;
+height:100%;
+}
+.jl_divhu2b
+{
+width:225px;
+height:200px;
+border:1px solid #CCC;
+float:left;
+margin:9px 4px 0 4px;
+}
+.jl_divhu2b img
+{width:100%;
+height:100%;
+}
+.jl_divhu3
+{
+width:200px;
+height:660px;
+float:left;
+}
+.jl_divhu3a
+{width:198px;
+height:200px;
+border:1px solid #CCC;
+position:relative;
+}
+.jl_divhu3b
+{width:198px;
+height:200px;
+border:1px solid #CCC;
+margin-top:10px;
+position:relative;
+}
+.jl_divhu3b img
+{width:100%;
+height:100%;
+}
+.jl_divhu3a img
+{width:100%;
+height:100%;
+}
+.jl_divhu1c2:hover{color:#F30;}
