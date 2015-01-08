@@ -4,14 +4,22 @@
 <meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE"> 
 <title>精彩生活网</title>
+<link rel="shortcut icon" href="images/shopping.ico" type="image/x-icon">
 <link rel="stylesheet" type="text/css" href="css/index.css" />
 <link href="css/layout.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="css/jcshgsy.css" />
 
 <script type="text/javascript" src="js/jq1.7.1.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
+<<<<<<< HEAD
+<script src="js/jquery-powerSwitch.js"></script>
+
 
 <script type="text/javascript" src="js/bb.js"></script>
+=======
+<script type="text/javascript" src="js/js.js"></script>
+<script type="text/javascript" src="js/tlife.js"></script>
+>>>>>>> 409bbd29804f9d36773b923c4f1441d120748980
 </head>
 
 <body>
@@ -23,7 +31,7 @@
     <ul class="fl lh">
       <li class="fore1 ld">
         <b></b>
-        <a href="javascript:addToFavorite()" rel="nofollow">收藏精彩生活馆</a>
+        <a href="javascript:addToFavortie()" rel="nofollow">收藏精彩生活馆</a>
       </li>
     </ul>
 	<script type="text/javascript">
@@ -36,8 +44,8 @@
     <dl id="home-area">
       <dt>
         <b></b>
-        <strong>成都市</strong>
-        <a href="javascript:;">&gt;金牛区</a>
+        <span>成都市&nbsp;&gt;</span>
+        <a href="javascript:;">金牛区</a>
         <span class="blank"></span>
       </dt>
       <dd class="dd">
@@ -70,7 +78,7 @@
      <li class="fore1" id="loginbar">亲，欢迎来精彩生活馆！<span><a href="javascript:login();">[请登录]</a><a href="javascript:regist();" class="link-regist">[免费注册]</a></span></li>
      <li class="fore2 ld">
 	   <s></s>
-       <a class="menu-hd" href="#" target="_top" rel="nofollow" tabindex="0">我的账户<b></b></a>
+       <a class="menu-hd" href="#" target="_top" rel="nofollow" tabindex="0"><img src="images/header3.png"/>我的账户<b></b></a>
         <div class="menu-bd-panel" id="myTaobaoPanel">
           <!--<ul>
            <li><a href="#" data-ref="LIFE_TOP_order" target="_blank">我的订单</a></li>
@@ -85,7 +93,7 @@
 	 <li class="sn-cart mini-cart menu"><i class="mui-global-iconfont">󰅈</i>
 <a class="sn-cart-link" href="#" target="_top" rel="nofollow" id="mc-menu-hd">购物车<span class="mc-count mc-pt3">0</span>件<iframe id="tmp_downloadhelper_iframe" style="display: none;"></iframe></a>
 </li>
-     <li class="fore2 ld"><s></s><a href="#"><u>招商加盟</u></a></li>
+     <li class="fore2 ld"><s></s><a href="#">招商加盟</a></li>
 	 <li class="fore2 ld">
 	   <s></s>
 	   <i class="mui-global-iconfont"></i>
@@ -105,18 +113,7 @@
 <div id="header">
    <div class="headerLayout">
      <div class="headerCon">
-		<div id="lifeLogo">
-          <a href="#">
-		   <img src="images/logo1.png" width="295" height="109">
-          </a>
-		</div>
         <div class="header-extra">
-          <div class="header-banner">
-            <div id="J_FpEventBanner" class="fp-event-banner  hidden" style="display: block;">
-               <a href="#">
-               <img class="j_EventBannerPic event-banner-pic" src="images/logo2.png" width="190" height="109" alt=""></a>
-            </div>
-          </div>
           <div id="lifeSearch" class="life-search">
             <form class="lifeSearch-form" name="searchTop" action="http://list.tmall.com/search_product.htm" target="_top" accept-charset="gbk">
               <fieldset>
@@ -150,6 +147,17 @@
 			  <li class="hot-query-highlight"><a href="#">进口零食</a></li>
 			</ul>
 		  </div>
+		  <div class="header-banner">
+            <div id="J_FpEventBanner" class="fp-event-banner  hidden" style="display: block;">
+               <a href="#">
+               <img class="j_EventBannerPic event-banner-pic" src="images/logo2.png" width="190" height="109" alt=""></a>
+            </div>
+          </div>
+		</div>
+		<div id="lifeLogo">
+          <a href="#">
+		   <img src="images/logo1.png" width="295" height="109">
+          </a>
 		</div>
      </div>
    </div>
@@ -170,796 +178,133 @@
 			</div>
 
 			<div class="lb_daos11">
-					<div class="lb_daos12 padding"><a href="#">精彩推荐专区</a></div>
-					<div class="lb_daos12"><a href="#">产地直送</a></div>
-					<div class="lb_daos12"><a href="#">美食馆</a></div>
-					<div class="lb_daos12"><a href="#">服装馆</a></div>
-					<div class="lb_daos12"><a href="#">养生馆</a></div>
-					<div class="lb_daos12"><a href="#">精彩生活超市</a></div>	
+				<div class="lb_daos12 padding"><a href="#">精彩推荐专区</a></div>
+				<div class="lb_daos12"><a href="#">产地直送</a></div>
+				<div class="lb_daos12"><a href="#">美食馆</a></div>
+				<div class="lb_daos12"><a href="#">服装馆</a></div>
+				<div class="lb_daos12"><a href="#">养生馆</a></div>
+				<div class="lb_daos12"><a href="#">精彩生活超市</a></div>	
 			</div>
 				
 			<div class="lb_daos13">
-			<a href="#">
-				<table>
-					<tr>
-						<td><div class="lb_daos14"><img src="./images/jcd1_03.png" width="100%" height="100%" /></div></td>
-						<td><div class="lb_daos15">手机下单</div></td>
-						<td><div class="lb_daos16">更精彩</div></td>
-					</tr>
-				</table>
-			</a>	
+				<a href="#">
+					<table>
+						<tr>
+							<td><div class="lb_daos14"><img src="./images/jcd1_03.png" width="100%" height="100%" /></div></td>
+							<td><div class="lb_daos15">手机下单</div></td>
+							<td><div class="lb_daos16">更精彩</div></td>
+						</tr>
+					</table>
+				</a>	
 			</div>		
 		</div>
 		
 		
 		<div class="lb_daos017"><!--------竖向导航部分------------------>
-		<div class="lb_daos018">
-			<div class="lb_daos03 white">
+			<div class="lb_daos018">
 			
-				<div class="lb_daos20">
-					<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_03.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">食品</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
-				</div>
-				
-				<div class="lb_daos019">
-					<div class="xiadao_01">
-						<table width="588px;" cellspacing="0" cellpadding="0" style="word-break:break-all">
-							<tr>
-								<td>
-									<div class="xiadao_02"><a href="#">
-										<div class="xiadao_03" id="zitise1">四川菜</div>
-										<div class="xiadao_04"><img src="./images/daolz1_03.gif" width="100%" height="100%" /></div></a>
-									</div>
-								</td>
-								<td><a href="#">
-									<div class="xiadao_02">
-										<div class="xiadao_03" id="zitise2">粤菜</div>
-										<div class="xiadao_04"><img src="./images/daolz1_03.gif" width="100%" height="100%" /></div>
-									</div></a>
-								</td>
-								<td><a href="#">
-									<div class="xiadao_02">
-										<div class="xiadao_03" id="zitise3">东北菜</div>
-										<div class="xiadao_04"><img src="./images/daolz1_03.gif" width="100%" height="100%" /></div>
-									</div></a>
-								</td>
-								<td>
-									<div class="xiadao_05">
-										<div class="xiadao_06"><img src="./images/jcd1_06.png" width="100%" height="100%" /></div>
-										<div class="xiadao_07">美食馆</div>
-									</div>
-								</td>
-							</tr>
-						</table>
-						
-						
+			
+			
+				<div class="lb_daos03 white bo" onmouseover="lb_jc('jia1.html');" onmouseover="lb_jc2('meis.html');">
+					<div class="lb_daos20">
+						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_03.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">食品</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
 					</div>
-					<div class="lb_daowen">
-						<dl class="fore1">
-							<dt><a href="#">全新整车</a></dt>
-							<dd><em><a href="#">小型车</a></em><em><a href="#">紧凑型车</a></em><em><a href="#">中型车</a></em><em><a href="#">豪华车</a></em><em><a href="#">SUV</a></em></dd>
-						</dl>
-						<dl class="fore2">
-							<dt><a href="#">维修保养</a></dt>
-							<dd><em><a href="#">润滑油</a></em><em><a href="#">添加剂</a></em><em><a href="#">防冻液</a></em><em><a href="#">滤清器</a></em><em><a href="#">火花塞</a></em><em><a href="#">滤清器</a></em>
-							<em><a href="#">雨刷</a></em><em><a href="#">车灯</a></em><em><a href="#">后视镜</a></em><em><a href="#">轮胎̥</a></em><em><a href="#">轮毂</a></em><em><a href="#">刹车片/盘</a></em>
-							<em><a href="#">维修配件</a></em><em><a href="#">蓄电池</a></em><em><a href="#">底盘装甲/护板</a></em><em><a href="#">贴膜</a></em><em><a href="#">汽修工具</a></em><em><a href="#">改装配件</a></em></dd>
-						</dl>
-						<dl class="fore3">
-							<dt><a href="#">全新整车</a></dt>
-							<dd><em><a href="#">小型车</a></em><em><a href="#">紧凑型车</a></em><em><a href="#">中型车</a></em><em><a href="#">豪华车</a></em><em><a href="#">SUV</a></em></dd>
-						</dl>
-						<dl class="fore4">
-							<dt><a href="#">维修保养</a></dt>
-							<dd><em><a href="#">润滑油</a></em><em><a href="#">添加剂</a></em><em><a href="#">防冻液</a></em><em><a href="#">滤清器</a></em><em><a href="#">火花塞</a></em><em><a href="#">滤清器</a></em>
-							<em><a href="#">雨刷</a></em><em><a href="#">车灯</a></em><em><a href="#">后视镜</a></em><em><a href="#">轮胎̥</a></em><em><a href="#">轮毂</a></em><em><a href="#">刹车片/盘</a></em>
-							<em><a href="#">维修配件</a></em><em><a href="#">蓄电池</a></em><em><a href="#">底盘装甲/护板</a></em><em><a href="#">贴膜</a></em><em><a href="#">汽修工具</a></em><em><a href="#">改装配件</a></em></dd>
-						</dl>
-					</div>
-					<div class="lb_ltup">
-						<div class="lb_ltup1"><a href=""><img src="./images/rds_23.jpg" width="100%" height="100%" /></a></div>
-						<div class="lb_ltup2"><a href=""><img src="./images/rds_25.gif" width="100%" height="100%" /></a></div>
-					</div>
-				</div>
-				
-				<div class="lb_qt">
 					
-				</div>
-			</div>
-			
-
-			
-			
-			
-			
-			<div class="lb_daos03 gray">
+					<div class="lb_daos019">
 				
-				<div class="lb_daos20">
-					<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_07.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">服装</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
-				</div>
-				<!----
-				<div class="lb_daos019">
-					<div class="xiadao_01">
-						<table width="588px;">
-							<tr>
-								<td>
-									<div class="xiadao_02"><a href="#">
-										<div class="xiadao_03" id="zitise1">休闲</div>
-										<div class="xiadao_04"><img src="./images/daolz1_03.gif" width="100%" height="100%" /></div></a>
-									</div>
-								</td>
-								<td><a href="#">
-									<div class="xiadao_02">
-										<div class="xiadao_03" id="zitise2">正装</div>
-										<div class="xiadao_04"><img src="./images/daolz1_03.gif" width="100%" height="100%" /></div>
-									</div></a>
-								</td>
-								<td><a href="#">
-									<div class="xiadao_02">
-										<div class="xiadao_03" id="zitise3">运动服饰</div>
-										<div class="xiadao_04"><img src="./images/daolz1_03.gif" width="100%" height="100%" /></div>
-									</div></a>
-								</td>
-								<td>
-									<div class="xiadao_05">
-										<div class="xiadao_06"><img src="./images/jcd1_06.png" width="100%" height="100%" /></div>
-										<div class="xiadao_07">服装馆</div>
-									</div>
-								</td>
-							</tr>
-						</table>
+					
+					
 					</div>
-					<div class="lb_daowen">
-						<dl class="fore1">
-							<dt><a href="#">全新整车</a></dt>
-							<dd><em><a href="#">小型车</a></em><em><a href="#">紧凑型车</a></em><em><a href="#">中型车</a></em><em><a href="#">豪华车</a></em><em><a href="#">SUV</a></em></dd>
-						</dl>
-						<dl class="fore2">
-							<dt><a href="#">维修保养</a></dt>
-							<dd><em><a href="#">润滑油</a></em><em><a href="#">添加剂</a></em><em><a href="#">防冻液</a></em><em><a href="#">滤清器</a></em><em><a href="#">火花塞</a></em><em><a href="#">滤清器</a></em>
-							<em><a href="#">雨刷</a></em><em><a href="#">车灯</a></em><em><a href="#">后视镜</a></em><em><a href="#">轮胎̥</a></em><em><a href="#">轮毂</a></em><em><a href="#">刹车片/盘</a></em>
-							<em><a href="#">维修配件</a></em><em><a href="#">蓄电池</a></em><em><a href="#">底盘装甲/护板</a></em><em><a href="#">贴膜</a></em><em><a href="#">汽修工具</a></em><em><a href="#">改装配件</a></em></dd>
-						</dl>
-						<dl class="fore3">
-							<dt><a href="#">全新整车</a></dt>
-							<dd><em><a href="#">小型车</a></em><em><a href="#">紧凑型车</a></em><em><a href="#">中型车</a></em><em><a href="#">豪华车</a></em><em><a href="#">SUV</a></em></dd>
-						</dl>
-						<dl class="fore4">
-							<dt><a href="#">维修保养</a></dt>
-							<dd><em><a href="#">润滑油</a></em><em><a href="#">添加剂</a></em><em><a href="#">防冻液</a></em><em><a href="#">滤清器</a></em><em><a href="#">火花塞</a></em><em><a href="#">滤清器</a></em>
-							<em><a href="#">雨刷</a></em><em><a href="#">车灯</a></em><em><a href="#">后视镜</a></em><em><a href="#">轮胎̥</a></em><em><a href="#">轮毂</a></em><em><a href="#">刹车片/盘</a></em>
-							<em><a href="#">维修配件</a></em><em><a href="#">蓄电池</a></em><em><a href="#">底盘装甲/护板</a></em><em><a href="#">贴膜</a></em><em><a href="#">汽修工具</a></em><em><a href="#">改装配件</a></em></dd>
-						</dl>
-					</div>
-					<div class="lb_ltup">
-						<div class="lb_ltup1"><a href=""><img src="./images/rds_23.jpg" width="100%" height="100%" /></a></div>
-						<div class="lb_ltup2"><a href=""><img src="./images/rds_25.gif" width="100%" height="100%" /></a></div>
-					</div>
-				</div>---->
-				
-			</div>
-			
-			
-			
-			
-			<div class="lb_daos03 white">
-			
-				<div class="lb_daos20">
-				<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_09.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">化妆品</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
-				</div>
-				<!----
-				<div class="lb_daos019">
-					<div class="xiadao_01">
-						<table width="588px;">
-							<tr>
-								<td>
-									<div class="xiadao_02"><a href="#">
-										<div class="xiadao_03" id="zitise1">3爆款榜</div>
-										<div class="xiadao_04"><img src="./images/daolz1_03.gif" width="100%" height="100%" /></div></a>
-									</div>
-								</td>
-								<td><a href="#">
-									<div class="xiadao_02">
-										<div class="xiadao_03" id="zitise2">车载蓝牙</div>
-										<div class="xiadao_04"><img src="./images/daolz1_03.gif" width="100%" height="100%" /></div>
-									</div></a>
-								</td>
-								<td><a href="#">
-									<div class="xiadao_02">
-										<div class="xiadao_03" id="zitise3">汽车应急启动电源</div>
-										<div class="xiadao_04"><img src="./images/daolz1_03.gif" width="100%" height="100%" /></div>
-									</div></a>
-								</td>
-								<td>
-									<div class="xiadao_05">
-										<div class="xiadao_06"><img src="./images/jcd1_06.png" width="100%" height="100%" /></div>
-										<div class="xiadao_07">汽车馆</div>
-									</div>
-								</td>
-							</tr>
-						</table>
-					</div>
-					<div class="lb_daowen">
-						<dl class="fore1">
-							<dt><a href="#">全新整车</a></dt>
-							<dd><em><a href="#">小型车</a></em><em><a href="#">紧凑型车</a></em><em><a href="#">中型车</a></em><em><a href="#">豪华车</a></em><em><a href="#">SUV</a></em></dd>
-						</dl>
-						<dl class="fore2">
-							<dt><a href="#">维修保养</a></dt>
-							<dd><em><a href="#">润滑油</a></em><em><a href="#">添加剂</a></em><em><a href="#">防冻液</a></em><em><a href="#">滤清器</a></em><em><a href="#">火花塞</a></em><em><a href="#">滤清器</a></em>
-							<em><a href="#">雨刷</a></em><em><a href="#">车灯</a></em><em><a href="#">后视镜</a></em><em><a href="#">轮胎̥</a></em><em><a href="#">轮毂</a></em><em><a href="#">刹车片/盘</a></em>
-							<em><a href="#">维修配件</a></em><em><a href="#">蓄电池</a></em><em><a href="#">底盘装甲/护板</a></em><em><a href="#">贴膜</a></em><em><a href="#">汽修工具</a></em><em><a href="#">改装配件</a></em></dd>
-						</dl>
-						<dl class="fore3">
-							<dt><a href="#">全新整车</a></dt>
-							<dd><em><a href="#">小型车</a></em><em><a href="#">紧凑型车</a></em><em><a href="#">中型车</a></em><em><a href="#">豪华车</a></em><em><a href="#">SUV</a></em></dd>
-						</dl>
-						<dl class="fore4">
-							<dt><a href="#">维修保养</a></dt>
-							<dd><em><a href="#">润滑油</a></em><em><a href="#">添加剂</a></em><em><a href="#">防冻液</a></em><em><a href="#">滤清器</a></em><em><a href="#">火花塞</a></em><em><a href="#">滤清器</a></em>
-							<em><a href="#">雨刷</a></em><em><a href="#">车灯</a></em><em><a href="#">后视镜</a></em><em><a href="#">轮胎̥</a></em><em><a href="#">轮毂</a></em><em><a href="#">刹车片/盘</a></em>
-							<em><a href="#">维修配件</a></em><em><a href="#">蓄电池</a></em><em><a href="#">底盘装甲/护板</a></em><em><a href="#">贴膜</a></em><em><a href="#">汽修工具</a></em><em><a href="#">改装配件</a></em></dd>
-						</dl>
-					</div>
-					<div class="lb_ltup">
-						<div class="lb_ltup1"><a href=""><img src="./images/rds_23.jpg" width="100%" height="100%" /></a></div>
-						<div class="lb_ltup2"><a href=""><img src="./images/rds_25.gif" width="100%" height="100%" /></a></div>
-					</div>
-				</div>--->
-			
-			</div>
-			<div class="lb_daos03 gray">
-			
-				<div class="lb_daos20">
-					<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_10.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">医药保健</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
 				</div>
 				
-				<!-----<div class="lb_daos019">
-					<div class="xiadao_01">
-						<table width="588px;">
-							<tr>
-								<td>
-									<div class="xiadao_02"><a href="#">
-										<div class="xiadao_03" id="zitise1">Ѭ࠮ѱ</div>
-										<div class="xiadao_04"><img src="./images/daolz1_03.gif" width="100%" height="100%" /></div></a>
-									</div>
-								</td>
-								<td><a href="#">
-									<div class="xiadao_02">
-										<div class="xiadao_03" id="zitise2">ӵ՘6Ҁ</div>
-										<div class="xiadao_04"><img src="./images/daolz1_03.gif" width="100%" height="100%" /></div>
-									</div></a>
-								</td>
-								<td><a href="#">
-									<div class="xiadao_02">
-										<div class="xiadao_03" id="zitise3">ǻӵӦܱǴ֧֯Դ</div>
-										<div class="xiadao_04"><img src="./images/daolz1_03.gif" width="100%" height="100%" /></div>
-									</div></a>
-								</td>
-								<td>
-									<div class="xiadao_05">
-										<div class="xiadao_06"><img src="./images/jcd1_06.png" width="100%" height="100%" /></div>
-										<div class="xiadao_07">ǻӵڝ</div>
-									</div>
-								</td>
-							</tr>
-						</table>
+				<div class="lb_daos03 gray" onmouseover="lb_jc('ji2.html');">
+					<div class="lb_daos20">
+						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_07.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">服装</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
 					</div>
-					<div class="lb_daowen">
-						<dl class="fore1">
-							<dt><a href="#">ȫтֻӵ</a></dt>
-							<dd><em><a href="#">Сэӵ</a></em><em><a href="#">޴Օэӵ</a></em><em><a href="#">אэӵ</a></em><em><a href="#">ۀ۪ӵ</a></em><em><a href="#">SUV</a></em></dd>
-						</dl>
-						<dl class="fore2">
-							<dt><a href="#">άўѣҸ</a></dt>
-							<dd><em><a href="#">ɳ۬ԍ</a></em><em><a href="#">ͭݓ݁</a></em><em><a href="#">؀ֳҺ</a></em><em><a href="#">ËȥǷ</a></em><em><a href="#">ܰۨɻ</a></em><em><a href="#">ËȥǷ</a></em>
-							<em><a href="#">Ԫˢ</a></em><em><a href="#">ӵֆ</a></em><em><a href="#">۳˓޵</a></em><em><a href="#">Ö̥</a></em><em><a href="#">Ö챼/a></em><em><a href="#">ɲӵƬ/ƌ</a></em>
-							<em><a href="#">άўƤݾ</a></em><em><a href="#">Ѯ֧Ԙ</a></em><em><a href="#">֗ƌװݗ/ۤѥ</a></em><em><a href="#">͹Ĥ</a></em><em><a href="#">ǻў٤ߟ</a></em><em><a href="#">لװƤݾ</a></em></dd>
-						</dl>
-						<dl class="fore3">
-							<dt><a href="#">ȫтֻӵ</a></dt>
-							<dd><em><a href="#">Сэӵ</a></em><em><a href="#">޴Օэӵ</a></em><em><a href="#">אэӵ</a></em><em><a href="#">ۀ۪ӵ</a></em><em><a href="#">SUV</a></em></dd>
-						</dl>
-						<dl class="fore4">
-							<dt><a href="#">άўѣҸ</a></dt>
-							<dd><em><a href="#">ɳ۬ԍ</a></em><em><a href="#">ͭݓ݁</a></em><em><a href="#">؀ֳҺ</a></em><em><a href="#">ËȥǷ</a></em><em><a href="#">ܰۨɻ</a></em><em><a href="#">ËȥǷ</a></em>
-							<em><a href="#">Ԫˢ</a></em><em><a href="#">ӵֆ</a></em><em><a href="#">۳˓޵</a></em><em><a href="#">Ö̥</a></em><em><a href="#">Ö챼/a></em><em><a href="#">ɲӵƬ/ƌ</a></em>
-							<em><a href="#">άўƤݾ</a></em><em><a href="#">Ѯ֧Ԙ</a></em><em><a href="#">֗ƌװݗ/ۤѥ</a></em><em><a href="#">͹Ĥ</a></em><em><a href="#">ǻў٤ߟ</a></em><em><a href="#">لװƤݾ</a></em></dd>
-						</dl>
-					</div>
-					<div class="lb_ltup">
-						<div class="lb_ltup1"><a href=""><img src="./images/rds_23.jpg" width="100%" height="100%" /></a></div>
-						<div class="lb_ltup2"><a href=""><img src="./images/rds_25.gif" width="100%" height="100%" /></a></div>
-					</div>
-				</div>----->
-			
-			</div>
-			
-			
-			
-			<div class="lb_daos03 white">
-			
-				<div class="lb_daos20">
-					<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_11.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">汽车</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
 				</div>
 				
-				<!-----<div class="lb_daos019">
-					<div class="xiadao_01">
-						<table width="588px;">
-							<tr>
-								<td>
-									<div class="xiadao_02"><a href="#">
-										<div class="xiadao_03" id="zitise1">Ѭ࠮ѱ</div>
-										<div class="xiadao_04"><img src="./images/daolz1_03.gif" width="100%" height="100%" /></div></a>
-									</div>
-								</td>
-								<td><a href="#">
-									<div class="xiadao_02">
-										<div class="xiadao_03" id="zitise2">ӵ՘6Ҁ</div>
-										<div class="xiadao_04"><img src="./images/daolz1_03.gif" width="100%" height="100%" /></div>
-									</div></a>
-								</td>
-								<td><a href="#">
-									<div class="xiadao_02">
-										<div class="xiadao_03" id="zitise3">ǻӵӦܱǴ֧֯Դ</div>
-										<div class="xiadao_04"><img src="./images/daolz1_03.gif" width="100%" height="100%" /></div>
-									</div></a>
-								</td>
-								<td>
-									<div class="xiadao_05">
-										<div class="xiadao_06"><img src="./images/jcd1_06.png" width="100%" height="100%" /></div>
-										<div class="xiadao_07">ǻӵڝ</div>
-									</div>
-								</td>
-							</tr>
-						</table>
+				<div class="lb_daos03 white">
+					<div class="lb_daos20">
+						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_09.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">化妆品</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
 					</div>
-					<div class="lb_daowen">
-						<dl class="fore1">
-							<dt><a href="#">ȫтֻӵ</a></dt>
-							<dd><em><a href="#">Сэӵ</a></em><em><a href="#">޴Օэӵ</a></em><em><a href="#">אэӵ</a></em><em><a href="#">ۀ۪ӵ</a></em><em><a href="#">SUV</a></em></dd>
-						</dl>
-						<dl class="fore2">
-							<dt><a href="#">άўѣҸ</a></dt>
-							<dd><em><a href="#">ɳ۬ԍ</a></em><em><a href="#">ͭݓ݁</a></em><em><a href="#">؀ֳҺ</a></em><em><a href="#">ËȥǷ</a></em><em><a href="#">ܰۨɻ</a></em><em><a href="#">ËȥǷ</a></em>
-							<em><a href="#">Ԫˢ</a></em><em><a href="#">ӵֆ</a></em><em><a href="#">۳˓޵</a></em><em><a href="#">Ö̥</a></em><em><a href="#">Ö챼/a></em><em><a href="#">ɲӵƬ/ƌ</a></em>
-							<em><a href="#">άўƤݾ</a></em><em><a href="#">Ѯ֧Ԙ</a></em><em><a href="#">֗ƌװݗ/ۤѥ</a></em><em><a href="#">͹Ĥ</a></em><em><a href="#">ǻў٤ߟ</a></em><em><a href="#">لװƤݾ</a></em></dd>
-						</dl>
-						<dl class="fore3">
-							<dt><a href="#">ȫтֻӵ</a></dt>
-							<dd><em><a href="#">Сэӵ</a></em><em><a href="#">޴Օэӵ</a></em><em><a href="#">אэӵ</a></em><em><a href="#">ۀ۪ӵ</a></em><em><a href="#">SUV</a></em></dd>
-						</dl>
-						<dl class="fore4">
-							<dt><a href="#">άўѣҸ</a></dt>
-							<dd><em><a href="#">ɳ۬ԍ</a></em><em><a href="#">ͭݓ݁</a></em><em><a href="#">؀ֳҺ</a></em><em><a href="#">ËȥǷ</a></em><em><a href="#">ܰۨɻ</a></em><em><a href="#">ËȥǷ</a></em>
-							<em><a href="#">Ԫˢ</a></em><em><a href="#">ӵֆ</a></em><em><a href="#">۳˓޵</a></em><em><a href="#">Ö̥</a></em><em><a href="#">Ö챼/a></em><em><a href="#">ɲӵƬ/ƌ</a></em>
-							<em><a href="#">άўƤݾ</a></em><em><a href="#">Ѯ֧Ԙ</a></em><em><a href="#">֗ƌװݗ/ۤѥ</a></em><em><a href="#">͹Ĥ</a></em><em><a href="#">ǻў٤ߟ</a></em><em><a href="#">لװƤݾ</a></em></dd>
-						</dl>
+				</div>
+				
+				<div class="lb_daos03 gray">
+					<div class="lb_daos20">
+						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_10.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">医药保健</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
 					</div>
-					<div class="lb_ltup">
-						<div class="lb_ltup1"><a href=""><img src="./images/rds_23.jpg" width="100%" height="100%" /></a></div>
-						<div class="lb_ltup2"><a href=""><img src="./images/rds_25.gif" width="100%" height="100%" /></a></div>
+				</div>
+				
+				<div class="lb_daos03 white">
+					<div class="lb_daos20">
+						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_11.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">汽车</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
 					</div>
-				</div>----->
-			
-			</div>
-			
-			
-			<div class="lb_daos03 gray">
-			
-				<div class="lb_daos20">
+				</div>
+				
+				<div class="lb_daos03 gray">
+					<div class="lb_daos20">
 						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_12.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">茶叶</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
+					</div>
 				</div>
 				
-				<!-----<div class="lb_daos019">
-					<div class="xiadao_01">
-						<table width="588px;">
-							<tr>
-								<td>
-									<div class="xiadao_02"><a href="#">
-										<div class="xiadao_03" id="zitise1">Ѭ࠮ѱ</div>
-										<div class="xiadao_04"><img src="./images/daolz1_03.gif" width="100%" height="100%" /></div></a>
-									</div>
-								</td>
-								<td><a href="#">
-									<div class="xiadao_02">
-										<div class="xiadao_03" id="zitise2">ӵ՘6Ҁ</div>
-										<div class="xiadao_04"><img src="./images/daolz1_03.gif" width="100%" height="100%" /></div>
-									</div></a>
-								</td>
-								<td><a href="#">
-									<div class="xiadao_02">
-										<div class="xiadao_03" id="zitise3">ǻӵӦܱǴ֧֯Դ</div>
-										<div class="xiadao_04"><img src="./images/daolz1_03.gif" width="100%" height="100%" /></div>
-									</div></a>
-								</td>
-								<td>
-									<div class="xiadao_05">
-										<div class="xiadao_06"><img src="./images/jcd1_06.png" width="100%" height="100%" /></div>
-										<div class="xiadao_07">ǻӵڝ</div>
-									</div>
-								</td>
-							</tr>
-						</table>
+				<div class="lb_daos03 white">
+					<div class="lb_daos20">
+						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_13.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">洗衣店</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
 					</div>
-					<div class="lb_daowen">
-						<dl class="fore1">
-							<dt><a href="#">ȫтֻӵ</a></dt>
-							<dd><em><a href="#">Сэӵ</a></em><em><a href="#">޴Օэӵ</a></em><em><a href="#">אэӵ</a></em><em><a href="#">ۀ۪ӵ</a></em><em><a href="#">SUV</a></em></dd>
-						</dl>
-						<dl class="fore2">
-							<dt><a href="#">άўѣҸ</a></dt>
-							<dd><em><a href="#">ɳ۬ԍ</a></em><em><a href="#">ͭݓ݁</a></em><em><a href="#">؀ֳҺ</a></em><em><a href="#">ËȥǷ</a></em><em><a href="#">ܰۨɻ</a></em><em><a href="#">ËȥǷ</a></em>
-							<em><a href="#">Ԫˢ</a></em><em><a href="#">ӵֆ</a></em><em><a href="#">۳˓޵</a></em><em><a href="#">Ö̥</a></em><em><a href="#">Ö챼/a></em><em><a href="#">ɲӵƬ/ƌ</a></em>
-							<em><a href="#">άўƤݾ</a></em><em><a href="#">Ѯ֧Ԙ</a></em><em><a href="#">֗ƌװݗ/ۤѥ</a></em><em><a href="#">͹Ĥ</a></em><em><a href="#">ǻў٤ߟ</a></em><em><a href="#">لװƤݾ</a></em></dd>
-						</dl>
-						<dl class="fore3">
-							<dt><a href="#">ȫтֻӵ</a></dt>
-							<dd><em><a href="#">Сэӵ</a></em><em><a href="#">޴Օэӵ</a></em><em><a href="#">אэӵ</a></em><em><a href="#">ۀ۪ӵ</a></em><em><a href="#">SUV</a></em></dd>
-						</dl>
-						<dl class="fore4">
-							<dt><a href="#">άўѣҸ</a></dt>
-							<dd><em><a href="#">ɳ۬ԍ</a></em><em><a href="#">ͭݓ݁</a></em><em><a href="#">؀ֳҺ</a></em><em><a href="#">ËȥǷ</a></em><em><a href="#">ܰۨɻ</a></em><em><a href="#">ËȥǷ</a></em>
-							<em><a href="#">Ԫˢ</a></em><em><a href="#">ӵֆ</a></em><em><a href="#">۳˓޵</a></em><em><a href="#">Ö̥</a></em><em><a href="#">Ö챼/a></em><em><a href="#">ɲӵƬ/ƌ</a></em>
-							<em><a href="#">άўƤݾ</a></em><em><a href="#">Ѯ֧Ԙ</a></em><em><a href="#">֗ƌװݗ/ۤѥ</a></em><em><a href="#">͹Ĥ</a></em><em><a href="#">ǻў٤ߟ</a></em><em><a href="#">لװƤݾ</a></em></dd>
-						</dl>
-					</div>
-					<div class="lb_ltup">
-						<div class="lb_ltup1"><a href=""><img src="./images/rds_23.jpg" width="100%" height="100%" /></a></div>
-						<div class="lb_ltup2"><a href=""><img src="./images/rds_25.gif" width="100%" height="100%" /></a></div>
-					</div>
-				</div>----->
-			
-			</div>
-			
-			
-			<div class="lb_daos03 white">
-			
-				<div class="lb_daos20">
-					<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_13.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">洗衣店</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
 				</div>
 				
-				<!-----<div class="lb_daos019">
-					<div class="xiadao_01">
-						<table width="588px;">
-							<tr>
-								<td>
-									<div class="xiadao_02"><a href="#">
-										<div class="xiadao_03" id="zitise1">Ѭ࠮ѱ</div>
-										<div class="xiadao_04"><img src="./images/daolz1_03.gif" width="100%" height="100%" /></div></a>
-									</div>
-								</td>
-								<td><a href="#">
-									<div class="xiadao_02">
-										<div class="xiadao_03" id="zitise2">ӵ՘6Ҁ</div>
-										<div class="xiadao_04"><img src="./images/daolz1_03.gif" width="100%" height="100%" /></div>
-									</div></a>
-								</td>
-								<td><a href="#">
-									<div class="xiadao_02">
-										<div class="xiadao_03" id="zitise3">ǻӵӦܱǴ֧֯Դ</div>
-										<div class="xiadao_04"><img src="./images/daolz1_03.gif" width="100%" height="100%" /></div>
-									</div></a>
-								</td>
-								<td>
-									<div class="xiadao_05">
-										<div class="xiadao_06"><img src="./images/jcd1_06.png" width="100%" height="100%" /></div>
-										<div class="xiadao_07">ǻӵڝ</div>
-									</div>
-								</td>
-							</tr>
-						</table>
+				<div class="lb_daos03 gray">
+					<div class="lb_daos20">
+						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_14.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">酒店</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
 					</div>
-					<div class="lb_daowen">
-						<dl class="fore1">
-							<dt><a href="#">ȫтֻӵ</a></dt>
-							<dd><em><a href="#">Сэӵ</a></em><em><a href="#">޴Օэӵ</a></em><em><a href="#">אэӵ</a></em><em><a href="#">ۀ۪ӵ</a></em><em><a href="#">SUV</a></em></dd>
-						</dl>
-						<dl class="fore2">
-							<dt><a href="#">άўѣҸ</a></dt>
-							<dd><em><a href="#">ɳ۬ԍ</a></em><em><a href="#">ͭݓ݁</a></em><em><a href="#">؀ֳҺ</a></em><em><a href="#">ËȥǷ</a></em><em><a href="#">ܰۨɻ</a></em><em><a href="#">ËȥǷ</a></em>
-							<em><a href="#">Ԫˢ</a></em><em><a href="#">ӵֆ</a></em><em><a href="#">۳˓޵</a></em><em><a href="#">Ö̥</a></em><em><a href="#">Ö챼/a></em><em><a href="#">ɲӵƬ/ƌ</a></em>
-							<em><a href="#">άўƤݾ</a></em><em><a href="#">Ѯ֧Ԙ</a></em><em><a href="#">֗ƌװݗ/ۤѥ</a></em><em><a href="#">͹Ĥ</a></em><em><a href="#">ǻў٤ߟ</a></em><em><a href="#">لװƤݾ</a></em></dd>
-						</dl>
-						<dl class="fore3">
-							<dt><a href="#">ȫтֻӵ</a></dt>
-							<dd><em><a href="#">Сэӵ</a></em><em><a href="#">޴Օэӵ</a></em><em><a href="#">אэӵ</a></em><em><a href="#">ۀ۪ӵ</a></em><em><a href="#">SUV</a></em></dd>
-						</dl>
-						<dl class="fore4">
-							<dt><a href="#">άўѣҸ</a></dt>
-							<dd><em><a href="#">ɳ۬ԍ</a></em><em><a href="#">ͭݓ݁</a></em><em><a href="#">؀ֳҺ</a></em><em><a href="#">ËȥǷ</a></em><em><a href="#">ܰۨɻ</a></em><em><a href="#">ËȥǷ</a></em>
-							<em><a href="#">Ԫˢ</a></em><em><a href="#">ӵֆ</a></em><em><a href="#">۳˓޵</a></em><em><a href="#">Ö̥</a></em><em><a href="#">Ö챼/a></em><em><a href="#">ɲӵƬ/ƌ</a></em>
-							<em><a href="#">άўƤݾ</a></em><em><a href="#">Ѯ֧Ԙ</a></em><em><a href="#">֗ƌװݗ/ۤѥ</a></em><em><a href="#">͹Ĥ</a></em><em><a href="#">ǻў٤ߟ</a></em><em><a href="#">لװƤݾ</a></em></dd>
-						</dl>
+				</div>
+				
+				<div class="lb_daos03 white">
+					<div class="lb_daos20">
+						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_15.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">旅游</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
 					</div>
-					<div class="lb_ltup">
-						<div class="lb_ltup1"><a href=""><img src="./images/rds_23.jpg" width="100%" height="100%" /></a></div>
-						<div class="lb_ltup2"><a href=""><img src="./images/rds_25.gif" width="100%" height="100%" /></a></div>
+				</div>
+				
+				<div class="lb_daos03 gray">
+					<div class="lb_daos20">
+						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_16.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">餐饮</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
 					</div>
-				</div>----->
-			
-			</div>
-			
-			
-			<div class="lb_daos03 gray">
-			
-				<div class="lb_daos20">
-					<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_14.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">酒店</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
 				</div>
 				
 				
-				<!-----<div class="lb_daos019">
-					<div class="xiadao_01">
-						<table width="588px;">
-							<tr>
-								<td>
-									<div class="xiadao_02"><a href="#">
-										<div class="xiadao_03" id="zitise1">Ѭ࠮ѱ</div>
-										<div class="xiadao_04"><img src="./images/daolz1_03.gif" width="100%" height="100%" /></div></a>
-									</div>
-								</td>
-								<td><a href="#">
-									<div class="xiadao_02">
-										<div class="xiadao_03" id="zitise2">ӵ՘6Ҁ</div>
-										<div class="xiadao_04"><img src="./images/daolz1_03.gif" width="100%" height="100%" /></div>
-									</div></a>
-								</td>
-								<td><a href="#">
-									<div class="xiadao_02">
-										<div class="xiadao_03" id="zitise3">ǻӵӦܱǴ֧֯Դ</div>
-										<div class="xiadao_04"><img src="./images/daolz1_03.gif" width="100%" height="100%" /></div>
-									</div></a>
-								</td>
-								<td>
-									<div class="xiadao_05">
-										<div class="xiadao_06"><img src="./images/jcd1_06.png" width="100%" height="100%" /></div>
-										<div class="xiadao_07">ǻӵڝ</div>
-									</div>
-								</td>
-							</tr>
-						</table>
+				<div class="lb_daos03 white">
+					<div class="lb_daos20">
+						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_17.gif" width="100%" height="100%" /></div></td><td><div class="lb_daos09">教育</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
 					</div>
-					<div class="lb_daowen">
-						<dl class="fore1">
-							<dt><a href="#">ȫтֻӵ</a></dt>
-							<dd><em><a href="#">Сэӵ</a></em><em><a href="#">޴Օэӵ</a></em><em><a href="#">אэӵ</a></em><em><a href="#">ۀ۪ӵ</a></em><em><a href="#">SUV</a></em></dd>
-						</dl>
-						<dl class="fore2">
-							<dt><a href="#">άўѣҸ</a></dt>
-							<dd><em><a href="#">ɳ۬ԍ</a></em><em><a href="#">ͭݓ݁</a></em><em><a href="#">؀ֳҺ</a></em><em><a href="#">ËȥǷ</a></em><em><a href="#">ܰۨɻ</a></em><em><a href="#">ËȥǷ</a></em>
-							<em><a href="#">Ԫˢ</a></em><em><a href="#">ӵֆ</a></em><em><a href="#">۳˓޵</a></em><em><a href="#">Ö̥</a></em><em><a href="#">Ö챼/a></em><em><a href="#">ɲӵƬ/ƌ</a></em>
-							<em><a href="#">άўƤݾ</a></em><em><a href="#">Ѯ֧Ԙ</a></em><em><a href="#">֗ƌװݗ/ۤѥ</a></em><em><a href="#">͹Ĥ</a></em><em><a href="#">ǻў٤ߟ</a></em><em><a href="#">لװƤݾ</a></em></dd>
-						</dl>
-						<dl class="fore3">
-							<dt><a href="#">ȫтֻӵ</a></dt>
-							<dd><em><a href="#">Сэӵ</a></em><em><a href="#">޴Օэӵ</a></em><em><a href="#">אэӵ</a></em><em><a href="#">ۀ۪ӵ</a></em><em><a href="#">SUV</a></em></dd>
-						</dl>
-						<dl class="fore4">
-							<dt><a href="#">άўѣҸ</a></dt>
-							<dd><em><a href="#">ɳ۬ԍ</a></em><em><a href="#">ͭݓ݁</a></em><em><a href="#">؀ֳҺ</a></em><em><a href="#">ËȥǷ</a></em><em><a href="#">ܰۨɻ</a></em><em><a href="#">ËȥǷ</a></em>
-							<em><a href="#">Ԫˢ</a></em><em><a href="#">ӵֆ</a></em><em><a href="#">۳˓޵</a></em><em><a href="#">Ö̥</a></em><em><a href="#">Ö챼/a></em><em><a href="#">ɲӵƬ/ƌ</a></em>
-							<em><a href="#">άўƤݾ</a></em><em><a href="#">Ѯ֧Ԙ</a></em><em><a href="#">֗ƌװݗ/ۤѥ</a></em><em><a href="#">͹Ĥ</a></em><em><a href="#">ǻў٤ߟ</a></em><em><a href="#">لװƤݾ</a></em></dd>
-						</dl>
-					</div>
-					<div class="lb_ltup">
-						<div class="lb_ltup1"><a href=""><img src="./images/rds_23.jpg" width="100%" height="100%" /></a></div>
-						<div class="lb_ltup2"><a href=""><img src="./images/rds_25.gif" width="100%" height="100%" /></a></div>
-					</div>
-				</div>----->
-			
-			</div>
-			
-			
-			<div class="lb_daos03 white">
-			
-				<div class="lb_daos20">
-					<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_15.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">旅游</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
 				</div>
-				
-				
-				<!-----<div class="lb_daos019">
-					<div class="xiadao_01">
-						<table width="588px;">
-							<tr>
-								<td>
-									<div class="xiadao_02"><a href="#">
-										<div class="xiadao_03" id="zitise1">Ѭ࠮ѱ</div>
-										<div class="xiadao_04"><img src="./images/daolz1_03.gif" width="100%" height="100%" /></div></a>
-									</div>
-								</td>
-								<td><a href="#">
-									<div class="xiadao_02">
-										<div class="xiadao_03" id="zitise2">ӵ՘6Ҁ</div>
-										<div class="xiadao_04"><img src="./images/daolz1_03.gif" width="100%" height="100%" /></div>
-									</div></a>
-								</td>
-								<td><a href="#">
-									<div class="xiadao_02">
-										<div class="xiadao_03" id="zitise3">ǻӵӦܱǴ֧֯Դ</div>
-										<div class="xiadao_04"><img src="./images/daolz1_03.gif" width="100%" height="100%" /></div>
-									</div></a>
-								</td>
-								<td>
-									<div class="xiadao_05">
-										<div class="xiadao_06"><img src="./images/jcd1_06.png" width="100%" height="100%" /></div>
-										<div class="xiadao_07">ǻӵڝ</div>
-									</div>
-								</td>
-							</tr>
-						</table>
-					</div>
-					<div class="lb_daowen">
-						<dl class="fore1">
-							<dt><a href="#">ȫтֻӵ</a></dt>
-							<dd><em><a href="#">Сэӵ</a></em><em><a href="#">޴Օэӵ</a></em><em><a href="#">אэӵ</a></em><em><a href="#">ۀ۪ӵ</a></em><em><a href="#">SUV</a></em></dd>
-						</dl>
-						<dl class="fore2">
-							<dt><a href="#">άўѣҸ</a></dt>
-							<dd><em><a href="#">ɳ۬ԍ</a></em><em><a href="#">ͭݓ݁</a></em><em><a href="#">؀ֳҺ</a></em><em><a href="#">ËȥǷ</a></em><em><a href="#">ܰۨɻ</a></em><em><a href="#">ËȥǷ</a></em>
-							<em><a href="#">Ԫˢ</a></em><em><a href="#">ӵֆ</a></em><em><a href="#">۳˓޵</a></em><em><a href="#">Ö̥</a></em><em><a href="#">Ö챼/a></em><em><a href="#">ɲӵƬ/ƌ</a></em>
-							<em><a href="#">άўƤݾ</a></em><em><a href="#">Ѯ֧Ԙ</a></em><em><a href="#">֗ƌװݗ/ۤѥ</a></em><em><a href="#">͹Ĥ</a></em><em><a href="#">ǻў٤ߟ</a></em><em><a href="#">لװƤݾ</a></em></dd>
-						</dl>
-						<dl class="fore3">
-							<dt><a href="#">ȫтֻӵ</a></dt>
-							<dd><em><a href="#">Сэӵ</a></em><em><a href="#">޴Օэӵ</a></em><em><a href="#">אэӵ</a></em><em><a href="#">ۀ۪ӵ</a></em><em><a href="#">SUV</a></em></dd>
-						</dl>
-						<dl class="fore4">
-							<dt><a href="#">άўѣҸ</a></dt>
-							<dd><em><a href="#">ɳ۬ԍ</a></em><em><a href="#">ͭݓ݁</a></em><em><a href="#">؀ֳҺ</a></em><em><a href="#">ËȥǷ</a></em><em><a href="#">ܰۨɻ</a></em><em><a href="#">ËȥǷ</a></em>
-							<em><a href="#">Ԫˢ</a></em><em><a href="#">ӵֆ</a></em><em><a href="#">۳˓޵</a></em><em><a href="#">Ö̥</a></em><em><a href="#">Ö챼/a></em><em><a href="#">ɲӵƬ/ƌ</a></em>
-							<em><a href="#">άўƤݾ</a></em><em><a href="#">Ѯ֧Ԙ</a></em><em><a href="#">֗ƌװݗ/ۤѥ</a></em><em><a href="#">͹Ĥ</a></em><em><a href="#">ǻў٤ߟ</a></em><em><a href="#">لװƤݾ</a></em></dd>
-						</dl>
-					</div>
-					<div class="lb_ltup">
-						<div class="lb_ltup1"><a href=""><img src="./images/rds_23.jpg" width="100%" height="100%" /></a></div>
-						<div class="lb_ltup2"><a href=""><img src="./images/rds_25.gif" width="100%" height="100%" /></a></div>
-					</div>
-				</div>----->
+
 				
 			</div>
-			
-			
-			<div class="lb_daos03 gray">
-			
-				<div class="lb_daos20">
-					<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_16.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">餐饮</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
-				</div>
-				
-			<!-----<div class="lb_daos019">
-					<div class="xiadao_01">
-						<table width="588px;">
-							<tr>
-								<td>
-									<div class="xiadao_02"><a href="#">
-										<div class="xiadao_03" id="zitise1">Ѭ࠮ѱ</div>
-										<div class="xiadao_04"><img src="./images/daolz1_03.gif" width="100%" height="100%" /></div></a>
-									</div>
-								</td>
-								<td><a href="#">
-									<div class="xiadao_02">
-										<div class="xiadao_03" id="zitise2">ӵ՘6Ҁ</div>
-										<div class="xiadao_04"><img src="./images/daolz1_03.gif" width="100%" height="100%" /></div>
-									</div></a>
-								</td>
-								<td><a href="#">
-									<div class="xiadao_02">
-										<div class="xiadao_03" id="zitise3">ǻӵӦܱǴ֧֯Դ</div>
-										<div class="xiadao_04"><img src="./images/daolz1_03.gif" width="100%" height="100%" /></div>
-									</div></a>
-								</td>
-								<td>
-									<div class="xiadao_05">
-										<div class="xiadao_06"><img src="./images/jcd1_06.png" width="100%" height="100%" /></div>
-										<div class="xiadao_07">ǻӵڝ</div>
-									</div>
-								</td>
-							</tr>
-						</table>
-					</div>
-					<div class="lb_daowen">
-						<dl class="fore1">
-							<dt><a href="#">ȫтֻӵ</a></dt>
-							<dd><em><a href="#">Сэӵ</a></em><em><a href="#">޴Օэӵ</a></em><em><a href="#">אэӵ</a></em><em><a href="#">ۀ۪ӵ</a></em><em><a href="#">SUV</a></em></dd>
-						</dl>
-						<dl class="fore2">
-							<dt><a href="#">άўѣҸ</a></dt>
-							<dd><em><a href="#">ɳ۬ԍ</a></em><em><a href="#">ͭݓ݁</a></em><em><a href="#">؀ֳҺ</a></em><em><a href="#">ËȥǷ</a></em><em><a href="#">ܰۨɻ</a></em><em><a href="#">ËȥǷ</a></em>
-							<em><a href="#">Ԫˢ</a></em><em><a href="#">ӵֆ</a></em><em><a href="#">۳˓޵</a></em><em><a href="#">Ö̥</a></em><em><a href="#">Ö챼/a></em><em><a href="#">ɲӵƬ/ƌ</a></em>
-							<em><a href="#">άўƤݾ</a></em><em><a href="#">Ѯ֧Ԙ</a></em><em><a href="#">֗ƌװݗ/ۤѥ</a></em><em><a href="#">͹Ĥ</a></em><em><a href="#">ǻў٤ߟ</a></em><em><a href="#">لװƤݾ</a></em></dd>
-						</dl>
-						<dl class="fore3">
-							<dt><a href="#">ȫтֻӵ</a></dt>
-							<dd><em><a href="#">Сэӵ</a></em><em><a href="#">޴Օэӵ</a></em><em><a href="#">אэӵ</a></em><em><a href="#">ۀ۪ӵ</a></em><em><a href="#">SUV</a></em></dd>
-						</dl>
-						<dl class="fore4">
-							<dt><a href="#">άўѣҸ</a></dt>
-							<dd><em><a href="#">ɳ۬ԍ</a></em><em><a href="#">ͭݓ݁</a></em><em><a href="#">؀ֳҺ</a></em><em><a href="#">ËȥǷ</a></em><em><a href="#">ܰۨɻ</a></em><em><a href="#">ËȥǷ</a></em>
-							<em><a href="#">Ԫˢ</a></em><em><a href="#">ӵֆ</a></em><em><a href="#">۳˓޵</a></em><em><a href="#">Ö̥</a></em><em><a href="#">Ö챼/a></em><em><a href="#">ɲӵƬ/ƌ</a></em>
-							<em><a href="#">άўƤݾ</a></em><em><a href="#">Ѯ֧Ԙ</a></em><em><a href="#">֗ƌװݗ/ۤѥ</a></em><em><a href="#">͹Ĥ</a></em><em><a href="#">ǻў٤ߟ</a></em><em><a href="#">لװƤݾ</a></em></dd>
-						</dl>
-					</div>
-					<div class="lb_ltup">
-						<div class="lb_ltup1"><a href=""><img src="./images/rds_23.jpg" width="100%" height="100%" /></a></div>
-						<div class="lb_ltup2"><a href=""><img src="./images/rds_25.gif" width="100%" height="100%" /></a></div>
-					</div>
-				</div>----->
-			
-			</div>
-			
-			
-			<div class="lb_daos03 white">
-			
-				<div class="lb_daos20">
-					<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_17.gif" width="100%" height="100%" /></div></td><td><div class="lb_daos09">教育</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
-				</div>
-				
-			<!-----<div class="lb_daos019">
-					<div class="xiadao_01">
-						<table width="588px;">
-							<tr>
-								<td>
-									<div class="xiadao_02"><a href="#">
-										<div class="xiadao_03" id="zitise1">Ѭ࠮ѱ</div>
-										<div class="xiadao_04"><img src="./images/daolz1_03.gif" width="100%" height="100%" /></div></a>
-									</div>
-								</td>
-								<td><a href="#">
-									<div class="xiadao_02">
-										<div class="xiadao_03" id="zitise2">ӵ՘6Ҁ</div>
-										<div class="xiadao_04"><img src="./images/daolz1_03.gif" width="100%" height="100%" /></div>
-									</div></a>
-								</td>
-								<td><a href="#">
-									<div class="xiadao_02">
-										<div class="xiadao_03" id="zitise3">ǻӵӦܱǴ֧֯Դ</div>
-										<div class="xiadao_04"><img src="./images/daolz1_03.gif" width="100%" height="100%" /></div>
-									</div></a>
-								</td>
-								<td>
-									<div class="xiadao_05">
-										<div class="xiadao_06"><img src="./images/jcd1_06.png" width="100%" height="100%" /></div>
-										<div class="xiadao_07">ǻӵڝ</div>
-									</div>
-								</td>
-							</tr>
-						</table>
-					</div>
-					<div class="lb_daowen">
-						<dl class="fore1">
-							<dt><a href="#">ȫтֻӵ</a></dt>
-							<dd><em><a href="#">Сэӵ</a></em><em><a href="#">޴Օэӵ</a></em><em><a href="#">אэӵ</a></em><em><a href="#">ۀ۪ӵ</a></em><em><a href="#">SUV</a></em></dd>
-						</dl>
-						<dl class="fore2">
-							<dt><a href="#">άўѣҸ</a></dt>
-							<dd><em><a href="#">ɳ۬ԍ</a></em><em><a href="#">ͭݓ݁</a></em><em><a href="#">؀ֳҺ</a></em><em><a href="#">ËȥǷ</a></em><em><a href="#">ܰۨɻ</a></em><em><a href="#">ËȥǷ</a></em>
-							<em><a href="#">Ԫˢ</a></em><em><a href="#">ӵֆ</a></em><em><a href="#">۳˓޵</a></em><em><a href="#">Ö̥</a></em><em><a href="#">Ö챼/a></em><em><a href="#">ɲӵƬ/ƌ</a></em>
-							<em><a href="#">άўƤݾ</a></em><em><a href="#">Ѯ֧Ԙ</a></em><em><a href="#">֗ƌװݗ/ۤѥ</a></em><em><a href="#">͹Ĥ</a></em><em><a href="#">ǻў٤ߟ</a></em><em><a href="#">لװƤݾ</a></em></dd>
-						</dl>
-						<dl class="fore3">
-							<dt><a href="#">ȫтֻӵ</a></dt>
-							<dd><em><a href="#">Сэӵ</a></em><em><a href="#">޴Օэӵ</a></em><em><a href="#">אэӵ</a></em><em><a href="#">ۀ۪ӵ</a></em><em><a href="#">SUV</a></em></dd>
-						</dl>
-						<dl class="fore4">
-							<dt><a href="#">άўѣҸ</a></dt>
-							<dd><em><a href="#">ɳ۬ԍ</a></em><em><a href="#">ͭݓ݁</a></em><em><a href="#">؀ֳҺ</a></em><em><a href="#">ËȥǷ</a></em><em><a href="#">ܰۨɻ</a></em><em><a href="#">ËȥǷ</a></em>
-							<em><a href="#">Ԫˢ</a></em><em><a href="#">ӵֆ</a></em><em><a href="#">۳˓޵</a></em><em><a href="#">Ö̥</a></em><em><a href="#">Ö챼/a></em><em><a href="#">ɲӵƬ/ƌ</a></em>
-							<em><a href="#">άўƤݾ</a></em><em><a href="#">Ѯ֧Ԙ</a></em><em><a href="#">֗ƌװݗ/ۤѥ</a></em><em><a href="#">͹Ĥ</a></em><em><a href="#">ǻў٤ߟ</a></em><em><a href="#">لװƤݾ</a></em></dd>
-						</dl>
-					</div>
-					<div class="lb_ltup">
-						<div class="lb_ltup1"><a href=""><img src="./images/rds_23.jpg" width="100%" height="100%" /></a></div>
-						<div class="lb_ltup2"><a href=""><img src="./images/rds_25.gif" width="100%" height="100%" /></a></div>
-					</div>
-				</div>----->
-			
-			</div>
-			
-			
-		</div>
+		
 		</div>
 		
+		<div style="width:100%;height:360px;background-color:#F95605;" ><!--加载区域------->
+			<div style="min-width:1160px;margin:0 auto;" id="lb_jiazhai">
 			
-						
 			
+			
+			
+			</div>
+		</div>
+		
+		
+		<!-------------------------加载函数开始--------------------->
+		<script>
+			function lb_jc(a)
+				{
+					$("#lb_jiazhai").load(a);	
+				}
+			function lb_jc2(b)
+				{
+					$(".lb_daos019").load(b);	
+				}
+		</script>
+		
 	</div>
 
 <!-----------------------------------------------nav------------over------------------------------------->

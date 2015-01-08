@@ -1,17 +1,53 @@
 // JavaScript Document
 
 
-/**
-$(document).ready(function(){
-  $(".lb_daos20").onmousemove(function(){
-    var div=$("lb_daos07");  
-    div.animate({left:'100px'},"slow");
-    div.animate({fontSize:'3em'},"slow");
-  });
-});*/
-/**
+
+// 大的图片广告
+// 根据图片创建id,按钮元素等，实际开发建议使用JSON数据类似
+
+
 $(function(){
-$('.lb_daos018 > .lb_daos03').hover(function(){
+	
+var htmlAdBtn = '';                                                             // 大的图片广告   根据图片创建id,按钮元素等，实际开发建议使用JSON数据类似
+$("#jdAdSlide img").each(function(index, image) {
+	var id = "adImage" + index;
+	htmlAdBtn = htmlAdBtn + '<a href="javascript:" class="jd_ad_btn_a" data-rel="'+ id +'">'+ '</a>';
+	image.id = id;
+});
+$("#jdAdBtn").html(htmlAdBtn).find("a").powerSwitch({
+	eventType: "hover",
+	classAdd: "active",
+	animation: "fade",
+	autoTime: 3000,
+	onSwitch: function(image) {
+		if (!image.attr("src")) {
+			image.attr("src", image.attr("data-src"));	
+		}
+	}
+}).eq(0).trigger("mouseover");
+
+// 便民服务
+$("#servNav a").powerSwitch({
+	classAdd: "active",
+	eventType: "hover",
+	onSwitch: function() {
+		$("#pointLine").animate({ "left": $(this).position().left}, 200);
+	}
+});
+
+
+
+
+
+});
+
+
+
+
+
+
+  $(function(){
+  $('.lb_daos018 > .lb_daos03').hover(function(){                           //弹出右边边框=======
 			var eq = $('.lb_daos018 > .lb_daos03').index(this),				//获取当前滑过是第几个元素
 				h = $('.lb_daos018').offset().top,							//获取当前下拉菜单距离窗口多少像素
 				s = $(window).scrollTop(),									//获取游览器滚动了多少高度
@@ -42,13 +78,11 @@ $('.lb_daos018 > .lb_daos03').hover(function(){
 		},function(){
 			$(this).removeClass('hover');
 			$(this).children('.lb_daos019').css('display','none');
-		});		
-});
-*/
-
-
-
-
-
-
-
+		});	
+		
+		
+		
+		
+		
+		
+  });
