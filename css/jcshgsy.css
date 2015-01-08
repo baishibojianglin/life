@@ -140,7 +140,7 @@ min-width:1160px;
 min-height:10px;
 margin:0 auto;
 position:absolute;
-top:240px;
+top:200px;
 left:372px;
 z-index:20;
 }
@@ -151,6 +151,14 @@ width:200px;
 min-height:10px;
 float:left;
 position:relative;
+}
+.lb_daos0191{
+width:600px;
+min-height:10px;
+position:absolute;
+left:202px;
+top:0px;
+z-index:10;
 }
 .lb_daos019{
 width:600px;
@@ -427,10 +435,47 @@ border-radius:80px;
 -moz-border-radius:80px; /* �ϵ� Firefox */
 }
 
-
-
-
-
-
 /*********��ͼ����css����*����******************/
+.lb_rdao{
+width:200px;
+height:360px;
+background-color:red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
