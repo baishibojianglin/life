@@ -46,5 +46,10 @@ $(this).css({"color":"red"});
 $(".jl_div1b dt").eq(5).mouseout(function(){
 $(this).css({"color":"#666666"});
 	});		
+
+$(".lb_daos06").click(function(){
+	$(".lb_daos017").slideToggle();
+	$("#nei1").hide();
+	});
 		
 });
