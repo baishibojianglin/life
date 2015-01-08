@@ -12,8 +12,11 @@
 <link rel="stylesheet" type="text/css" href="css/index.css" />
 <link href="css/layout.css" rel="stylesheet" type="text/css">
 <link href="css/Nav.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="css/jcshgsy.css" />
 <script type="text/javascript" src="js/jq1.7.1.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
+<script src="js/jquery-powerSwitch.js"></script>
+<script type="text/javascript" src="js/bb.js"></script>
 <script type="text/javascript" src="js/js.js"></script>
 </head>
 
@@ -77,7 +80,7 @@
        <a class="menu-hd" href="#" target="_top" rel="nofollow" tabindex="0">我的账户</a>
        <b></b>
        <div class="menu-bd-panel" id="myTaobaoPanel">
-          <!--<ul>
+          <ul>
            <li><a href="#" data-ref="LIFE_TOP_order" target="_blank">我的订单</a></li>
            <li><a href="#" data-ref="LIFE_TOP_points" target="_blank">我的积分</a></li>
            <li><a href="#" data-ref="LIFE_TOP_coupon" target="_blank">我的抵用券</a></li>
@@ -85,7 +88,7 @@
            <li><a href="#" data-ref="LIFE_TOP_comment" target="_blank">评价商品</a></li>
            <li><a href="#" data-ref="LIFE_TOP_vip" target="_blank">会员专享</a></li>
           </ul>-->
-        </div>
+       </div>
 	 </li>
 	 <li class="sn-cart mini-cart menu"><i class="mui-global-iconfont">󰅈</i>
        <a class="sn-cart-link" href="#" target="_top" rel="nofollow" id="mc-menu-hd">购物车<span class="mc-count mc-pt3">0</span>件<iframe id="tmp_downloadhelper_iframe" style="display: none;"></iframe></a>
@@ -106,6 +109,7 @@
    </div>
   </div>
 </div>
+
 <!-----------------------------------------------Header------------------------------------------------->
 <div id="header">
    <div class="headerLayout">
@@ -148,6 +152,148 @@
      </div>
    </div>
 </div>
+
+<!-----------------------------------------------nav-------star------------------------------------------>
+	<div style="height:200px;"></div>
+	<div class="lb_daos01"><!--所有导航--->
+		<div class="lb_daos02"><!------------横向导航------------------->
+
+			<div  class="lb_daos04">
+				<div class="lb_daos05"><a href="">全部商品分类</a></div>
+				<div class="lb_daos06"><img src="./images/jcd1_05.png" width="100%" height="100%" /></div>
+			</div>
+
+			<div class="lb_daos11">
+				<div class="lb_daos12 padding"><a href="#">精彩推荐专区</a></div>
+				<div class="lb_daos12"><a href="#">产地直送</a></div>
+				<div class="lb_daos12"><a href="#">美食馆</a></div>
+				<div class="lb_daos12"><a href="#">服装馆</a></div>
+				<div class="lb_daos12"><a href="#">养生馆</a></div>
+				<div class="lb_daos12"><a href="#">精彩生活超市</a></div>	
+			</div>
+				
+			<div class="lb_daos13">
+				<a href="#">
+					<table>
+						<tr>
+							<td><div class="lb_daos14"><img src="./images/jcd1_03.png" width="100%" height="100%" /></div></td>
+							<td><div class="lb_daos15">手机下单</div></td>
+							<td><div class="lb_daos16">更精彩</div></td>
+						</tr>
+					</table>
+				</a>	
+			</div>		
+		</div>
+		
+		
+		<div class="lb_daos017"><!--------竖向导航部分------------------>
+			<div class="lb_daos018">
+			
+			
+			
+				<div class="lb_daos03 white bo" onmouseover="lb_jc('jia1.html');" onmouseover="lb_jc2('meis.html');">
+					<div class="lb_daos20">
+						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_03.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">食品</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
+					</div>
+					
+					<div class="lb_daos019">
+				
+					
+					
+					</div>
+				</div>
+				
+				<div class="lb_daos03 gray" onmouseover="lb_jc('ji2.html');">
+					<div class="lb_daos20">
+						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_07.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">服装</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
+					</div>
+				</div>
+				
+				<div class="lb_daos03 white">
+					<div class="lb_daos20">
+						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_09.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">化妆品</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
+					</div>
+				</div>
+				
+				<div class="lb_daos03 gray">
+					<div class="lb_daos20">
+						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_10.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">医药保健</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
+					</div>
+				</div>
+				
+				<div class="lb_daos03 white">
+					<div class="lb_daos20">
+						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_11.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">汽车</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
+					</div>
+				</div>
+				
+				<div class="lb_daos03 gray">
+					<div class="lb_daos20">
+						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_12.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">茶叶</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
+					</div>
+				</div>
+				
+				<div class="lb_daos03 white">
+					<div class="lb_daos20">
+						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_13.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">洗衣店</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
+					</div>
+				</div>
+				
+				<div class="lb_daos03 gray">
+					<div class="lb_daos20">
+						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_14.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">酒店</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
+					</div>
+				</div>
+				
+				<div class="lb_daos03 white">
+					<div class="lb_daos20">
+						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_15.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">旅游</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
+					</div>
+				</div>
+				
+				<div class="lb_daos03 gray">
+					<div class="lb_daos20">
+						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_16.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">餐饮</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
+					</div>
+				</div>
+				
+				
+				<div class="lb_daos03 white">
+					<div class="lb_daos20">
+						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_17.gif" width="100%" height="100%" /></div></td><td><div class="lb_daos09">教育</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
+					</div>
+				</div>
+
+				
+			</div>
+		
+		</div>
+		
+		<div style="width:100%;height:360px;background-color:#F95605;" ><!--加载区域------->
+			<div style="min-width:1160px;margin:0 auto;" id="lb_jiazhai">
+			
+			
+			
+			
+			</div>
+		</div>
+		
+		
+		<!-------------------------加载函数开始--------------------->
+		<script>
+			function lb_jc(a)
+				{
+					$("#lb_jiazhai").load(a);	
+				}
+			function lb_jc2(b)
+				{
+					$(".lb_daos019").load(b);	
+				}
+		</script>
+		
+	</div>
+
+<!-----------------------------------------------nav------------over------------------------------------->
 
 <!---------------------------耍大牌代码块---------------------->
 <table cellpadding="0" cellspacing="0" width="100%">
@@ -603,17 +749,5 @@
   </td>
  </tr>
 </table>
-<div class="bak" style="height:auto;">
-  <div>
-    <div>
-	  <div>1</div>
-	  <div>2</div>
-	  <div>3</div>
-	  <div>4</div>
-	  <div>6</div>
-	</div>
-  </div>
-</div>
-
 </body>
 </html>
