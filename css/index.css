@@ -532,6 +532,7 @@ margin:0px 10px;
 width:20px;
 height:30px;
 float:left;
+padding:8px;
 }
 .lb_daos09{
 width:auto;
@@ -605,7 +606,7 @@ margin:0 auto;
 position:absolute;
 top:40px;
 left:0px;
-z-index:20;
+z-index:100;
 }
 
 .lb_daos018{
@@ -613,13 +614,14 @@ width:200px;
 min-height:10px;
 float:left;
 position:relative;
+z-index:100;
 }
 
 .lb_daos019{
 width:600px;
 min-height:10px;
 position:absolute;
-left:202px;
+left:200px;
 top:40px;
 background-color:#FFFFFF;
 border:2px solid #418BEF;
@@ -629,6 +631,8 @@ display:none;
 .lb_daos20{
 width:200px;
 height:30px;
+position:relative;
+z-index:100;
 }
 
 
@@ -869,4 +873,17 @@ background-color:red;
 {width:100%;
 height:360px;
 background-color:#F95605;
+}
+.sanjiao
+{width:10px;
+height:23px;
+position:absolute;
+left:192px;
+padding-top:10px;
+z-index:100;
+display:none;
+}
+.sanjiao img
+{width:100%;
+height:auto;
 }

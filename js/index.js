@@ -50,6 +50,352 @@ $(this).css({"color":"#666666"});
 $(".lb_daos06").click(function(){
 	$(".lb_daos017").slideToggle();
 	$("#nei1").hide();
+	$(".sanjiao").hide();
+
+
+	$(".lb_daos03").css({"background-color":"#FFFFFF"});
+	for(i=0;i<=4;i++)
+	{$(".lb_daos03").eq(2*i+1).css({"background-color":"#F0F2F5"});}
+	$(".lb_daos09").css({"color":"#535353"});
+
+	
+	//图片	
+	$(".lb_daos08 img").eq(0).attr("src","./images/2001.jpg");
+    $(".lb_daos08 img").eq(1).attr("src","./images/2002.jpg");		
+	$(".lb_daos08 img").eq(2).attr("src","./images/2003.jpg");	
+    $(".lb_daos08 img").eq(3).attr("src","./images/2004.jpg");		
+	$(".lb_daos08 img").eq(4).attr("src","./images/2005.jpg");
+    $(".lb_daos08 img").eq(5).attr("src","./images/2006.jpg");		
+	$(".lb_daos08 img").eq(6).attr("src","./images/2007.jpg");	
+    $(".lb_daos08 img").eq(7).attr("src","./images/2008.jpg");		
+	$(".lb_daos08 img").eq(8).attr("src","./images/2009.jpg");
+    $(".lb_daos08 img").eq(9).attr("src","./images/2010.jpg");		
+	$(".lb_daos08 img").eq(10).attr("src","./images/2011.jpg");	
+	
+	
+	
 	});
-		
+	
+	
+	
+	
+	
+	
+	
+	
+
+$(".lb_daos03").eq(0).mouseover(function(){
+	$("#nei1").show();
+	$(".lb_daos03").css({"background-color":"#FFFFFF"});
+	for(i=0;i<=4;i++)
+	{$(".lb_daos03").eq(2*i+1).css({"background-color":"#F0F2F5"});}
+	$(this).css({"background-color":"#418BEF"});
+	$(".lb_daos08 img").eq(0).attr("src","./images/001.png");
+	$(".sanjiao").hide();
+	$(".sanjiao").eq(0).show();
+	$(".lb_daos09").css({"color":"#535353"});
+	$(".lb_daos09").eq(0).css({"color":"white"});
+	
+	
+	
+	
+	//图片	
+    $(".lb_daos08 img").eq(1).attr("src","./images/2002.jpg");		
+	$(".lb_daos08 img").eq(2).attr("src","./images/2003.jpg");	
+    $(".lb_daos08 img").eq(3).attr("src","./images/2004.jpg");		
+	$(".lb_daos08 img").eq(4).attr("src","./images/2005.jpg");
+    $(".lb_daos08 img").eq(5).attr("src","./images/2006.jpg");		
+	$(".lb_daos08 img").eq(6).attr("src","./images/2007.jpg");	
+    $(".lb_daos08 img").eq(7).attr("src","./images/2008.jpg");		
+	$(".lb_daos08 img").eq(8).attr("src","./images/2009.jpg");
+    $(".lb_daos08 img").eq(9).attr("src","./images/2010.jpg");		
+	$(".lb_daos08 img").eq(10).attr("src","./images/2011.jpg");
+	});
+
+$(".lb_daos03").eq(1).mouseover(function(){
+	$("#nei1").show();
+	$(".lb_daos03").css({"background-color":"#FFFFFF"});
+	for(i=1;i<=4;i++)
+	{$(".lb_daos03").eq(2*i+1).css({"background-color":"#F0F2F5"});}
+	$(this).css({"background-color":"#418BEF"});
+	$(".lb_daos08 img").eq(1).attr("src","./images/002.png");
+	$(".sanjiao").hide();
+	$(".sanjiao").eq(1).show();
+	$(".lb_daos09").css({"color":"#535353"});
+	$(".lb_daos09").eq(1).css({"color":"white"});
+	
+	
+	//图片
+    $(".lb_daos08 img").eq(0).attr("src","./images/2001.jpg");		
+	$(".lb_daos08 img").eq(2).attr("src","./images/2003.jpg");	
+    $(".lb_daos08 img").eq(3).attr("src","./images/2004.jpg");		
+	$(".lb_daos08 img").eq(4).attr("src","./images/2005.jpg");
+    $(".lb_daos08 img").eq(5).attr("src","./images/2006.jpg");		
+	$(".lb_daos08 img").eq(6).attr("src","./images/2007.jpg");	
+    $(".lb_daos08 img").eq(7).attr("src","./images/2008.jpg");		
+	$(".lb_daos08 img").eq(8).attr("src","./images/2009.jpg");
+    $(".lb_daos08 img").eq(9).attr("src","./images/2010.jpg");		
+	$(".lb_daos08 img").eq(10).attr("src","./images/2011.jpg");
+	
+	
+	});
+
+
+$(".lb_daos03").eq(2).mouseover(function(){
+	$("#nei1").show();
+	$(".lb_daos03").css({"background-color":"#FFFFFF"});
+	for(i=1;i<=4;i++)
+	{$(".lb_daos03").eq(2*i+1).css({"background-color":"#F0F2F5"});}
+	$(this).css({"background-color":"#418BEF"});
+	$(".lb_daos08 img").eq(2).attr("src","./images/003.png");
+	$(".sanjiao").hide();
+	$(".sanjiao").eq(2).show();
+	$(".lb_daos09").css({"color":"#535353"});
+	$(".lb_daos09").eq(2).css({"color":"white"});
+	
+	
+	//图片
+    $(".lb_daos08 img").eq(1).attr("src","./images/2002.jpg");		
+	$(".lb_daos08 img").eq(0).attr("src","./images/2001.jpg");	
+    $(".lb_daos08 img").eq(3).attr("src","./images/2004.jpg");		
+	$(".lb_daos08 img").eq(4).attr("src","./images/2005.jpg");
+    $(".lb_daos08 img").eq(5).attr("src","./images/2006.jpg");		
+	$(".lb_daos08 img").eq(6).attr("src","./images/2007.jpg");	
+    $(".lb_daos08 img").eq(7).attr("src","./images/2008.jpg");		
+	$(".lb_daos08 img").eq(8).attr("src","./images/2009.jpg");
+    $(".lb_daos08 img").eq(9).attr("src","./images/2010.jpg");		
+	$(".lb_daos08 img").eq(10).attr("src","./images/2011.jpg");
+	
+	
+	});
+
+
+$(".lb_daos03").eq(3).mouseover(function(){
+	$("#nei1").show();
+	$(".lb_daos03").css({"background-color":"#FFFFFF"});
+	for(i=1;i<=4;i++)
+	{$(".lb_daos03").eq(2*i+1).css({"background-color":"#F0F2F5"});}
+	$(this).css({"background-color":"#418BEF"});
+	$(".lb_daos08 img").eq(3).attr("src","./images/004.png");
+	$(".sanjiao").hide();
+	$(".sanjiao").eq(3).show();
+	$(".lb_daos09").css({"color":"#535353"});
+	$(".lb_daos09").eq(3).css({"color":"white"});
+	
+	
+	//图片
+    $(".lb_daos08 img").eq(1).attr("src","./images/2002.jpg");		
+	$(".lb_daos08 img").eq(2).attr("src","./images/2003.jpg");	
+    $(".lb_daos08 img").eq(0).attr("src","./images/2001.jpg");		
+	$(".lb_daos08 img").eq(4).attr("src","./images/2005.jpg");
+    $(".lb_daos08 img").eq(5).attr("src","./images/2006.jpg");		
+	$(".lb_daos08 img").eq(6).attr("src","./images/2007.jpg");	
+    $(".lb_daos08 img").eq(7).attr("src","./images/2008.jpg");		
+	$(".lb_daos08 img").eq(8).attr("src","./images/2009.jpg");
+    $(".lb_daos08 img").eq(9).attr("src","./images/2010.jpg");		
+	$(".lb_daos08 img").eq(10).attr("src","./images/2011.jpg");
+	
+	
+	});
+
+
+
+$(".lb_daos03").eq(4).mouseover(function(){
+	$("#nei1").show();
+	$(".lb_daos03").css({"background-color":"#FFFFFF"});
+	for(i=1;i<=4;i++)
+	{$(".lb_daos03").eq(2*i+1).css({"background-color":"#F0F2F5"});}
+	$(this).css({"background-color":"#418BEF"});
+	$(".lb_daos08 img").eq(4).attr("src","./images/005.png");
+	$(".sanjiao").hide();
+	$(".sanjiao").eq(4).show();
+	$(".lb_daos09").css({"color":"#535353"});
+	$(".lb_daos09").eq(4).css({"color":"white"});
+	
+	
+	//图片
+    $(".lb_daos08 img").eq(1).attr("src","./images/2002.jpg");		
+	$(".lb_daos08 img").eq(2).attr("src","./images/2003.jpg");	
+    $(".lb_daos08 img").eq(0).attr("src","./images/2001.jpg");		
+	$(".lb_daos08 img").eq(3).attr("src","./images/2004.jpg");
+    $(".lb_daos08 img").eq(5).attr("src","./images/2006.jpg");		
+	$(".lb_daos08 img").eq(6).attr("src","./images/2007.jpg");	
+    $(".lb_daos08 img").eq(7).attr("src","./images/2008.jpg");		
+	$(".lb_daos08 img").eq(8).attr("src","./images/2009.jpg");
+    $(".lb_daos08 img").eq(9).attr("src","./images/2010.jpg");		
+	$(".lb_daos08 img").eq(10).attr("src","./images/2011.jpg");
+	
+	
+	});
+
+
+
+$(".lb_daos03").eq(5).mouseover(function(){
+	$("#nei1").show();
+	$(".lb_daos03").css({"background-color":"#FFFFFF"});
+	for(i=1;i<=4;i++)
+	{$(".lb_daos03").eq(2*i+1).css({"background-color":"#F0F2F5"});}
+	$(this).css({"background-color":"#418BEF"});
+	$(".lb_daos08 img").eq(5).attr("src","./images/006.png");
+	$(".sanjiao").hide();
+	$(".sanjiao").eq(5).show();
+	$(".lb_daos09").css({"color":"#535353"});
+	$(".lb_daos09").eq(5).css({"color":"white"});
+	
+	
+	//图片
+    $(".lb_daos08 img").eq(1).attr("src","./images/2002.jpg");		
+	$(".lb_daos08 img").eq(2).attr("src","./images/2003.jpg");	
+    $(".lb_daos08 img").eq(0).attr("src","./images/2001.jpg");		
+	$(".lb_daos08 img").eq(4).attr("src","./images/2005.jpg");
+    $(".lb_daos08 img").eq(3).attr("src","./images/2004.jpg");		
+	$(".lb_daos08 img").eq(6).attr("src","./images/2007.jpg");	
+    $(".lb_daos08 img").eq(7).attr("src","./images/2008.jpg");		
+	$(".lb_daos08 img").eq(8).attr("src","./images/2009.jpg");
+    $(".lb_daos08 img").eq(9).attr("src","./images/2010.jpg");		
+	$(".lb_daos08 img").eq(10).attr("src","./images/2011.jpg");
+	
+	
+	});
+
+$(".lb_daos03").eq(6).mouseover(function(){
+	$("#nei1").show();
+	$(".lb_daos03").css({"background-color":"#FFFFFF"});
+	for(i=1;i<=4;i++)
+	{$(".lb_daos03").eq(2*i+1).css({"background-color":"#F0F2F5"});}
+	$(this).css({"background-color":"#418BEF"});
+	$(".lb_daos08 img").eq(6).attr("src","./images/007.png");
+	$(".sanjiao").hide();
+	$(".sanjiao").eq(6).show();
+	$(".lb_daos09").css({"color":"#535353"});
+	$(".lb_daos09").eq(6).css({"color":"white"});
+	
+	
+	//图片
+    $(".lb_daos08 img").eq(1).attr("src","./images/2002.jpg");		
+	$(".lb_daos08 img").eq(2).attr("src","./images/2003.jpg");	
+    $(".lb_daos08 img").eq(0).attr("src","./images/2001.jpg");		
+	$(".lb_daos08 img").eq(4).attr("src","./images/2005.jpg");
+    $(".lb_daos08 img").eq(3).attr("src","./images/2004.jpg");		
+	$(".lb_daos08 img").eq(5).attr("src","./images/2006.jpg");	
+    $(".lb_daos08 img").eq(7).attr("src","./images/2008.jpg");		
+	$(".lb_daos08 img").eq(8).attr("src","./images/2009.jpg");
+    $(".lb_daos08 img").eq(9).attr("src","./images/2010.jpg");		
+	$(".lb_daos08 img").eq(10).attr("src","./images/2011.jpg");
+	
+	
+	});
+
+
+
+$(".lb_daos03").eq(7).mouseover(function(){
+	$("#nei1").show();
+	$(".lb_daos03").css({"background-color":"#FFFFFF"});
+	for(i=1;i<=4;i++)
+	{$(".lb_daos03").eq(2*i+1).css({"background-color":"#F0F2F5"});}
+	$(this).css({"background-color":"#418BEF"});
+	$(".lb_daos08 img").eq(7).attr("src","./images/008.png");
+	$(".sanjiao").hide();
+	$(".sanjiao").eq(7).show();
+	$(".lb_daos09").css({"color":"#535353"});
+	$(".lb_daos09").eq(7).css({"color":"white"});
+	
+	
+	//图片
+    $(".lb_daos08 img").eq(1).attr("src","./images/2002.jpg");		
+	$(".lb_daos08 img").eq(2).attr("src","./images/2003.jpg");	
+    $(".lb_daos08 img").eq(0).attr("src","./images/2001.jpg");		
+	$(".lb_daos08 img").eq(4).attr("src","./images/2005.jpg");
+    $(".lb_daos08 img").eq(3).attr("src","./images/2004.jpg");		
+	$(".lb_daos08 img").eq(5).attr("src","./images/2006.jpg");	
+    $(".lb_daos08 img").eq(6).attr("src","./images/2007.jpg");		
+	$(".lb_daos08 img").eq(8).attr("src","./images/2009.jpg");
+    $(".lb_daos08 img").eq(9).attr("src","./images/2010.jpg");		
+	$(".lb_daos08 img").eq(10).attr("src","./images/2011.jpg");
+	
+	
+	});
+
+$(".lb_daos03").eq(8).mouseover(function(){
+	$("#nei1").show();
+	$(".lb_daos03").css({"background-color":"#FFFFFF"});
+	for(i=1;i<=4;i++)
+	{$(".lb_daos03").eq(2*i+1).css({"background-color":"#F0F2F5"});}
+	$(this).css({"background-color":"#418BEF"});
+	$(".lb_daos08 img").eq(8).attr("src","./images/009.png");
+	$(".sanjiao").hide();
+	$(".sanjiao").eq(8).show();
+	$(".lb_daos09").css({"color":"#535353"});
+	$(".lb_daos09").eq(8).css({"color":"white"});
+	
+	
+	//图片
+    $(".lb_daos08 img").eq(1).attr("src","./images/2002.jpg");		
+	$(".lb_daos08 img").eq(2).attr("src","./images/2003.jpg");	
+    $(".lb_daos08 img").eq(0).attr("src","./images/2001.jpg");		
+	$(".lb_daos08 img").eq(4).attr("src","./images/2005.jpg");
+    $(".lb_daos08 img").eq(3).attr("src","./images/2004.jpg");		
+	$(".lb_daos08 img").eq(5).attr("src","./images/2006.jpg");	
+    $(".lb_daos08 img").eq(6).attr("src","./images/2007.jpg");		
+	$(".lb_daos08 img").eq(7).attr("src","./images/2008.jpg");
+    $(".lb_daos08 img").eq(9).attr("src","./images/2010.jpg");		
+	$(".lb_daos08 img").eq(10).attr("src","./images/2011.jpg");
+	
+	});
+
+$(".lb_daos03").eq(9).mouseover(function(){
+	$("#nei1").show();
+	$(".lb_daos03").css({"background-color":"#FFFFFF"});
+	for(i=1;i<=4;i++)
+	{$(".lb_daos03").eq(2*i+1).css({"background-color":"#F0F2F5"});}
+	$(this).css({"background-color":"#418BEF"});
+	$(".lb_daos08 img").eq(9).attr("src","./images/010.png");
+	$(".sanjiao").hide();
+	$(".sanjiao").eq(9).show();
+	$(".lb_daos09").css({"color":"#535353"});
+	$(".lb_daos09").eq(9).css({"color":"white"});
+	
+	
+	//图片
+    $(".lb_daos08 img").eq(1).attr("src","./images/2002.jpg");		
+	$(".lb_daos08 img").eq(2).attr("src","./images/2003.jpg");	
+    $(".lb_daos08 img").eq(0).attr("src","./images/2001.jpg");		
+	$(".lb_daos08 img").eq(4).attr("src","./images/2005.jpg");
+    $(".lb_daos08 img").eq(3).attr("src","./images/2004.jpg");		
+	$(".lb_daos08 img").eq(5).attr("src","./images/2006.jpg");	
+    $(".lb_daos08 img").eq(6).attr("src","./images/2007.jpg");		
+	$(".lb_daos08 img").eq(7).attr("src","./images/2008.jpg");
+    $(".lb_daos08 img").eq(8).attr("src","./images/2009.jpg");		
+	$(".lb_daos08 img").eq(10).attr("src","./images/2011.jpg");
+	
+	});
+
+
+$(".lb_daos03").eq(10).mouseover(function(){
+	$("#nei1").show();
+	$(".lb_daos03").css({"background-color":"#FFFFFF"});
+	for(i=1;i<=4;i++)
+	{$(".lb_daos03").eq(2*i+1).css({"background-color":"#F0F2F5"});}
+	$(this).css({"background-color":"#418BEF"});
+	$(".lb_daos08 img").eq(10).attr("src","./images/011.png");
+	$(".sanjiao").hide();
+	$(".sanjiao").eq(10).show();
+	$(".lb_daos09").css({"color":"#535353"});
+	$(".lb_daos09").eq(10).css({"color":"white"});
+	
+	
+	//图片
+    $(".lb_daos08 img").eq(1).attr("src","./images/2002.jpg");		
+	$(".lb_daos08 img").eq(2).attr("src","./images/2003.jpg");	
+    $(".lb_daos08 img").eq(0).attr("src","./images/2001.jpg");		
+	$(".lb_daos08 img").eq(4).attr("src","./images/2005.jpg");
+    $(".lb_daos08 img").eq(3).attr("src","./images/2004.jpg");		
+	$(".lb_daos08 img").eq(5).attr("src","./images/2006.jpg");	
+    $(".lb_daos08 img").eq(6).attr("src","./images/2007.jpg");		
+	$(".lb_daos08 img").eq(7).attr("src","./images/2008.jpg");
+    $(".lb_daos08 img").eq(8).attr("src","./images/2009.jpg");		
+	$(".lb_daos08 img").eq(9).attr("src","./images/2010.jpg");
+	
+	});
+
 });
