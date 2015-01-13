@@ -309,19 +309,7 @@ height:532px;
 background-color:#FFF;
 position:relative;
 }
-.jl_div1b_dt5f2
-{
-width:70px;
-height:20px;
-border:1px solid #FF4F4F;
-border-radius:20px;
--moz-border-radius:20px; /* Old Firefox */
-line-height:20px;
-float:right;
-text-align:center;
-background-color:#FF4F4F;
-color:#FFF;
-}
+
 .jl_div1c1f2
 {
 width:198px;
@@ -466,7 +454,7 @@ ul{list-style-type:none;}
 
 .lb_daos01{
 width:100%;
-height:400px;
+height:40px;
 }
 .lb_daos02bao
 {
@@ -627,6 +615,7 @@ background-color:#FFFFFF;
 border:2px solid #418BEF;
 z-index:20;
 display:none;
+opacity:0.9;
 }
 .lb_daos20{
 width:200px;
@@ -873,7 +862,9 @@ background-color:red;
 {width:100%;
 height:360px;
 background-color:#F95605;
+
 }
+
 .sanjiao
 {width:10px;
 height:23px;
@@ -886,4 +877,46 @@ display:none;
 .sanjiao img
 {width:100%;
 height:auto;
+}
+
+.jllb_div1a
+{width:1160px;
+height:360px;
+margin:0 auto;
+position:relative;
+}
+.jllb_div1a1
+{
+width:950px;
+height:360px;
+float:left;
+}
+.jllb_div1a1 img
+{
+width:100%;
+height:100%;
+}
+.jllb_div1a2
+{
+width:200px;
+height:360px;
+float:left;
+}
+.jllb_div1a2 img
+{width:100%;
+height:100%;
+}
+.jllb_div1a3
+{
+width:160px;
+height:20px;
+position:absolute;
+top:300px;
+left:450px;
+z-index:10;
+}
+.jllb_div1a3 dt
+{
+float:left;
+padding:0 5px;
 }
