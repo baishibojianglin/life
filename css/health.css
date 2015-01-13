@@ -66,7 +66,17 @@ display: inline-block;
 .heproL {width:82%;position:relative;bottom:24px;right:0;}
 .heproL1 {height:295px;}
 .heproL2 {height:195px;}
-.heproR {width:18%;}
+.heproL3 {position: relative;
+background-color: #fff;
+height: 45px;
+padding: 14px 0 15px 0;
+margin-top: 0;
+border-right: 1px solid #f5f5f5;
+border-left: 1px solid #f5f5f5;
+border-bottom: 1px solid #f5f5f5;
+border-top: 1px solid #f5f5f5;}
+.heproL3 li {float:left;}
+.heproR {width:17.5%;border-left:1px solid #F4F4F4;}
 
 .hepro li{position: relative;padding: 20px 0;border-top: 1px solid #f5f5f5;}
 .life-index-0 .life-icon-index {width: 29px;height: 32px;position: absolute;left: 0;top:-1px;display: inline-block;background: url(../images/BEST.png) no-repeat 0 0;background-image: -webkit-image-set(url(../images/BEST.png) 1x,url(../images/BEST.png) 2x);}
@@ -124,3 +134,58 @@ font-weight: bold;}
 .heproR21 p {color: #333;
 font-size: 12px;
 margin-left: 80px;}
+
+.hairI {position: relative;
+background-color: #fff;
+height: 126px;
+padding: 30px 0 0 0;
+margin-top: 0;
+margin-bottom:30px;
+border-right: 1px solid #f5f5f5;
+border-left: 1px solid #f5f5f5;
+border-bottom: 1px solid #f5f5f5;
+border-top: 1px solid #f5f5f5;}
+.hairI li {float:left;}
+.life-list-roww{position: absolute;display: block;width: 32px;height:126px;line-height:126px;padding: 20px 0 20px 0;text-align: center;font-size: 20px;color: #ccc;}
+.hairI .life-list-roww.before {left: 0;top: 20px;}
+.hairI .life-list-roww.next {right: 0;top: 20px;}
+.life-roww-logo-list-box {position: absolute;left: 40px;right: 40px;height: 126px;line-height:126px;overflow: hidden;}
+.life-roww-logo-list-box ul {position: absolute;white-space: nowrap;margin-left: -21px;overflow:hidden;}
+.life-roww-logo-list-box ul li {display: inline-block;margin-left: 21px;}
+.life-roww-logo-list-box ul li img {width: 60px;height: 114px;background: #fff;}
+.health img:hover {transition: transform .3s ease-out;transform: translateX(-5px);}
+.hair img:hover {transition: transform .3s ease-out;transform: translateX(-5px);}
+.haird img:hover {transition: transform .3s ease-out;transform: translateX(-5px);}
+.skin img:hover {transition: transform .3s ease-out;transform: translateX(-5px);}
+.heproL1 img:hover {transition: transform .3s ease-out;transform: translateX(-5px);}
+.heproL2 img:hover {transition: transform .3s ease-out;transform: translateX(-5px);}
+.skinI {position: relative;
+background-color: #fff;
+height: 94px;
+padding: 30px 0 0 0;
+margin-top: 0;
+margin-bottom:30px;
+border-right: 1px solid #f5f5f5;
+border-left: 1px solid #f5f5f5;
+border-bottom: 1px solid #f5f5f5;
+border-top: 1px solid #f5f5f5;}
+.skinI li {float:left;}
+.life-list-row{position: absolute;display: block;width: 32px;height:54px;line-height:54px;padding: 20px 0 20px 0;text-align: center;font-size: 20px;color: #ccc;}
+.skinI .life-list-row.before {left: 0;top: 20px;}
+.skinI .life-list-row.next {right: 0;top: 20px;}
+.life-row-logo-list-box {position: absolute;left: 40px;right: 40px;height: 94px;line-height:94px;overflow: hidden;}
+.life-row-logo-list-box ul {position: absolute;white-space: nowrap;margin-left: -21px;overflow:hidden;}
+.life-row-logo-list-box ul li {display: inline-block;margin-left: 21px;width:130px;height:60px;}
+.life-row-logo-list-box ul li img {width: 130px;height: 60px;background: #fff;}
+
+
+.life-list-arrow{position: absolute;display: block;width: 64px;height:30px;line-height:30px;padding: 22px 0 21px 0;text-align: center;font-size: 20px;color: #ccc;}
+.heproL3 .life-list-arrow.before {left: 0;top: 0;}
+.heproL3 .life-list-arrow.next {right: 0;top: 0;}
+
+.life-category-logo-list-box {left: 64px;right: 64px;height: 45px;overflow: hidden;position: absolute;}
+.life-category-logo-list-box ul {position: absolute;white-space: nowrap;margin-left: -21px;overflow:hidden;}
+.life-category-logo-list-box ul li {display: inline-block;margin-left: 21px;}
+.life-category-logo-list-box ul li img {width: 90px;height: 45px;background: #fff;}
+.floor-ad-banner {overflow: hidden;}
+.heproloadCon {clear:both;}
