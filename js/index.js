@@ -412,12 +412,22 @@ $(".jllb_div1a").mouseout(function(){
 	});	
 
 //品牌导购背景色
-$(".jl_div1b_dt5f").eq(1).css({"background-color":"#FF4F4F"});
-$(".jl_div1b_dt5f").eq(2).css({"background-color":"#E450BC"});
+$(".jl_div1b_dt5f").eq(1).css({"background-color":"#FF4F4F","border":"1px solid #FF4F4F"});
+$(".jl_div1b_dt5f").eq(2).css({"background-color":"#E450BC","border":"1px solid #E450BC"});
+$(".jl_div1b_dt5f").eq(3).css({"background-color":"#82C020","border":"1px solid #82C020"});
+$(".jl_div1b_dt5f").eq(4).css({"background-color":"#418bef","border":"1px solid #418bef"});
+$(".jl_div1b_dt5f").eq(5).css({"background-color":"#00CEB8","border":"1px solid #00CEB8"});
+$(".jl_div1b_dt5f").eq(6).css({"background-color":"#FF7C24","border":"1px solid #FF7C24"});
+$(".jl_div1b_dt5f").eq(7).css({"background-color":"#08D0EE","border":"1px solid #08D0EE"});
 
 //边框颜色
 $(".jl_div1c1f").eq(1).css({"border-top":"5px solid #FF4F4F"});
 $(".jl_div1c1f").eq(2).css({"border-top":"5px solid #E450BC"});
+$(".jl_div1c1f").eq(3).css({"border-top":"5px solid #82C020"});
+$(".jl_div1c1f").eq(4).css({"border-top":"5px solid #418bef"});
+$(".jl_div1c1f").eq(5).css({"border-top":"5px solid #00CEB8"});
+$(".jl_div1c1f").eq(6).css({"border-top":"5px solid #FF7C24"});
+$(".jl_div1c1f").eq(7).css({"border-top":"5px solid #08D0EE"});
 
 //小边框颜色
 for(i=6;i<=11;i++)
@@ -427,6 +437,26 @@ $(".jl_div1c1f_2 dt").eq(i).css({"border-left":"5px solid #FF4F4F"});
 for(i=12;i<=17;i++)
 {
 $(".jl_div1c1f_2 dt").eq(i).css({"border-left":"5px solid #E450BC"});
+}
+for(i=18;i<=23;i++)
+{
+$(".jl_div1c1f_2 dt").eq(i).css({"border-left":"5px solid #82C020"});
+}
+for(i=24;i<=29;i++)
+{
+$(".jl_div1c1f_2 dt").eq(i).css({"border-left":"5px solid #418bef"});
+}
+for(i=30;i<=36;i++)
+{
+$(".jl_div1c1f_2 dt").eq(i).css({"border-left":"5px solid #00CEB8"});
+}
+for(i=36;i<=41;i++)
+{
+$(".jl_div1c1f_2 dt").eq(i).css({"border-left":"5px solid #FF7C24"});
+}
+for(i=42;i<=47;i++)
+{
+$(".jl_div1c1f_2 dt").eq(i).css({"border-left":"5px solid #08D0EE"});
 }
 });
 
