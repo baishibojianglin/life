@@ -30,16 +30,17 @@
     </ul>
 	<script type="text/javascript">
 	$(document).ready(function(){
-	  $("#home-area").click(function(){
+	  $("#home-area").mouseover(function(){
 	  $("#home-area .dd").toggle();
 	  });
 	});
 	</script>
     <dl id="home-area">
       <dt>
-        <b></b>
+        <i></i>
         <span>成都市&nbsp;&gt;</span>
         <a href="#">金牛区</a>
+        <b></b>
         <span class="blank"></span>
       </dt>
       <dd class="dd">
@@ -68,35 +69,48 @@
         <div class="close" onclick="$('#home-area').removeClass('hover')">×</div>
       </dd>
     </dl>
-    <ul class="fr lh">
-     <li class="greet" id="loginbar">亲，欢迎来精彩生活馆！<span><a href="javascript:login();">[请登录]</a><a href="javascript:regist();" class="link-regist">[免费注册]</a></span></li>
+    <ul class="fr lh" id="fright">
+     <li class="greet" id="loginbar">亲，欢迎来精彩生活馆！<span><a href="#" target="_top">[请登录]</a><a href="#" target="_top">[免费注册]</a></span></li>
      <li class="myaccount ld">
        <s></s>
        <i></i>
        <a class="menu-hd" href="#" target="_top" rel="nofollow" tabindex="0">我的账户</a>
        <b></b>
-       <div class="menu-bd-panel" id="myTaobaoPanel">
-          <!--<ul>
+       <div class="menu-bd-panel" id="mylifePanel">
+          <ul>
            <li><a href="#" target="_blank">我的订单</a></li>
            <li><a href="#" target="_blank">我的积分</a></li>
            <li><a href="#" target="_blank">我的收藏</a></li>
-           <li><a href="#" target="_blank">我的优惠</a></li>>
-          </ul>-->
+           <li><a href="#" target="_blank">我的优惠</a></li>
+          </ul>
        </div>
 	 </li>
-	 <li class="sn-cart mini-cart menu">
+	 <li class="sn-cart mini-cart menu ld">
        <i></i>
-       <a class="sn-cart-link" href="#" target="_top" rel="nofollow" id="mc-menu-hd">购物车<span class="mc-count mc-pt3">0</span>件</a>
+       <a class="sn-cart-link" href="#" target="_top" rel="nofollow" id="mc-menu-hd">购物车<span class="mc-count mc-pt3">&nbsp;0&nbsp;</span>件</a>
      </li>
      <li class="sn-join ld">
        <s></s>
        <a href="#">招商加盟</a>
      </li>
+     <script type="text/javascript">
+	$(document).ready(function(){
+	  $("#app-life").mouseover(function(){
+	  $(".sn-qrcode").toggle();
+	  });
+	  $(".myaccount").click(function(){
+		  $("#mylifePanel li").slideToggle();
+		  });
+	  $(".sn-sitemap").mouseover(function(){
+	  $(".hd_site_nav").toggle();
+	  });
+	});
+	</script>
 	 <li class="sn-mobile ld" id="app-life">
 	   <s></s>
 	   <i class="mui-global-iconfont"></i>
 	   <a href="#" target="_top" class="sn-mobile-link">手机版</a>
-	   <div class="sn-qrcode" style="display: none;">
+	   <div class="sn-qrcode" style="display:inline;">
          <div class="sn-qrcode-content"></div>
          <p>扫一扫，定制我的生活！</p>
          <b></b>
@@ -106,7 +120,7 @@
        <s></s>
        <a href="#">网站导航</a>
        <b></b>
-       <div class="dd lh">
+       <div class="hd_site_nav">
          <dl class="item fore1">
            <dt>精彩指南</dt>
            <dd>
@@ -1192,7 +1206,7 @@ function jia1(a)
           <dd><a href="#">延保服务</a></dd>
         </dl>
         <dl class="life-mobile">
-          <dd><a href="#"><img src="images/Code.png" alt="扫一扫关注我们"/></a></dd>
+          <dd><a href="#"><img src="images/Code.jpg" alt="扫一扫关注我们"/></a></dd>
         </dl>
       </div>
     </div>
@@ -1213,5 +1227,6 @@ function jia1(a)
   </td>
  </tr>
 </table>
+<div class="mui-mbar-tabs-mask" style="height: auto;"><div class="mui-mbar-tabs-top-wide" style="height: 0px;"><div class="mui-mbar-tab-top-left"></div></div><div class="mui-mbar-tab mui-mbar-tab-prof" style="top: 0px; margin: 158.5px 0px 0px;"><div class="mui-mbar-tab-logo mui-mbar-tab-logo-prof"></div><div class="mui-mbar-tab-txt"></div><div class="mui-mbar-tab-new" style="display:none;"></div><div class="mui-mbar-tab-sup"></div><div class="mui-mbar-tab-tip" style="right: 70px; opacity: 0; display: none;">我的特权<div class="mui-mbar-arr mui-mbar-tab-tip-arr">◆</div></div><div class="mui-mbar-arr mui-mbar-tab-logo-arr ">◆</div></div><div class="mui-mbar-tab mui-mbar-tab-promotion " style="top: 0px; margin: 8px 0px;"><div class="mui-mbar-tab-logo mui-mbar-tab-logo-promotion"></div><div class="mui-mbar-tab-txt">特权</div><div class="mui-mbar-tab-new" style="display:none;"></div><div class="mui-mbar-tab-sup"></div><div class="mui-mbar-tab-tip">打开有惊喜<div class="mui-mbar-arr mui-mbar-tab-tip-arr">◆</div></div><div class="mui-mbar-arr mui-mbar-tab-logo-arr ">◆</div></div><div class="mui-mbar-tab mui-mbar-tab-cart mui-mbar-tab-cart-nologin" style="top: 0px; margin: 8px 0px; left: 0px;"><div class="mui-mbar-tab-logo mui-mbar-tab-logo-cart mui-mbar-tab-logo-nologin-cart"></div><div class="mui-mbar-tab-txt">购物车</div><div class="mui-mbar-tab-new" style="display:none;"></div><div class="mui-mbar-tab-sup" style="display: none;"></div><div class="mui-mbar-tab-tip">购物车<div class="mui-mbar-arr mui-mbar-tab-tip-arr">◆</div></div><div class="mui-mbar-arr mui-mbar-tab-logo-arr ">◆</div><div class="mui-mbarp-tab-cart-border mui-mbarp-tab-cart-border-nologin"></div></div><div class="mui-mbar-tab mui-mbar-tab-asset" style="top: 0px; margin: 8px 0px;"><div class="mui-mbar-tab-logo mui-mbar-tab-logo-asset"></div><div class="mui-mbar-tab-txt"></div><div class="mui-mbar-tab-new" style="display:none;"></div><div class="mui-mbar-tab-sup"></div><div class="mui-mbar-tab-tip" style="right: 70px; opacity: 0; display: none;">我的资产<div class="mui-mbar-arr mui-mbar-tab-tip-arr">◆</div></div><div class="mui-mbar-arr mui-mbar-tab-logo-arr ">◆</div></div><div class="mui-mbar-tab mui-mbar-tab-brand" style="top: 0px; margin: 8px 0px;"><div class="mui-mbar-tab-logo mui-mbar-tab-logo-brand"></div><div class="mui-mbar-tab-txt"></div><div class="mui-mbar-tab-new" style="display:none;"></div><div class="mui-mbar-tab-sup"></div><div class="mui-mbar-tab-tip" style="right: 70px; opacity: 0; display: none;">我关注的品牌<div class="mui-mbar-arr mui-mbar-tab-tip-arr">◆</div></div><div class="mui-mbar-arr mui-mbar-tab-logo-arr ">◆</div></div><div class="mui-mbar-tab mui-mbar-tab-favor" style="top: 0px; margin: 8px 0px;"><div class="mui-mbar-tab-logo mui-mbar-tab-logo-favor"></div><div class="mui-mbar-tab-txt"></div><div class="mui-mbar-tab-new" style="display:none;"></div><div class="mui-mbar-tab-sup"></div><div class="mui-mbar-tab-tip" style="right: 70px; opacity: 0; display: none;">我的收藏<div class="mui-mbar-arr mui-mbar-tab-tip-arr">◆</div></div><div class="mui-mbar-arr mui-mbar-tab-logo-arr ">◆</div></div><div class="mui-mbar-tab mui-mbar-tab-foot" style="top: 0px; margin: 8px 0px;"><div class="mui-mbar-tab-logo mui-mbar-tab-logo-foot"></div><div class="mui-mbar-tab-txt"></div><div class="mui-mbar-tab-new" style="display:none;"></div><div class="mui-mbar-tab-sup"></div><div class="mui-mbar-tab-tip" style="right: 70px; opacity: 0; display: none;">我看过的<div class="mui-mbar-arr mui-mbar-tab-tip-arr">◆</div></div><div class="mui-mbar-arr mui-mbar-tab-logo-arr ">◆</div></div><div class="mui-mbar-tab mui-mbar-tab-charge" style="top: 0px; margin: 8px 0px; display: block;"><div class="mui-mbar-tab-logo mui-mbar-tab-logo-charge"></div><div class="mui-mbar-tab-txt"></div><div class="mui-mbar-tab-new" style="display:none;"></div><div class="mui-mbar-tab-sup"></div><div class="mui-mbar-tab-tip" style="right: 70px; opacity: 0; display: none;">我要充值<div class="mui-mbar-arr mui-mbar-tab-tip-arr">◆</div></div><div class="mui-mbar-arr mui-mbar-tab-logo-arr ">◆</div></div><div class="mui-mbar-tab mui-mbar-tab-top" style="bottom: 0px; position: absolute;"><div class="mui-mbar-tab-logo mui-mbar-tab-logo-top"></div><div class="mui-mbar-tab-txt"></div><div class="mui-mbar-tab-new" style="display:none;"></div><div class="mui-mbar-tab-sup"></div><div class="mui-mbar-tab-tip" style="right: 70px; opacity: 0; display: none;">返回顶部<div class="mui-mbar-arr mui-mbar-tab-tip-arr">◆</div></div><div class="mui-mbar-arr mui-mbar-tab-logo-arr ">◆</div></div><div class="mui-mbar-tab mui-mbar-tab-qrcode" style="bottom: 35px; position: absolute;"><div class="mui-mbar-tab-logo mui-mbar-tab-logo-qrcode"></div><div class="mui-mbar-tab-txt"></div><div class="mui-mbar-tab-new" style="display:none;"></div><div class="mui-mbar-tab-sup"></div><div class="mui-mbar-tab-tip">二维码<div class="mui-mbar-arr mui-mbar-tab-tip-arr">◆</div></div><div class="mui-mbar-arr mui-mbar-tab-logo-arr ">◆</div></div><div class="mui-mbar-tab mui-mbar-tab-ue" style="bottom: 70px; position: absolute;"><div class="mui-mbar-tab-logo mui-mbar-tab-logo-ue"><a style="display:block;width: 35px;height: 35px;overflow: hidden;text-indent: -40px" href="http://ur.taobao.com/survey/view.htm?id=2298">UE</a></div><div class="mui-mbar-tab-txt"></div><div class="mui-mbar-tab-new" style="display:none;"></div><div class="mui-mbar-tab-sup"></div><div class="mui-mbar-tab-tip" style="right: 70px; opacity: 0; display: none;"><a target="_blank" style="color:#fff;" href="http://ur.taobao.com/survey/view.htm?id=2298">用户反馈</a></div><div class="mui-mbar-arr mui-mbar-tab-logo-arr ">◆</div></div></div>
 </body>
 </html>

@@ -5,22 +5,21 @@
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
     margin: 0;
     padding: 0;
-	font-family:"Microsoft YaHei";
     }
-body {font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;}
+body {font: 12px/1.5 "Microsoft YaHei",tahoma,arial,\5b8b\4f53;}
 img {border:none;}
 a {text-decoration:none;}
-h1,h2,h3,h4,h5,h6 {font-size:100%;}
+
 ul,li{list-style:none;}
 li {display: list-item;text-align: -webkit-match-parent;}
 
 /*----------------------------------------------Generalise------------------------------------- */
 
-#site-nav, #header, #footer {width:100%;min-width:1160px;}
-#life-nav, .headerLayout, .life-desc1, .life-intro {width:1160px;margin:0 auto;}
+#site-nav, #header, #Content, #footer {width:100%;min-width:1160px;}
+#life-nav, .headerLayout, .content, .life-desc1, .life-intro {width:1160px;margin:0 auto;}
 
 /* ----------------------------------------------Header------------------------------------- */
-#header {height:160px;background-color:#fff;margin-top:-33px!important;position:relative;z-index:1000;}
+#header {height:160px;background-color:#fff;margin-top:-33px!important;position:relative;z-index:99;}
 .headerLayout {padding-top:33px;}
 #header .headerCon {width: 1160px !important;position: relative;}
 
