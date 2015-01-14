@@ -1,0 +1,1487 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>精彩生活网</title>
+<link rel="shortcut icon" href="images/shopping.ico" type="image/x-icon">
+
+<link href="css/layout.css" rel="stylesheet" type="text/css">
+<link href="css/Nav.css" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" type="text/css" href="css/jcshgsy.css" />
+<link rel="stylesheet" type="text/css" href="css/2_food.css" />
+
+
+<script type="text/javascript" src="js/jq1.7.1.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script src="js/jquery-powerSwitch.js"></script>
+<script type="text/javascript" src="js/bb.js"></script>
+<script type="text/javascript" src="js/js.js"></script>
+
+</head>
+
+<body>
+<!--------------------------导航部分-------------------------->
+<div id="site-nav">
+  <div class="life-top"></div>
+  <div id="life-nav">
+   <div class="sn-container">
+    <ul class="enshrine">
+      <li class="fore1 ld">
+        <b></b>
+        <a href="javascript:addToFavortie()" rel="nofollow">收藏精彩生活馆</a>
+      </li>
+    </ul>
+	<script type="text/javascript">
+	$(document).ready(function(){
+	  $("#home-area").click(function(){
+	  $("#home-area .dd").toggle();
+	  });
+	});
+	</script>
+    <dl id="home-area">
+      <dt>
+        <b></b>
+        <span>成都市&nbsp;&gt;</span>
+        <a href="#">金牛区</a>
+        <span class="blank"></span>
+      </dt>
+      <dd class="dd">
+        <ul class="lh">
+          <li><a href="#">锦江区</a></li>
+          <li><a href="#">青羊区</a></li>
+          <li><a href="#">金牛区</a></li>
+          <li><a href="#">武侯区</a></li>
+          <li><a href="#">成华区</a></li>
+          <li><a href="#">龙泉驿区</a></li>
+          <li><a href="#">青白江区</a></li>
+          <li><a href="#">新都区</a></li>
+          <li><a href="#">温江区</a></li>
+          <li><a href="#">金堂县</a></li>
+          <li><a href="#">双流县</a></li>
+          <li><a href="#">郫县</a></li>
+          <li><a href="#">大邑县</a></li>
+          <li><a href="#">蒲江县</a></li>
+          <li><a href="#">新津县</a></li>
+          <li><a href="#">都江堰市</a></li>
+          <li><a href="#">彭州市</a></li>
+          <li><a href="#">邛崃市</a></li>
+          <li><a href="#">崇州市</a></li>
+          <li><a href="#">其他</a></li>
+        </ul>
+        <div class="close" onclick="$('#home-area').removeClass('hover')">×</div>
+      </dd>
+    </dl>
+    <ul class="fr lh">
+     <li class="greet" id="loginbar">亲，欢迎来精彩生活馆！<span><a href="javascript:login();">[请登录]</a><a href="javascript:regist();" class="link-regist">[免费注册]</a></span></li>
+     <li class="myaccount ld">
+       <s></s>
+       <i></i>
+       <a class="menu-hd" href="#" target="_top" rel="nofollow" tabindex="0">我的账户</a>
+       <b></b>
+       <div class="menu-bd-panel" id="myTaobaoPanel">
+          <ul>
+           <li><a href="#" data-ref="LIFE_TOP_order" target="_blank">我的订单</a></li>
+           <li><a href="#" data-ref="LIFE_TOP_points" target="_blank">我的积分</a></li>
+           <li><a href="#" data-ref="LIFE_TOP_coupon" target="_blank">我的抵用券</a></li>
+           <li><a href="#" data-ref="LIFE_TOP_mycollection" target="_blank">我的收藏夹</a></li>
+           <li><a href="#" data-ref="LIFE_TOP_comment" target="_blank">评价商品</a></li>
+           <li><a href="#" data-ref="LIFE_TOP_vip" target="_blank">会员专享</a></li>
+          </ul>-->
+       </div>
+	 </li>
+	 <li class="sn-cart mini-cart menu"><i class="mui-global-iconfont">󰅈</i>
+       <a class="sn-cart-link" href="#" target="_top" rel="nofollow" id="mc-menu-hd">购物车<span class="mc-count mc-pt3">0</span>件<iframe id="tmp_downloadhelper_iframe" style="display: none;"></iframe></a>
+     </li>
+     <li class="fore2 ld"><s></s><a href="#">招商加盟</a></li>
+	 <li class="fore2 ld" id="app-life">
+	   <s></s>
+	   <i class="mui-global-iconfont"></i>
+	   <a href="#" target="_top" class="sn-mobile-link">手机版</a>
+	   <div class="sn-qrcode" style="display: none;">
+         <div class="sn-qrcode-content"></div>
+         <p>扫一扫，定制我的生活！</p>
+         <b></b>
+       </div>
+	 </li>
+     <li class="fore2 ld"><s></s><a href="#">网站导航</a></li>
+    </ul>
+   </div>
+  </div>
+</div>
+
+<!-----------------------------------------------Header------------------------------------------------->
+<div id="header">
+   <div class="headerLayout">
+     <div class="headerCon">
+        <div id="lifeLogo">
+          <a href="#"><img src="images/logo1.gif" width="295" height="109"/></a>
+        </div>
+        <div class="header-extra">
+          <div class="header-banner">
+            <a href="#"><img src="images/logo2.png" width="190" height="109" alt=""/></a>
+          </div>
+          <div id="lifeSearch" class="life-search">
+            <form class="lifeSearch-form" name="searchTop" action="#" target="_top" accept-charset="uft-8">
+              <fieldset>
+                <legend>精彩生活搜索</legend>
+                <div class="lifeSearch-input clearfix">
+                  <label for="mq" style="visibility: visible; display: none;">搜索 生活 商品/品牌</label>
+                  <div class="s-combobox" id="s-combobox-226">
+                    <div class="s-combobox-input-wrap">
+                       <input type="text" name="q" id="mq" tabindex="9" accesskey="s" autocomplete="off" autofocus="true" x-webkit-speech="" x-webkit-grammar="builtin:translate" class="s-combobox-input" role="combobox" aria-haspopup="true" title="请输入搜索文字" aria-label="请输入搜索文字">
+                    </div>
+                    <label for="mq" class="s-combobox-placeholder" style="color: rgb(102, 102, 102); visibility: visible;">Iphone 6 plus</label>
+				  </div>
+                  <button type="submit"><img src="images/sou.png" width="32" height="44"></button>
+                </div>
+              </fieldset>
+            </form>
+            <ul class="hot-query">
+			  <li>热门搜索：</li>
+			  <li><a href="#">大码女装</a></li>
+			  <li class="hot-query-highlight"><a href="#">雪地靴</a></li>
+			  <li><a href="#">羽绒衣</a></li>
+			  <li class="hot-query-highlight"><a href="#">秋冬童装</a></li>
+			  <li><a href="#">男鞋</a></li>
+			  <li><a href="#">时尚保温杯</a></li>
+			  <li class="hot-query-highlight"><a href="#">进口零食</a></li>
+			</ul>
+		  </div>
+		</div>
+     </div>
+   </div>
+</div>
+
+<!-----------------------------------------------nav-------star------------------------------------------>
+	
+	<div class="lb_daos01"><!--所有导航--->
+		<div class="lb_daos02"><!------------横向导航------------------->
+
+			<div  class="lb_daos04">
+				<div class="lb_daos05"><a href="">全部商品分类</a></div>
+				<div class="lb_daos06"><img src="./images/jcd1_05.png" width="100%" height="100%" /></div>
+			</div>
+
+			<div class="lb_daos11">
+				<div class="lb_daos12 padding"><a href="#">精彩推荐专区</a></div>
+				<div class="lb_daos12"><a href="#">产地直送</a></div>
+				<div class="lb_daos12"><a href="#">美食馆</a></div>
+				<div class="lb_daos12"><a href="#">服装馆</a></div>
+				<div class="lb_daos12"><a href="#">养生馆</a></div>
+				<div class="lb_daos12"><a href="#">精彩生活超市</a></div>	
+			</div>
+				
+			<div class="lb_daos13">
+				<a href="#">
+					<table>
+						<tr>
+							<td><div class="lb_daos14"><img src="./images/jcd1_03.png" width="100%" height="100%" /></div></td>
+							<td><div class="lb_daos15">手机下单</div></td>
+							<td><div class="lb_daos16">更精彩</div></td>
+						</tr>
+					</table>
+				</a>	
+			</div>		
+		</div>
+		
+		
+		<div class="lb_daos017"><!--------竖向导航部分------------------>
+			<div class="lb_daos018">
+			
+			
+			
+				<div class="lb_daos03 white bo" onmouseover="lb_jc('jia1.html');" onmouseover="lb_jc2('meis.html');">
+					<div class="lb_daos20">
+						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_03.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">食品</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
+					</div>
+					
+					<div class="lb_daos019">
+				
+					
+					
+					</div>
+				</div>
+				
+				<div class="lb_daos03 gray" onmouseover="lb_jc('ji2.html');">
+					<div class="lb_daos20">
+						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_07.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">服装</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
+					</div>
+				</div>
+				
+				<div class="lb_daos03 white">
+					<div class="lb_daos20">
+						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_09.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">化妆品</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
+					</div>
+				</div>
+				
+				<div class="lb_daos03 gray">
+					<div class="lb_daos20">
+						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_10.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">医药保健</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
+					</div>
+				</div>
+				
+				<div class="lb_daos03 white">
+					<div class="lb_daos20">
+						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_11.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">汽车</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
+					</div>
+				</div>
+				
+				<div class="lb_daos03 gray">
+					<div class="lb_daos20">
+						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_12.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">茶叶</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
+					</div>
+				</div>
+				
+				<div class="lb_daos03 white">
+					<div class="lb_daos20">
+						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_13.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">洗衣店</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
+					</div>
+				</div>
+				
+				<div class="lb_daos03 gray">
+					<div class="lb_daos20">
+						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_14.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">酒店</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
+					</div>
+				</div>
+				
+				<div class="lb_daos03 white">
+					<div class="lb_daos20">
+						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_15.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">旅游</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
+					</div>
+				</div>
+				
+				<div class="lb_daos03 gray">
+					<div class="lb_daos20">
+						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_16.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">餐饮</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
+					</div>
+				</div>
+				
+				
+				<div class="lb_daos03 white">
+					<div class="lb_daos20">
+						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_17.gif" width="100%" height="100%" /></div></td><td><div class="lb_daos09">教育</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
+					</div>
+				</div>
+
+				
+			</div>
+		
+		</div>
+		
+		<div style="width:100%;height:360px;background-color:#F95605;" ><!--加载区域------->
+			<div style="min-width:1160px;margin:0 auto;" id="lb_jiazhai">
+			
+			
+			
+			
+			</div>
+		</div>
+		
+		
+		<!-------------------------加载函数开始--------------------->
+		<script>
+			function lb_jc(a)
+				{
+					$("#lb_jiazhai").load(a);	
+				}
+			function lb_jc2(b)
+				{
+					$(".lb_daos019").load(b);	
+				}
+		</script>
+		
+	</div>
+
+<!-----------------------------------------------nav------------over------------------------------------->
+<!------------------------------中部代码开始------------------------------------------->
+	<div class="lb_shiping">
+    	<div class="lb_shipinga">
+        
+        	<div class="lb_shipinga01">
+            	<div class="lb_shipinga02">
+                	<a href="#" title="购美味"><div class="shipinga02a"><img src="./images/meishi1_03.jpg" width="100%" height="100%" alt="" /></div></a>
+					
+					<div class="lb_shipinga02b">
+						<div class="lb_shipinga02b1">
+							
+							<div class="lb_shipinga02b2">
+								<img class="lb_shipinga02b3 prev" src="./images/meishi1_14.jpg" />
+								<div class="lb_shipinga02b4">
+									<ul>
+										<li>
+											<a href="#">
+												<div class="lb_shipinga02b5">
+													<table cellpadding="0" cellspacing="0" width="100%">
+														<tr><td><p class="lb_shipinga02b7">勃硍第蓝精灵葡萄酒</p></td></tr>
+														<tr><td><a href="#" title="勃硍第蓝精灵葡萄酒"><div class="lb_shipinga02b10"><img src="./images/meishi4_11.jpg" width="100%" height="100%" alt="" /></div></a></td></tr>
+														<tr>
+															<td>
+																<div class="lb_shipinga02b8">
+																	<div class="lb_shipinga02b9">永远的蓝精灵！</div>
+																</div>
+															</td>
+														</tr>
+														<tr><td><p class="lb_shipinga02b11">￥159</p></td></tr>
+													</table>
+												</div>
+											</a>
+										</li>
+										
+										<li>
+											<a href="#">
+												<div class="lb_shipinga02b5">
+													<table cellpadding="0" cellspacing="0" width="100%">
+														<tr><td><p class="lb_shipinga02b7">勃硍第蓝精灵葡萄酒</p></td></tr>
+														<tr><td><a href="#" title="勃硍第蓝精灵葡萄酒"><div class="lb_shipinga02b10"><img src="./images/meishi4_11.jpg" width="100%" height="100%" alt="" /></div></a></td></tr>
+														<tr>
+															<td>
+																<div class="lb_shipinga02b8">
+																	<div class="lb_shipinga02b9">永远的蓝精灵！</div>
+																</div>
+															</td>
+														</tr>
+														<tr><td><p class="lb_shipinga02b11">￥159</p></td></tr>
+													</table>
+												</div>
+											</a>
+										</li>
+										
+										<li>
+											<a href="#">
+												<div class="lb_shipinga02b5">
+													<table cellpadding="0" cellspacing="0" width="100%">
+														<tr><td><p class="lb_shipinga02b7">勃硍第蓝精灵葡萄酒</p></td></tr>
+														<tr><td><a href="#" title="勃硍第蓝精灵葡萄酒"><div class="lb_shipinga02b10"><img src="./images/meishi4_11.jpg" width="100%" height="100%" alt="" /></div></a></td></tr>
+														<tr>
+															<td>
+																<div class="lb_shipinga02b8">
+																	<div class="lb_shipinga02b9">永远的蓝精灵！</div>
+																</div>
+															</td>
+														</tr>
+														<tr><td><p class="lb_shipinga02b11">￥159</p></td></tr>
+													</table>
+												</div>
+											</a>
+										</li>
+										
+										<li>
+											<a href="#">
+												<div class="lb_shipinga02b5">
+													<table cellpadding="0" cellspacing="0" width="100%">
+														<tr><td><p class="lb_shipinga02b7">勃硍第蓝精灵葡萄酒</p></td></tr>
+														<tr><td><a href="#" title="勃硍第蓝精灵葡萄酒"><div class="lb_shipinga02b10"><img src="./images/meishi4_11.jpg" width="100%" height="100%" alt="" /></div></a></td></tr>
+														<tr>
+															<td>
+																<div class="lb_shipinga02b8">
+																	<div class="lb_shipinga02b9">永远的蓝精灵！</div>
+																</div>
+															</td>
+														</tr>
+														<tr><td><p class="lb_shipinga02b11">￥159</p></td></tr>
+													</table>
+												</div>
+											</a>
+										</li>
+										
+										<li>
+											<a href="#">
+												<div class="lb_shipinga02b5">
+													<table cellpadding="0" cellspacing="0" width="100%">
+														<tr><td><p class="lb_shipinga02b7">勃硍第蓝精灵葡萄酒</p></td></tr>
+														<tr><td><a href="#" title="勃硍第蓝精灵葡萄酒"><div class="lb_shipinga02b10"><img src="./images/meishi4_11.jpg" width="100%" height="100%" alt="" /></div></a></td></tr>
+														<tr>
+															<td>
+																<div class="lb_shipinga02b8">
+																	<div class="lb_shipinga02b9">永远的蓝精灵！</div>
+																</div>
+															</td>
+														</tr>
+														<tr><td><p class="lb_shipinga02b11">￥159</p></td></tr>
+													</table>
+												</div>
+											</a>
+										</li>
+										
+										<li>
+											<a href="#">
+												<div class="lb_shipinga02b5">
+													<table cellpadding="0" cellspacing="0" width="100%">
+														<tr><td><p class="lb_shipinga02b7">勃硍第蓝精灵葡萄酒</p></td></tr>
+														<tr><td><a href="#" title="勃硍第蓝精灵葡萄酒"><div class="lb_shipinga02b10"><img src="./images/meishi4_11.jpg" width="100%" height="100%" alt="" /></div></a></td></tr>
+														<tr>
+															<td>
+																<div class="lb_shipinga02b8">
+																	<div class="lb_shipinga02b9">永远的蓝精灵！</div>
+																</div>
+															</td>
+														</tr>
+														<tr><td><p class="lb_shipinga02b11">￥159</p></td></tr>
+													</table>
+												</div>
+											</a>
+										</li>
+									
+									</ul>
+								
+								</div>
+							
+								<img class="lb_shipinga02b6 next" src="./images/meishi1_17.gif" />
+							</div>
+							
+						</div>
+					</div>
+					
+					<a href="#"><div class="lb_shipingqgd">更多&gt;&gt;</div></a>
+					
+                </div>
+            </div>
+
+
+			
+			
+            
+            <div class="lb_shipinga">
+            	<div class="lb_shipingb01">
+                	<p class="lb_shipingb02">热门品牌</p>
+                 	<div class="lb_shipingb03"><img src="./images/shiping5_03.jpg" width="100%" height="100%" alt="" /></div>
+                </div>
+            </div>
+            
+            <div class="lb_shipinga">
+            	<div class="lb_shipingc01">
+            		<div class="lb_shipingc02"><a href="#" title="国庆福利"><img src="./images/meishi2_03.jpg" width="100%" height="100%" alt="" /></a></div>
+                    <div class="lb_shipingc03">
+                    	<div class="lb_shipingc04">
+                        	
+                           <div class="lb_shipingc05">
+                              <div class="lb_shipingc06">
+                                 <div class="lb_shipingc07"><a href="#" title="丹麦蓝罐"><img src="./images/meishi2_11.jpg" width="100%" height="100%" alt="" /></a></div>
+                                  <a href="#" title="kjeldsens丹麦蓝罐"><div class="lb_shipingc08">[kjeldsens丹麦蓝罐]</div></a>
+                              </div>
+                              <div class="lb_shipingc061">
+                                 <div class="lb_shipingc07"><a href="#" title="可口可乐"><img src="./images/meishi2_13.jpg" width="100%" height="100%" alt="" /></a></div>
+                                 <a href="#"><div class="lb_shipingc08">[可口可乐]</div></a>
+                               </div>       
+                           </div>
+                           
+                           <div class="lb_shipingc05">
+                              <div class="lb_shipingc06">
+                                 <div class="lb_shipingc07"><a href="#" title="一号果园"><img src="./images/meishi2_23.jpg" width="100%" height="100%" alt="" /></a></div>
+                                  <a href="#"><div class="lb_shipingc08">[一号果园]</div></a>
+                              </div>
+                                                    
+                              <div class="lb_shipingc061">
+                                 <div class="lb_shipingc07"><a href="#" title="善存"><img src="./images/meishi2_24.jpg" width="100%" height="100%" alt="" /></a></div>
+                                 <a href="#"><div class="lb_shipingc08">[Centrum/善存]</div></a>
+                               </div>       
+                           </div>
+                           
+                           <div class="lb_shipingc05">
+                              <div class="lb_shipingc06">
+                                 <div class="lb_shipingc07"><a href="#" title="多乐"><img src="./images/meishi2_30.jpg" width="100%" height="100%" alt=""/></a></div>
+                                 <a href="#"><div class="lb_shipingc08">[多乐]</div></a>
+                              </div>
+                                                    
+                              <div class="lb_shipingc061">
+                                 <div class="lb_shipingc07"><a href="#" title="泸州老窖"><img src="./images/meishi2_31.jpg" width="100%" height="100%" alt="" /></a></div>
+                                 <a href="#"><div class="lb_shipingc08">[泸州老窖]</div></a>
+                               </div>       
+                           </div>
+                                    
+                        </div>
+                        
+                        
+                        <div class="lb_shipingc09">
+                        	<div class="lb_shipingc10">
+                            	<div class="lb_shipingc11"><a href="#" title="金龙鱼"><img src="./images/meishi2_05.jpg" width="100%" height="100%" alt="" /></a></div>
+                                <div class="lb_shipingc12">
+                                	<div class="lb_shipingc13">
+                                    	<div class="lb_shipingc14"><a href="#"><img src="./images/shiping6_03.gif" width="100%" height="100%" alt="" /></a></div>
+                                        <a href="#"><div class="lb_shipingc15">[金龙鱼]</div></a>
+                                    </div>
+                                    
+                                    <div class="lb_shipingc16">
+                                		<div class="lb_shipingc17">
+                                			<div class="lb_shipingc18">全场满减</div>
+                                       		<div class="lb_shipingc19">（黄金条除外）</div>
+                                		</div>
+                                   	 	<div class="lb_shipingc20">活动时间：12.12-12.15</div>
+                                	</div>
+                                </div>
+                                
+                                <div class="lb_shipingc21">
+                                	<div class="lb_shipingc06">
+										<div class="lb_shipingc07"><a href="#" title="周黑鸭"><img src="./images/meishi2_32.jpg" width="100%" height="100%" alt="" /></a></div>
+										<a href="#"><div class="lb_shipingc08">[周黑鸭]</div></a>
+									</div>
+                                                    
+									<div class="lb_shipingc061">
+										<div class="lb_shipingc07"><a href="#" title="拉菲"><img src="./images/meishi2_34.jpg" width="100%" height="100%" alt="" /></a></div>
+										<a href="#"><div class="lb_shipingc08">[拉菲]</div></a>
+									</div>
+                               
+									<div class="lb_shipingc061">
+										<div class="lb_shipingc07"><a href="#" title="五粮液"><img src="./images/meishi2_36.jpg" width="100%" height="100%" alt="" /></a></div>
+										<a href="#"><div class="lb_shipingc08">[五粮液]</div></a>
+									</div>
+                                
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+                        <div class="lb_shipingc22">
+                        	<div class="lb_shipingc062">
+								<div class="lb_shipingc07"><a href="#" title="蒙牛乳业"><img src="./images/meishi2_16.jpg" width="100%" height="100%" alt="" /></a></div>
+								<a href="#"><div class="lb_shipingc08">[蒙牛乳业]</div></a>
+							</div>
+                            <div class="lb_shipingc062">
+								<div class="lb_shipingc07"><a href="#" title="德芙巧克力"><img src="./images/meishi2_25.jpg" width="100%" height="100%" alt="" /></a></div>
+								<a href="#"><div class="lb_shipingc08">[德芙巧克力]</div></a>
+							</div>
+                            <div class="lb_shipingc06">
+								<div class="lb_shipingc07"><a href="#" title="五芳斋"><img src="./images/meishi2_38.jpg" width="100%" height="100%" alt="" /></a></div>
+								<a href="#"><div class="lb_shipingc08">[五芳斋]</div></a>
+							</div>
+                        </div>                      
+                    </div>
+           		</div>
+            </div>
+            
+			
+			<div class="lb_shipinga">
+				<a href="#"><div class="lb_shipingd"><img src="./images/meishi3_03.gif" width="100%" height="100%" alt="" /></div></a>
+			</div>
+            
+			<div class="lb_shipinga">
+            	<div class="lb_shipingb01">
+                	<p class="lb_shipingb02">发现美食,</p>
+                 	<div class="lb_shipingb03"><img src="./images/shiping5_03.jpg" width="100%" height="100%" alt="" /></div>
+					<div class="lb_shipinge">
+						<p>共232款产品</p>
+						<a href="#"><div class="lb_shipinge1">查看更多&gt;&gt;</div></a>
+					</div>
+                </div>
+            </div>
+            
+            <div class="lb_shipinga">
+				<div class="lb_shipingf">
+					<a href="#" title="热销产品"><div class="lb_shipingf1"><img src="./images/meishi4_03.jpg" width="100%" height="100%" alt="" ></div></a>
+					<div class="lb_shipingf2">
+						<div class="lb_shipingf3">
+							<table cellpadding="0" cellspacing="0" width="100%">
+								<tr><td><a href="#" title="希腊初炸橄榄油"><div class="lb_shipingf4"><img src="./images/meishi3_07.jpg" width="100%" height="100%" alt="" /></div></a></td></tr>
+								<tr><td><p class="lb_shipingf5">希腊初榨橄榄油&nbsp;新货</p></td></tr>
+								<tr><td><a href="#" title="希腊初炸橄榄油"><div class="lb_shipingf6"><img src="./images/meishi4_09.jpg" width="100%" height="100%" alt="" /></div></a></td></tr>
+								<tr>
+									<td>
+										<div class="lb_shipingf7">
+											<div class="lb_shipingf8"><img src="./images/meishi3_11.jpg" width="100%" height="100%" alt=""/></div><div class="lb_shipingf9 yellow">健康食用油~如特仑苏和普通牛奶的区别！</div>
+										</div>
+									</td>
+								</tr>
+								<tr><td><p class="lb_shipingf10">￥69</p></td></tr>
+							</table>
+						</div>
+						
+						<div class="lb_shipingf3">
+							<table cellpadding="0" cellspacing="0" width="100%">
+								<tr><td><a href="#" title="勃硍第蓝精灵葡萄酒"><div class="lb_shipingf4"><img src="./images/meishi3_07.jpg" width="100%" height="100%" alt="" /></div></a></td></tr>
+								<tr><td><p class="lb_shipingf5">勃硍第蓝精灵葡萄酒</p></td></tr>
+								<tr><td><a href="#" title="勃硍第蓝精灵葡萄酒"><div class="lb_shipingf6"><img src="./images/meishi4_11.jpg" width="100%" height="100%" alt="" /></div></a></td></tr>
+								<tr>
+									<td>
+										<div class="lb_shipingf7">
+											<div class="lb_shipingf8"><img src="./images/meishi3_11.jpg" width="100%" height="100%" alt="" /></div><div class="lb_shipingf9 green">魅惑蓝色，做你永远的蓝精灵！</div>
+										</div>
+									</td>
+								</tr>
+								<tr><td><p class="lb_shipingf10">￥159</p></td></tr>
+							</table>
+						</div>
+						
+						<div class="lb_shipingf3">
+							<table cellpadding="0" cellspacing="0" width="100%">
+								<tr><td><a href="#" title="澳洲小酒" ><div class="lb_shipingf4"><img src="./images/meishi3_07.jpg" width="100%" height="100%" alt="" /></div></a></td></tr>
+								<tr><td><p class="lb_shipingf5">澳洲小酒王奔富128</p></td></tr>
+								<tr><td><a href="#" title="澳洲小酒"><div class="lb_shipingf6"><img src="./images/meishi4_13.jpg" width="100%" height="100%" alt="" /></div></a></td></tr>
+								<tr>
+									<td>
+										<div class="lb_shipingf7">
+											<div class="lb_shipingf8"><img src="./images/meishi3_11.jpg" width="100%" height="100%" alt="" /></div><div class="lb_shipingf9 brown">喝不起奔富老酒王还喝不起你这奔富小酒王么！</div>
+										</div>
+									</td>
+								</tr>
+								<tr><td><p class="lb_shipingf10">￥69</p></td></tr>
+							</table>
+						</div>
+						
+						<div class="lb_shipingf3">
+							<table cellpadding="0" cellspacing="0" width="100%">
+								<tr><td><a href="#" title="乌汶府泰国香米"><div class="lb_shipingf4"><img src="./images/meishi3_07.jpg" width="100%" height="100%"  alt="" /></div></a></td></tr>
+								<tr><td><p class="lb_shipingf5">乌汶府泰国香米</p></td></tr>
+								<tr><td><a href="#" title="乌汶府泰国香米"><div class="lb_shipingf6"><img src="./images/meishi4_15.jpg" width="100%" height="100%"  alt="" /></div></a></td></tr>
+								<tr>
+									<td>
+										<div class="lb_shipingf7">
+											<div class="lb_shipingf8"><img src="./images/meishi3_11.jpg" width="100%" height="100%" alt="" /></div><div class="lb_shipingf9 yellow">咱绝不吃糟米</div>
+										</div>
+									</td>
+								</tr>
+								<tr><td><p class="lb_shipingf10">￥69</p></td></tr>
+							</table>
+						</div>
+						
+						<div class="lb_shipingf3a">
+							<table cellpadding="0" cellspacing="0" width="100%">
+								<tr><td><a href="#" title="特级初榨橄榄油"><div class="lb_shipingf4"><img src="./images/meishi3_07.jpg" width="100%" height="100%"  alt=""/></div></a></td></tr>
+								<tr><td><p class="lb_shipingf5">希腊&nbsp;特级初榨橄榄油</p></td></tr>
+								<tr><td><a href="#" title="特级初榨橄榄油"><div class="lb_shipingf6"><img src="./images/meishi4_06.jpg" width="100%" height="100%"  alt=""/></div></a></td></tr>
+								<tr>
+									<td>
+										<div class="lb_shipingf7">
+											<div class="lb_shipingf8"><img src="./images/meishi3_11.jpg" width="100%" height="100%"/></div><div class="lb_shipingf9 green">新鲜！来自地中海的黄金液体！纯净。健康~</div>
+										</div>
+									</td>
+								</tr>
+								<tr><td><p class="lb_shipingf10">￥89</p></td></tr>
+							</table>
+						</div>
+					</div>
+					
+				</div>
+				
+			</div><!--------------------->
+            
+            
+            <div class="lb_shipinga">
+            	<div class="lb_shipingb01">
+                	<p class="lb_shipingb02">新鲜时令</p>
+                 	<div class="lb_shipingb03"><img src="./images/shiping5_11.gif" width="100%" height="100%" alt="" /></div>
+					<div class="lb_shipinge">
+						<p>共233款产品</p>
+						<a href="#"><div class="lb_shipinge1">查看更多&gt;&gt;</div></a>
+					</div>
+                </div>
+            </div>
+            
+            <div class="lb_shipinga">
+				<div class="lb_shipingf">
+					<a href="#" title="新鲜蔬果"><div class="lb_shipingf1"><img src="./images/meishi4_23.jpg" width="100%" height="100%"  alt=""></div></a>
+					<div class="lb_shipingf2">
+						<div class="lb_shipingf3">
+							<table cellpadding="0" cellspacing="0" width="100%">
+								<tr><td><a href="#" title="希腊初炸橄榄油" ><div class="lb_shipingf4"><img src="./images/meishi3_07.jpg" width="100%" height="100%"  alt=""/></div></a></td></tr>
+								<tr><td><p class="lb_shipingf5">希腊初榨橄榄油&nbsp;新货</p></td></tr>
+								<tr><td><a href="#" title="希腊初炸橄榄油"><div class="lb_shipingf6"><img src="./images/meishi4_24.jpg" width="100%" height="100%"  alt=""/></div></a></td></tr>
+								<tr>
+									<td>
+										<div class="lb_shipingf7">
+											<div class="lb_shipingf8"><img src="./images/meishi3_11.jpg" width="100%" height="100%"/ alt=""></div><div class="lb_shipingf9 yellow">健康食用油~如特仑苏和普通牛奶的区别！</div>
+										</div>
+									</td>
+								</tr>
+								<tr><td><p class="lb_shipingf10">￥69</p></td></tr>
+							</table>
+						</div>
+						
+						<div class="lb_shipingf3">
+							<table cellpadding="0" cellspacing="0" width="100%">
+								<tr><td><a href="#" title="勃硍第蓝精灵葡萄酒"><div class="lb_shipingf4"><img src="./images/meishi3_07.jpg" width="100%" height="100%"  alt=""/></div></a></td></tr>
+								<tr><td><p class="lb_shipingf5">勃硍第蓝精灵葡萄酒</p></td></tr>
+								<tr><td><a href="#" title="勃硍第蓝精灵葡萄酒"><div class="lb_shipingf6"><img src="./images/meishi4_26.jpg" width="100%" height="100%"  alt="" /></div></a></td></tr>
+								<tr>
+									<td>
+										<div class="lb_shipingf7">
+											<div class="lb_shipingf8"><img src="./images/meishi3_11.jpg" width="100%" height="100%"/></div><div class="lb_shipingf9 green">魅惑蓝色，做你永远的蓝精灵！</div>
+										</div>
+									</td>
+								</tr>
+								<tr><td><p class="lb_shipingf10">￥159</p></td></tr>
+							</table>
+						</div>
+						
+						<div class="lb_shipingf3">
+							<table cellpadding="0" cellspacing="0" width="100%">
+								<tr><td><a href="#" title="澳洲小酒"><div class="lb_shipingf4"><img src="./images/meishi3_07.jpg" width="100%" height="100%"  alt=""/></div></a></td></tr>
+								<tr><td><p class="lb_shipingf5">澳洲小酒王奔富128</p></td></tr>
+								<tr><td><a href="#" title="澳洲小酒"><div class="lb_shipingf6"><img src="./images/meishi4_27.jpg" width="100%" height="100%"  alt=""/></div></a></td></tr>
+								<tr>
+									<td>
+										<div class="lb_shipingf7">
+											<div class="lb_shipingf8"><img src="./images/meishi3_11.jpg" width="100%" height="100%"/></div><div class="lb_shipingf9 brown">喝不起奔富老酒王还喝不起你这奔富小酒王么！</div>
+										</div>
+									</td>
+								</tr>
+								<tr><td><p class="lb_shipingf10">￥69</p></td></tr>
+							</table>
+						</div>
+						
+						<div class="lb_shipingf3">
+							<table cellpadding="0" cellspacing="0" width="100%">
+								<tr><td><a href="#" title="乌汶府泰国香米"><div class="lb_shipingf4"><img src="./images/meishi3_07.jpg" width="100%" height="100%"  alt=""/></div></a></td></tr>
+								<tr><td><p class="lb_shipingf5">乌汶府泰国香米</p></td></tr>
+								<tr><td><a href="#" title="乌汶府泰国香米"><div class="lb_shipingf6"><img src="./images/meishi4_28.jpg" width="100%" height="100%"  alt=""/></div></a></td></tr>
+								<tr>
+									<td>
+										<div class="lb_shipingf7">
+											<div class="lb_shipingf8"><img src="./images/meishi3_11.jpg" width="100%" height="100%" alt=""/></div><div class="lb_shipingf9 yellow">咱绝不吃糟米</div>
+										</div>
+									</td>
+								</tr>
+								<tr><td><p class="lb_shipingf10">￥69</p></td></tr>
+							</table>
+						</div>
+						
+						<div class="lb_shipingf3a">
+							<table cellpadding="0" cellspacing="0" width="100%">
+								<tr><td><a href="#" title="特级初榨橄榄油"><div class="lb_shipingf4"><img src="./images/meishi3_07.jpg" width="100%" height="100%"  alt=""/></div></a></td></tr>
+								<tr><td><p class="lb_shipingf5">希腊&nbsp;特级初榨橄榄油</p></td></tr>
+								<tr><td><a href="#" title="特级初榨橄榄油"><div class="lb_shipingf6"><img src="./images/meishi4_29.jpg" width="100%" height="100%"  alt=""/></div></a></td></tr>
+								<tr>
+									<td>
+										<div class="lb_shipingf7">
+											<div class="lb_shipingf8"><img src="./images/meishi3_11.jpg" width="100%" height="100%" alt=""/></div><div class="lb_shipingf9 green">新鲜！来自地中海的黄金液体！纯净。健康~</div>
+										</div>
+									</td>
+								</tr>
+								<tr><td><p class="lb_shipingf10">￥89</p></td></tr>
+							</table>
+						</div>
+					</div>
+					
+				</div>
+				
+			</div>
+			
+			<div class="lb_shipinga">
+				<a href="#" title="食品保健"><div class="lb_shipingd"><img src="./images/meishi4_36.gif" width="100%" height="100%" alt="" /></div></a>
+			</div>
+            
+			<div class="lb_shipinga"><!-----1f---有机肉类开始----------------------------------------------------->
+            	<div class="lb_shipingb01">
+                	<p class="lb_shipingb02">1F&nbsp;&nbsp;有机肉类</p>
+					<div class="lb_shipinge">
+						<p>共233款产品</p>
+						<a href="#"><div class="lb_shipinge1">查看更多&gt;&gt;</div></a>
+					</div>
+                </div>
+            </div>
+			
+			<div class="lb_shipinga">
+				<div class="lb_shipingh">
+					<div class="lb_shipingh1">
+						<a href="#" title="有机肉类"><div class="lb_shipingh2"><img src="./images/meishi4_113.jpg" width="100%" height="100%"  alt=""/></div></a>
+						<table cellpadding="0" cellspacing="0" width="100%">
+							<tr>
+								<td><a href="#"><div class="lb_shipingh3">有机猪肉</div></a></td>
+								<td><a href="#"><div class="lb_shipingh3">有机猪肉</div></a></td>
+								<td><a href="#"><div class="lb_shipingh3">有机猪肉</div></a></td>
+							</tr>
+							<tr>
+								<td><a href="#"><div class="lb_shipingh3">有机鸡肉</div></a></td>
+								<td><a href="#"><div class="lb_shipingh3">有机鸭肉</div></a></td>
+								<td><a href="#"><div class="lb_shipingh3">有机鹅肉</div></a></td>
+							</tr>
+						</table>
+					</div>
+					
+					<div class="lb_shipingh4">
+						<div class="lb_shipingh5">
+							<ul>
+								<li>
+									<div class="lb_shipingh6">
+										<a href="#" title="有机牛肉"><div class="lb_shipingh7"><img src="./images/meishi4_08.jpg" width="100%" height="100%"  alt=""/></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+								<li>
+									<div class="lb_shipingh6">
+										<a href="#" title="有机牛肉"><div class="lb_shipingh7"><img src="./images/meishi4_10.jpg" width="100%" height="100%"  alt=""/></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+								<li>
+									<div class="lb_shipingh6">
+										<a href="#" title="有机牛肉" ><div class="lb_shipingh7"><img src="./images/meishi4_12.jpg" width="100%" height="100%" alt=""/></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+								<li>
+									<div class="lb_shipingh6a">
+										<a href="#" title="有机牛肉"><div class="lb_shipingh7"><img src="./images/meishi4_112.jpg" width="100%" height="100%"  alt=""/></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+							</ul>
+						
+						</div>
+						
+						<div class="lb_shipingh5a">
+							<ul>
+								<li>
+									<div class="lb_shipingh6">
+										<a href="#" title="有机牛肉"><div class="lb_shipingh7"><img src="./images/meishi4_18.jpg" width="100%" height="100%"  alt=""/></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+								<li>
+									<div class="lb_shipingh6">
+										<a href="#" title="有机牛肉" ><div class="lb_shipingh7"><img src="./images/meishi4_19.jpg" width="100%" height="100%" alt=""/></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+								<li>
+									<div class="lb_shipingh6">
+										<a href="#" title="有机牛肉" ><div class="lb_shipingh7"><img src="./images/meishi4_20.jpg" width="100%" height="100%" alt=""/></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+								<li>
+									<div class="lb_shipingh6a">
+										<a href="#" title="有机牛肉"><div class="lb_shipingh7"><img src="./images/meishi4_21.jpg" width="100%" height="100%"  alt=""/></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+							</ul>
+						
+						</div>
+					
+					</div>
+					
+					
+				</div>
+			</div><!-------------1f---有机肉类结束----------------------------------->
+			
+			<div class="lb_shipinga"><!----------2f---新鲜蔬菜开始-------------->
+            	<div class="lb_shipingb01">
+                	<p class="lb_shipingb02">2F&nbsp;&nbsp;新鲜蔬菜</p>
+					<div class="lb_shipinge">
+						<p>共233款产品</p>
+						<a href="#"><div class="lb_shipinge1">查看更多&gt;&gt;</div></a>
+					</div>
+                </div>
+            </div>
+			
+			<div class="lb_shipinga">
+				<div class="lb_shipingh">
+					<div class="lb_shipingh1">
+						<a href="#" title="新鲜蔬菜" ><div class="lb_shipingh2"><img src="./images/meishi4_115.jpg" width="100%" height="100%" alt=""/></div></a>
+						<table cellpadding="0" cellspacing="0" width="100%">
+							<tr>
+								<td><a href="#"><div class="lb_shipingh3">有机猪肉</div></a></td>
+								<td><a href="#"><div class="lb_shipingh3">有机猪肉</div></a></td>
+								<td><a href="#"><div class="lb_shipingh3">有机猪肉</div></a></td>
+							</tr>
+							<tr>
+								<td><a href="#"><div class="lb_shipingh3">有机鸡肉</div></a></td>
+								<td><a href="#"><div class="lb_shipingh3">有机鸭肉</div></a></td>
+								<td><a href="#"><div class="lb_shipingh3">有机鹅肉</div></a></td>
+							</tr>
+						</table>
+					</div>
+					
+					<div class="lb_shipingh4">
+						<div class="lb_shipingh5">
+							<ul>
+								<li>
+									<div class="lb_shipingh6">
+										<a href="#" title="新鲜蔬菜" ><div class="lb_shipingh7"><img src="./images/meishi4_114.jpg" width="100%" height="100%" alt=""/></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+								<li>
+									<div class="lb_shipingh6">
+										<a href="#" title="新鲜蔬菜"><div class="lb_shipingh7"><img src="./images/meishi4_116.jpg" width="100%" height="100%"  alt=""/></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+								<li>
+									<div class="lb_shipingh6">
+										<a href="#" title="新鲜蔬菜"><div class="lb_shipingh7"><img src="./images/meishi4_30.jpg" width="100%" height="100%"  alt=""/></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+								<li>
+									<div class="lb_shipingh6a">
+										<a href="#" title="新鲜蔬菜"><div class="lb_shipingh7"><img src="./images/meishi4_31.jpg" width="100%" height="100%" alt=""/></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+							</ul>
+						
+						</div>
+						
+						<div class="lb_shipingh5a">
+							<ul>
+								<li>
+									<div class="lb_shipingh6">
+										<a href="#" title="新鲜蔬菜" ><div class="lb_shipingh7"><img src="./images/meishi4_36.jpg" width="100%" height="100%" alt=""/></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+								<li>
+									<div class="lb_shipingh6">
+										<a href="#" title="新鲜蔬菜"><div class="lb_shipingh7"><img src="./images/meishi4_37.jpg" width="100%" height="100%" alt=""/></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+								<li>
+									<div class="lb_shipingh6">
+										<a href="#"  title="新鲜蔬菜"><div class="lb_shipingh7"><img src="./images/meishi4_38.jpg" width="100%" height="100%" alt=""/></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+								<li>
+									<div class="lb_shipingh6a">
+										<a href="#" title="新鲜蔬菜"><div class="lb_shipingh7"><img src="./images/meishi4_39.jpg" width="100%" height="100%" alt=""/></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+							</ul>
+						
+						</div>
+					
+					</div>
+					
+					
+				</div>
+			</div><!-------2f-新鲜蔬菜结束--------------->
+			
+			
+			<div class="lb_shipinga"><!---------------3f--时令水果开始----------------------------------------------->
+            	<div class="lb_shipingb01">
+                	<p class="lb_shipingb02">3F&nbsp;&nbsp;时令水果</p>
+					<div class="lb_shipinge">
+						<p>共233款产品</p>
+						<a href="#"><div class="lb_shipinge1">查看更多&gt;&gt;</div></a>
+					</div>
+                </div>
+            </div>
+			
+			<div class="lb_shipinga">
+				<div class="lb_shipingh">
+					<div class="lb_shipingh1">
+						<a href="#"  title="时令水果"><div class="lb_shipingh2"><img src="./images/meishi4_45.jpg" width="100%" height="100%" alt=""/></div></a>
+						<table cellpadding="0" cellspacing="0" width="100%">
+							<tr>
+								<td><a href="#"><div class="lb_shipingh3">无机苹果</div></a></td>
+								<td><a href="#"><div class="lb_shipingh3">无机水蜜桃</div></a></td>
+								<td><a href="#"><div class="lb_shipingh3">无机哈密瓜</div></a></td>
+							</tr>
+							<tr>
+								<td><a href="#"><div class="lb_shipingh3">无机苹果</div></a></td>
+								<td><a href="#"><div class="lb_shipingh3">无机水蜜桃</div></a></td>
+								<td><a href="#"><div class="lb_shipingh3">无机哈密瓜</div></a></td>
+							</tr>
+						</table>
+					</div>
+					
+					<div class="lb_shipingh4">
+						<div class="lb_shipingh5">
+							<ul>
+								<li>
+									<div class="lb_shipingh6">
+										<a href="#" title="时令水果"><div class="lb_shipingh7"><img src="./images/meishi4_48.jpg" width="100%" height="100%" alt=""/></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+								<li>
+									<div class="lb_shipingh6">
+										<a href="#" title="时令水果"><div class="lb_shipingh7"><img src="./images/meishi4_46.jpg" width="100%" height="100%"  alt=""/></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+								<li>
+									<div class="lb_shipingh6">
+										<a href="#" title="时令水果"><div class="lb_shipingh7"><img src="./images/meishi4_49.jpg" width="100%" height="100%" alt=""/></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+								<li>
+									<div class="lb_shipingh6a">
+										<a href="#" title="时令水果"><div class="lb_shipingh7"><img src="./images/meishi4_47.jpg" width="100%" height="100%" alt=""/></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+							</ul>
+						
+						</div>
+						
+						<div class="lb_shipingh5a">
+							<ul>
+								<li>
+									<div class="lb_shipingh6">
+										<a href="#" title="时令水果"><div class="lb_shipingh7"><img src="./images/meishi4_54.jpg" width="100%" height="100%" alt="" /></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+								<li>
+									<div class="lb_shipingh6">
+										<a href="#" title="时令水果"><div class="lb_shipingh7"><img src="./images/meishi4_55.jpg" width="100%" height="100%" alt="" /></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+								<li>
+									<div class="lb_shipingh6">
+										<a href="#" title="时令水果"><div class="lb_shipingh7"><img src="./images/meishi4_56.jpg" width="100%" height="100%" alt="" /></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+								<li>
+									<div class="lb_shipingh6a">
+										<a href="#" title="时令水果"><div class="lb_shipingh7"><img src="./images/meishi4_57.jpg" width="100%" height="100%" alt="" /></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+							</ul>
+						
+						</div>
+					
+					</div>
+					
+					
+				</div>
+			</div><!-------3f- 时令水果结束---------------------------->
+			
+			<div class="lb_shipinga"><!---------------4f--优质饮品----------------------------------------------->
+            	<div class="lb_shipingb01">
+                	<p class="lb_shipingb02">4F&nbsp;&nbsp;优质饮品</p>
+					<div class="lb_shipinge">
+						<p>共233款产品</p>
+						<a href="#"><div class="lb_shipinge1">查看更多&gt;&gt;</div></a>
+					</div>
+                </div>
+            </div>
+			
+			<div class="lb_shipinga">
+				<div class="lb_shipingh">
+					<div class="lb_shipingh1">
+						<a href="#" title="优质饮品"><div class="lb_shipingh2"><img src="./images/meishi4_63.jpg" width="100%" height="100%" alt=""/></div></a>
+						<table cellpadding="0" cellspacing="0" width="100%">
+							<tr>
+								<td><a href="#"><div class="lb_shipingh3">西瓜汁</div></a></td>
+								<td><a href="#"><div class="lb_shipingh3">芒果沙冰</div></a></td>
+								<td><a href="#"><div class="lb_shipingh3">千叶薄荷水</div></a></td>
+							</tr>
+							<tr>
+								<td><a href="#"><div class="lb_shipingh3">水蜜桃奶茶</div></a></td>
+								<td><a href="#"><div class="lb_shipingh3">柠檬汁</div></a></td>
+								<td><a href="#"><div class="lb_shipingh3">西柚苹果汁</div></a></td>
+							</tr>
+						</table>
+					</div>
+					
+					<div class="lb_shipingh4">
+						<div class="lb_shipingh5">
+							<ul>
+								<li>
+									<div class="lb_shipingh6">
+										<a href="#" title="优质饮品" ><div class="lb_shipingh7"><img src="./images/meishi4_26.jpg" width="100%" height="100%" alt=""/></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+								<li>
+									<div class="lb_shipingh6">
+										<a href="#" title="优质饮品" ><div class="lb_shipingh7"><img src="./images/meishi4_66.jpg" width="100%" height="100%" alt="" /></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+								<li>
+									<div class="lb_shipingh6">
+										<a href="#" title="优质饮品" ><div class="lb_shipingh7"><img src="./images/meishi4_67.jpg" width="100%" height="100%" alt="" /></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+								<li>
+									<div class="lb_shipingh6a">
+										<a href="#" title="优质饮品" ><div class="lb_shipingh7"><img src="./images/meishi4_65.jpg" width="100%" height="100%" alt="" /></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+							</ul>
+						
+						</div>
+						
+						<div class="lb_shipingh5a">
+							<ul>
+								<li>
+									<div class="lb_shipingh6">
+										<a href="#" title="优质饮品" ><div class="lb_shipingh7"><img src="./images/meishi4_72.jpg" width="100%" height="100%" alt="" /></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+								<li>
+									<div class="lb_shipingh6">
+										<a href="#" title="优质饮品" ><div class="lb_shipingh7"><img src="./images/meishi4_73.jpg" width="100%" height="100%" alt="" /></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+								<li>
+									<div class="lb_shipingh6">
+										<a href="#" title="优质饮品" ><div class="lb_shipingh7"><img src="./images/meishi4_74.jpg" width="100%" height="100%" alt="" /></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+								<li>
+									<div class="lb_shipingh6a">
+										<a href="#" title="优质饮品" ><div class="lb_shipingh7"><img src="./images/meishi4_75.jpg" width="100%" height="100%" alt="" /></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+							</ul>
+						
+						</div>
+					
+					</div>
+					
+					
+				</div>
+			</div><!---------4f--优质饮品-------------------------------------------->
+						
+			<div class="lb_shipinga"><!---------------5f--加工食品开始----------------------------------------------->
+            	<div class="lb_shipingb01">
+                	<p class="lb_shipingb02">5F&nbsp;&nbsp;加工食品</p>
+					<div class="lb_shipinge">
+						<p>共233款产品</p>
+						<a href="#"><div class="lb_shipinge1">查看更多&gt;&gt;</div></a>
+					</div>
+                </div>
+            </div>
+			
+			<div class="lb_shipinga">
+				<div class="lb_shipingh">
+					<div class="lb_shipingh1">
+						<a href="#" title="加工食品" ><div class="lb_shipingh2"><img src="./images/meishi4_63.jpg" width="100%" height="100%" alt="" /></div></a>
+						<table cellpadding="0" cellspacing="0" width="100%">
+							<tr>
+								<td><a href="#"><div class="lb_shipingh3">无机苹果</div></a></td>
+								<td><a href="#"><div class="lb_shipingh3">无机水蜜桃</div></a></td>
+								<td><a href="#"><div class="lb_shipingh3">无机哈密瓜</div></a></td>
+							</tr>
+							<tr>
+								<td><a href="#"><div class="lb_shipingh3">无机苹果</div></a></td>
+								<td><a href="#"><div class="lb_shipingh3">无机水蜜桃</div></a></td>
+								<td><a href="#"><div class="lb_shipingh3">无机哈密瓜</div></a></td>
+							</tr>
+						</table>
+					</div>
+					
+					<div class="lb_shipingh4">
+						<div class="lb_shipingh5">
+							<ul>
+								<li>
+									<div class="lb_shipingh6">
+										<a href="#" title="加工食品" ><div class="lb_shipingh7"><img src="./images/meishi4_81.jpg" width="100%" height="100%" alt="" /></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+								<li>
+									<div class="lb_shipingh6">
+										<a href="#" title="加工食品" ><div class="lb_shipingh7"><img src="./images/meishi4_84.jpg" width="100%" height="100%" alt="" /></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+								<li>
+									<div class="lb_shipingh6">
+										<a href="#" title="加工食品" ><div class="lb_shipingh7"><img src="./images/meishi4_85.jpg" width="100%" height="100%" alt="" /></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+								<li>
+									<div class="lb_shipingh6a">
+										<a href="#" title="加工食品" ><div class="lb_shipingh7"><img src="./images/meishi4_82.jpg" width="100%" height="100%" alt="" /></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+							</ul>
+						
+						</div>
+						
+						<div class="lb_shipingh5a">
+							<ul>
+								<li>
+									<div class="lb_shipingh6">
+										<a href="#" title="加工食品" ><div class="lb_shipingh7"><img src="./images/meishi4_90.jpg" width="100%" height="100%" alt="" /></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+								<li>
+									<div class="lb_shipingh6">
+										<a href="#" title="加工食品" ><div class="lb_shipingh7"><img src="./images/meishi4_91.jpg" width="100%" height="100%" alt="" /></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+								<li>
+									<div class="lb_shipingh6">
+										<a href="#" title="加工食品" ><div class="lb_shipingh7"><img src="./images/meishi4_92.jpg" width="100%" height="100%" alt="" /></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+								<li>
+									<div class="lb_shipingh6a">
+										<a href="#" title="加工食品" ><div class="lb_shipingh7"><img src="./images/meishi4_93.jpg" width="100%" height="100%" alt="" /></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+							</ul>
+						
+						</div>
+					
+					</div>
+					
+					
+				</div>
+			</div><!------5f----加工食品结束------------------------------------------->
+			
+			
+			<div class="lb_shipinga"><!---------------6f--特质干货开始----------------------------------------------->
+            	<div class="lb_shipingb01">
+                	<p class="lb_shipingb02">6F&nbsp;&nbsp;特质干货</p>
+					<div class="lb_shipinge">
+						<p>共233款产品</p>
+						<a href="#"><div class="lb_shipinge1">查看更多&gt;&gt;</div></a>
+					</div>
+                </div>
+            </div>
+			
+			<div class="lb_shipinga">
+				<div class="lb_shipingh">
+					<div class="lb_shipingh1">
+						<a href="#" title="特质干货" ><div class="lb_shipingh2"><img src="./images/meishi4_101.jpg" width="100%" height="100%" alt=""/></div></a>
+						<table cellpadding="0" cellspacing="0" width="100%">
+							<tr>
+								<td><a href="#"><div class="lb_shipingh3">无机苹果</div></a></td>
+								<td><a href="#"><div class="lb_shipingh3">无机水蜜桃</div></a></td>
+								<td><a href="#"><div class="lb_shipingh3">无机哈密瓜</div></a></td>
+							</tr>
+							<tr>
+								<td><a href="#"><div class="lb_shipingh3">无机苹果</div></a></td>
+								<td><a href="#"><div class="lb_shipingh3">无机水蜜桃</div></a></td>
+								<td><a href="#"><div class="lb_shipingh3">无机哈密瓜</div></a></td>
+							</tr>
+						</table>
+					</div>
+					
+					<div class="lb_shipingh4">
+						<div class="lb_shipingh5">
+							<ul>
+								<li>
+									<div class="lb_shipingh6">
+										<a href="#" title="特质干货" ><div class="lb_shipingh7"><img src="./images/meishi4_102.jpg" width="100%" height="100%" alt="" /></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+								<li>
+									<div class="lb_shipingh6">
+										<a href="#" title="特质干货" ><div class="lb_shipingh7"><img src="./images/meishi4_99.jpg" width="100%" height="100%" alt="" /></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+								<li>
+									<div class="lb_shipingh6">
+										<a href="#" title="特质干货" ><div class="lb_shipingh7"><img src="./images/meishi4_103.jpg" width="100%" height="100%" alt="" /></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+								<li>
+									<div class="lb_shipingh6a">
+										<a href="#" title="特质干货" ><div class="lb_shipingh7"><img src="./images/meishi4_100.jpg" width="100%" height="100%" alt="" /></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+							</ul>
+						
+						</div>
+						
+						<div class="lb_shipingh5a">
+							<ul>
+								<li>
+									<div class="lb_shipingh6">
+										<a href="#" title="特质干货" ><div class="lb_shipingh7"><img src="./images/meishi4_108.jpg" width="100%" height="100%" alt="" /></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+								<li>
+									<div class="lb_shipingh6">
+										<a href="#" title="特质干货" ><div class="lb_shipingh7"><img src="./images/meishi4_109.jpg" width="100%" height="100%" alt="" /></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+								<li>
+									<div class="lb_shipingh6">
+										<a href="#" title="特质干货" ><div class="lb_shipingh7"><img src="./images/meishi4_110.jpg" width="100%" height="100%" alt="" /></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+								<li>
+									<div class="lb_shipingh6a">
+										<a href="#" title="特质干货" ><div class="lb_shipingh7"><img src="./images/meishi4_111.gif" width="100%" height="100%" alt="" /></div></a>
+										<a href="#"><p class="lb_shipingh8">横都牛肉牛腩&nbsp;2斤&nbsp;谷饲</p></a>
+										<div class="lb_shipingh9">￥118.00</div>
+									</div>
+								</li>
+							</ul>
+						
+						</div>
+					
+					</div>
+					
+					
+				</div>
+			</div><!-------6f--特质干货结束--------------------------------------->
+			
+			<div class="lb_shipinga">
+				<a href="#" title="美味烧烤"><div class="lb_shipingd"><img src="./images/meishi3_14.gif" width="100%" height="100%" alt=""/></div></a>
+			</div>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		</div><!------------------------------------>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!------------------------------中部代码结束------------------------------------------->
+<!---------------------------底部代码块---------------------->
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+  <td>
+<div class="footer">
+  <div id="footer">
+    <div class="life-ensure">
+      <a href="#"></a>
+      <a href="#"></a>
+      <a href="#"></a>
+      <a href="#"></a>
+    </div>
+	<div class="life-desc">
+      <div class="life-desc1">
+        <dl class="life-beginner">
+          <dt>新手入门</dt>
+          <dd><a href="#">购物流程</a></dd>
+          <dd><a href="#">商品验收与签收</a></dd>
+          <dd><a href="#">联系客服</a></dd>
+          <dd><a href="#">大宗商品购买政策</a></dd>
+          <dd><a href="#">常见问题</a></dd>
+        </dl>
+        <dl class="life-payment">
+          <dt>支付方式</dt>
+          <dd><a href="#">快捷支付</a></dd>
+          <dd><a href="#">财付通</a></dd>
+          <dd><a href="#">快钱</a></dd>
+          <dd><a href="#">货到付款</a></dd>
+          <dd><a href="#">新人支付</a></dd>
+        </dl>
+        <dl class="life-seller">
+          <dt>商家服务</dt>
+          <dd><a href="#">商家入驻</a></dd>
+          <dd><a href="#">商家中心</a></dd>
+          <dd><a href="#">精彩生活馆规则</a></dd>
+          <dd><a href="#">运营服务</a></dd>
+        </dl>
+        <dl class="life-safe">
+          <dt>售后保障</dt>
+          <dd><a href="#">退换货政策</a></dd>
+          <dd><a href="#">退换货地址</a></dd>
+          <dd><a href="#">退款说明</a></dd>
+          <dd><a href="#">品牌售后服务电话</a></dd>
+          <dd><a href="#">延保服务</a></dd>
+        </dl>
+        <dl class="life-mobile">
+          <dd><a href="#"><img src="images/Code.png" alt="扫一扫关注我们"/></a></dd>
+        </dl>
+      </div>
+    </div>
+	<div class="footer-info">
+      <div class="life-intro">
+        <p class="life-info">
+          <a href="#">关于精彩生活馆</a>|<a href="#">帮助中心</a>|<a href="#">联系我们</a>|<a href="#">法律声明</a>|<a href="#">人才招聘</a>|<a href="#">友情链接</a>
+        </p>
+        <p class="life-copyright">
+          <a href="#">蜀&nbsp;ICP&nbsp;备&nbsp;1300726&nbsp;号&nbsp;-5</a>|<a href="#">营业执照馆</a>|<a href="#">互联网药品信息服务资格证</a>|<a href="#">互联网药品交易服务资格证</a>
+        </p>
+        <p>Copyright©&nbsp;精彩生活馆&nbsp;2014，All&nbsp;Rights&nbsp;Reserved.</p>
+      </div>
+      <div class="life-footer"></div>
+    </div>
+  </div>
+</div>
+  </td>
+ </tr>
+</table>
+</body>
+</html>
