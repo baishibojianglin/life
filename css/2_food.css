@@ -33,16 +33,12 @@ ul{ list-style:none;}
 	height:222px;
 	float:left;
 	margin:auto 44px auto 30px;
-	}
-.lb_shipinga02b1{
-	width:1260px;
-	height:100%;
-	margin:0 auto;
-	overflow:hidden;
 	}	
 .lb_shipinga02b2{
-	width:660px;
+	width:540px;
 	height:222px;
+	margin:0 auto;
+	overflow:hidden;
 	}
 .lb_shipinga02b3{
 	width:28px;
@@ -53,10 +49,11 @@ ul{ list-style:none;}
 	margin:106px 30px 0px 0px;
 	}	
 .lb_shipinga02b4{
-	width:560px;
+	width:1098px;
 	height:100%;
 	margin:0 auto;
 	float:left;
+	position:relative;
 	}	
 .lb_shipinga02b5{
 	width:183px;
@@ -67,7 +64,7 @@ ul{ list-style:none;}
 	width:28px;
 	height:40px;
 	cursor: pointer;
-	float:left;
+	float:right;
 	line-height:222px;
 	margin:106px 0px 0px 0px;
 	}		
@@ -94,7 +91,7 @@ ul{ list-style:none;}
 .lb_shipinga02b10{
 	width:140px;
 	height:140px;
-	margin:0 auto 10px auto;
+	margin:0 auto 10px 10px;
 	}	
 .lb_shipinga02b11{
 	text-align:center;
