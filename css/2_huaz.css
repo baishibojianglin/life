@@ -82,10 +82,10 @@ margin-top:10px;
 /************º°∑Ùª§¿Ì*****************/
 .huazb14{
 width:100%;
-height:388px;
+height:390px;
 }
 .huazb15{
-width:100%;
+width:1154px;
 height:30px;
 margin-top:30px;
 border-left:6px solid #E55071;
@@ -137,12 +137,17 @@ height:360px;
 }
 .huazb20{
 width:250px;
-height:360px;
-border:4px solid #E55071;
+height:350px;
+border-top:4px solid #E55071;
 border-left:1px solid #CCCCCC;
 border-right:1px solid #CCCCCC;
+float:left;
 }
-
+.huazb21{
+width:250px;
+height:320px;
+border-bottom:1px solid #CCCCCC;
+}
 
 
 
