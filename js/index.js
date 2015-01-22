@@ -419,6 +419,8 @@ $(".jl_div1b_dt5f").eq(4).css({"background-color":"#418bef","border":"1px solid 
 $(".jl_div1b_dt5f").eq(5).css({"background-color":"#00CEB8","border":"1px solid #00CEB8"});
 $(".jl_div1b_dt5f").eq(6).css({"background-color":"#FF7C24","border":"1px solid #FF7C24"});
 $(".jl_div1b_dt5f").eq(7).css({"background-color":"#08D0EE","border":"1px solid #08D0EE"});
+$(".jl_div1b_dt5f").eq(8).css({"background-color":"#8354E3","border":"1px solid #8354E3"});
+$(".jl_div1b_dt5f").eq(9).css({"background-color":"#27B63B","border":"1px solid #27B63B"});
 
 //边框颜色
 $(".jl_div1c1f").eq(1).css({"border-top":"5px solid #FF4F4F"});
@@ -428,6 +430,8 @@ $(".jl_div1c1f").eq(4).css({"border-top":"5px solid #418bef"});
 $(".jl_div1c1f").eq(5).css({"border-top":"5px solid #00CEB8"});
 $(".jl_div1c1f").eq(6).css({"border-top":"5px solid #FF7C24"});
 $(".jl_div1c1f").eq(7).css({"border-top":"5px solid #08D0EE"});
+$(".jl_div1c1f").eq(8).css({"border-top":"5px solid #8354E3"});
+$(".jl_div1c1f").eq(9).css({"border-top":"5px solid #27B63B"});
 
 //小边框颜色
 for(i=6;i<=11;i++)
@@ -458,6 +462,14 @@ for(i=42;i<=47;i++)
 {
 $(".jl_div1c1f_2 dt").eq(i).css({"border-left":"5px solid #08D0EE"});
 }
+for(i=48;i<=53;i++)
+{
+$(".jl_div1c1f_2 dt").eq(i).css({"border-left":"5px solid #8354E3"});
+}
+for(i=54;i<=59;i++)
+{
+$(".jl_div1c1f_2 dt").eq(i).css({"border-left":"5px solid #27B63B"});
+}
 });
 
 
@@ -473,6 +485,16 @@ function bofang()
 	$(".jllb_div1a3 img").eq(m).attr("src","./images/dian2.png");	
 	$(".jllb_div1a1").eq(m).fadeIn();	
 	$(".jllb_div1a2").eq(m).fadeIn();
+	if(m==0)
+	{$(".jllb_div1").css({"background-color":"#F95605"})}
+	if(m==1)
+	{$(".jllb_div1").css({"background-color":"#FF7C24"})}
+	if(m==2)
+	{$(".jllb_div1").css({"background-color":"#08D0EE"})}
+	if(m==3)
+	{$(".jllb_div1").css({"background-color":"#418bef"})}
+	if(m==4)
+	{$(".jllb_div1").css({"background-color":"#FF4F4F"})}
 	m++;
 
 }
@@ -485,5 +507,15 @@ function dian(z)
 	$(".jllb_div1a3 img").eq(z).attr("src","./images/dian2.png");	
 	$(".jllb_div1a1").eq(z).fadeIn();	
 	$(".jllb_div1a2").eq(z).fadeIn();
+	if(m==0)
+	{$(".jllb_div1").css({"background-color":"#F95605"})}
+	if(m==1)
+	{$(".jllb_div1").css({"background-color":"#FF7C24"})}
+	if(m==2)
+	{$(".jllb_div1").css({"background-color":"#08D0EE"})}
+	if(m==3)
+	{$(".jllb_div1").css({"background-color":"#418bef"})}
+	if(m==4)
+	{$(".jllb_div1").css({"background-color":"#FF4F4F"})}
 	m=z+1;	
 }
