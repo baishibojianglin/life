@@ -7,11 +7,12 @@ line-height: 28px;
 display: block;
 font-weight: bold;
 }
-.life-firstScreen, .life-health, .life-hair, .life-haird, .life-skin, .life-healthpro {width:1160px;}
-.life-firstScreen{
-float: left;
-margin-bottom: 29px;
-}
+.life-health, .life-hair, .life-haird, .life-skin, .life-healthpro {width:1160px;}
+/*life-recommend*/
+.life-firstScreen{margin-left:234px;margin-bottom: 29px;}
+.life-fs{border:1px solid #F4F4F4;}
+.life-fs P{height:30px;line-height:30px;font-size:16px;color:#F60;}
+.life-fs span {float:right;}
 .floor-health {
 width: 85px;
 height: 30px;
