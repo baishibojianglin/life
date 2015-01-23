@@ -18,8 +18,9 @@ width: 85px;
 height: 30px;
 display: inline-block;
 }
-.life-healthnav{position:relative;top:-14px;right:0;z-index:200;width: 374px;height: 24px;background: url(../images/health1-10.jpg) no-repeat;float:right;}
-.life-healthnav a{width:93px;height:24px;display:block;float:left;display:block;text-indent:-1000em;}
+.life-healthnav{position:relative;top:-14px;right:8px;z-index:200;width: 380px;height: 24px;float:right;}
+.life-healthnav a{width:95px;height:24px;display:block;float:left;display:block;color:#666;font-size:16px;font-weight:bold;background-color:#FFF;text-align:right;}
+.life-healthnav a:hover{background:url(../images/healthnav.png) no-repeat;color:#FFF;background-color:#FFF;}
 .hleft{display:block;float:left;}
 .health{height:219px;border:1px solid #EAEAEA;border-left:none;margin-bottom:29px;}
 .hright{width:880px;height:200px;position:relative;top:-4px;right:0;display:block;float:left;}
@@ -64,7 +65,7 @@ display: inline-block;
 .bork51{width:209px;height:371px;display:block;border-bottom:2px solid #F4F4F4;}
 
 .heproL, .heproR{float:left;}
-.heproL {width:82%;position:relative;bottom:24px;right:0;}
+.heproL {margin-right:190px;position:relative;bottom:24px;right:0;float:left;}
 .heproL1 {height:295px;}
 .heproL2 {height:195px;}
 .heproL3 {position: relative;
