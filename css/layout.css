@@ -19,7 +19,7 @@ li {display: list-item;text-align: -webkit-match-parent;}
 #life-nav, .headerLayout, .content, .life-desc1, .life-intro {width:1160px;margin:0 auto;}
 
 /* ----------------------------------------------Header------------------------------------- */
-#header {height:160px;background-color:#fff;margin-top:-33px!important;position:relative;z-index:99;}
+#header {height:160px;background-color:#fff;margin-top:-33px!important;position:relative;z-index:99; display:none;}
 .headerLayout {padding-top:33px;}
 #header .headerCon {width: 1160px !important;position: relative;}
 

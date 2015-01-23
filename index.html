@@ -24,63 +24,61 @@
         <a href="javascript:addToFavortie()" rel="nofollow">收藏精彩生活馆</a>
       </li>
     </ul>
-	<script type="text/javascript">
-	$(document).ready(function(){
-	  $("#home-area").mouseover(function(){
-	  $("#home-area .dd").toggle();
-	  });
-	});
-	</script>
     <dl id="home-area">
       <dt>
         <i></i>
-        <span>成都市&nbsp;&gt;</span>
+        <span>成都市</span>
         <a href="#">金牛区</a>
         <b></b>
         <span class="blank"></span>
       </dt>
       <dd class="dd">
         <ul class="lh">
-          <li><a href="#">锦江区</a></li>
-          <li><a href="#">青羊区</a></li>
-          <li><a href="#">金牛区</a></li>
-          <li><a href="#">武侯区</a></li>
-          <li><a href="#">成华区</a></li>
-          <li><a href="#">龙泉驿区</a></li>
-          <li><a href="#">青白江区</a></li>
-          <li><a href="#">新都区</a></li>
-          <li><a href="#">温江区</a></li>
-          <li><a href="#">金堂县</a></li>
-          <li><a href="#">双流县</a></li>
-          <li><a href="#">郫县</a></li>
-          <li><a href="#">大邑县</a></li>
-          <li><a href="#">蒲江县</a></li>
-          <li><a href="#">新津县</a></li>
-          <li><a href="#">都江堰市</a></li>
-          <li><a href="#">彭州市</a></li>
-          <li><a href="#">邛崃市</a></li>
-          <li><a href="#">崇州市</a></li>
-          <li><a href="#">其他</a></li>
+          <li><a href="#" onClick="area(this);">锦江区</a></li>
+          <li><a href="#" onClick="area(this);">青羊区</a></li>
+          <li><a href="#" onClick="area(this);">金牛区</a></li>
+          <li><a href="#" onClick="area(this);">武侯区</a></li>
+          <li><a href="#" onClick="area(this);">成华区</a></li>
+          <li><a href="#" onClick="area(this);">龙泉驿区</a></li>
+          <li><a href="#" onClick="area(this);">青白江区</a></li>
+          <li><a href="#" onClick="area(this);">新都区</a></li>
+          <li><a href="#" onClick="area(this);">温江区</a></li>
+          <li><a href="#" onClick="area(this);">金堂县</a></li>
+          <li><a href="#" onClick="area(this);">双流县</a></li>
+          <li><a href="#" onClick="area(this);">郫县</a></li>
+          <li><a href="#" onClick="area(this);">大邑县</a></li>
+          <li><a href="#" onClick="area(this);">蒲江县</a></li>
+          <li><a href="#" onClick="area(this);">新津县</a></li>
+          <li><a href="#" onClick="area(this);">都江堰市</a></li>
+          <li><a href="#" onClick="area(this);">彭州市</a></li>
+          <li><a href="#" onClick="area(this);">邛崃市</a></li>
+          <li><a href="#" onClick="area(this);">崇州市</a></li>
+          <li><a href="#" onClick="area(this);">其他</a></li>
         </ul>
-        <div class="close" onclick="$('#home-area').removeClass('hover')">×</div>
+        <div class="close">×</div>
       </dd>
     </dl>
     <ul class="fr lh" id="fright">
      <li class="greet" id="loginbar">亲，欢迎来精彩生活馆！<span><a href="#" target="_top">[请登录]</a><a href="#" target="_top">[免费注册]</a></span></li>
+     <li class="jl1">|</li>
      <li class="myaccount ld">
-       <s></s>
-       <i></i>
-       <a class="menu-hd" href="#" target="_top" rel="nofollow" tabindex="0">我的账户</a>
-       <b></b>
-       <div class="menu-bd-panel" id="mylifePanel">
-          <ul>
-           <li><a href="#" target="_blank">我的订单</a></li>
-           <li><a href="#" target="_blank">我的积分</a></li>
-           <li><a href="#" target="_blank">我的收藏</a></li>
-           <li><a href="#" target="_blank">我的优惠</a></li>
-          </ul>
+        <span class="jl2"><img src="images/header3.png"/></span>
+        <div style="float:left;">
+          <a class="menu-hd" href="#" target="_top" rel="nofollow" tabindex="0">我的账户</a>
+          <div class="menu-bd-panel" id="mylifePanel">
+             <ul>
+               <li><a href="#" target="_blank">我的订单</a></li>
+               <li><a href="#" target="_blank">我的积分</a></li>
+               <li><a href="#" target="_blank">我的收藏</a></li>
+               <li><a href="#" target="_blank">我的优惠</a></li>
+             </ul>
+          </div>
        </div>
 	 </li>
+     
+     
+     
+     
 	 <li class="sn-cart mini-cart menu ld">
        <i></i>
        <a class="sn-cart-link" href="#" target="_top" rel="nofollow" id="mc-menu-hd">购物车<span class="mc-count mc-pt3">&nbsp;0&nbsp;</span>件</a>

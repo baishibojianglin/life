@@ -1,5 +1,15 @@
 // JavaScript Document
 $(function(){
+//导航部分代码
+$("#home-area dt").mouseover(function(){
+$("#home-area dd").show();
+$("#home-area dd").mouseover(function(){$(this).show();});
+$("#home-area dd").mouseout(function(){$(this).hide();});
+});
+$(".close").click(function(){$("#home-area dd").hide();});
+
+	
+	
 //jl第一部分特效代码
 
 
@@ -518,4 +528,10 @@ function dian(z)
 	if(m==4)
 	{$(".jllb_div1").css({"background-color":"#FF4F4F"})}
 	m=z+1;	
+}
+
+
+function area(a)
+{
+$("#home-area dt a").text($(a).text());
 }
