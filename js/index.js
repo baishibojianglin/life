@@ -9,10 +9,31 @@ $("#home-area dd").mouseout(function(){$(this).hide();});
 $(".close").click(function(){$("#home-area dd").hide();});
 
 	
-	
+
+$(".jl3").mouseover(function(){
+	$(".menu-bd-panel").slideDown();
+	$(".menu-bd-panel").mouseover(function(){
+		$(".menu-bd-panel").show();
+		});
+	$(".menu-bd-panel").mouseout(function(){
+		$(".menu-bd-panel").hide();
+		});
+});
+
+$(".sn-sitemap").mouseover(function(){
+	$(".hd_site_nav").slideDown();
+	$(".hd_site_nav").mouseover(function(){
+		$(this).show();
+		});
+	$(".hd_site_nav").mouseout(function(){
+		$(this).hide();
+		});
+});
+
+
+
+
 //jl第一部分特效代码
-
-
 
 /*淡入代码*/
 $(".jl_div1c3").mouseover(function(){
@@ -81,9 +102,7 @@ $(".lb_daos06").click(function(){
 	$(".lb_daos08 img").eq(8).attr("src","./images/2009.jpg");
     $(".lb_daos08 img").eq(9).attr("src","./images/2010.jpg");		
 	$(".lb_daos08 img").eq(10).attr("src","./images/2011.jpg");	
-	
-	
-	
+
 	});
 	
 	

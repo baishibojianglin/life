@@ -15,13 +15,12 @@ li {display: list-item;text-align: -webkit-match-parent;}
 
 /*----------------------------------------------Generalise------------------------------------- */
 
-#site-nav, #header, #Content, #footer {width:100%;min-width:1160px;}
+#header, #Content, #footer {width:100%;height:160px;background-color:#fff;}
 #life-nav, .headerLayout, .content, .life-desc1, .life-intro {width:1160px;margin:0 auto;}
 
 /* ----------------------------------------------Header------------------------------------- */
-#header {height:160px;background-color:#fff;margin-top:-33px!important;position:relative;z-index:99; display:none;}
-.headerLayout {padding-top:33px;}
-#header .headerCon {width: 1160px !important;position: relative;}
+.headerLayout {padding-top:10px;}
+#header .headerCon {width: 1160px;position: relative;}
 
 #lifeLogo {width:390px;height:109px;line-height:64px;padding-top:18px;voerflow:hidden;float:left;cursor:auto;}
 #lifeLogo a {width:auto;height:109px;display:block;}
