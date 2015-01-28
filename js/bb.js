@@ -86,7 +86,7 @@ $("#servNav a").powerSwitch({
   
   
   
-  $(".lb_shipinga02b2").jCarouselLite({   //食物food的左右滑动
+$(".lb_shipinga02b2").jCarouselLite({   //食物food的左右滑动
 btnNext: ".lb_shipinga02b3",//左
 btnPrev: ".lb_shipinga02b6"//右
 });
@@ -109,24 +109,78 @@ function() {$(this).fadeTo("slow", 5);
 
   
   
-  
-  
-  
+ 
+$(".tuang_dao1x8").jCarouselLite({   //团购导航部分的左右滑动
+btnNext: ".tuang_dao1x6",//左
+btnPrev: ".tuang_dao1x7",//右
+/*auto: 800, */        //自动轮播功能
+speed: 3000,        //速度3秒
+scroll: 1            //控制播放个数
+});
+
+
+
+
   
   
 
+ 
+  
+  var htmlAdBtn = '';                                                             // 大的图片广告   根据图片创建id,按钮元素等，实际开发建议使用JSON数据类似
+$(".lb_texiao1 .tuang7").each(function(index, ul) {
+	var id = "adUl" + index;
+	htmlAdBtn = htmlAdBtn + '<a href="javascript:" class="tuang_jiaodian_a" data-rel="'+ id +'">'+ '</a>';
+	ul.id = id;
+});
+$("#jdAdBtn").html(htmlAdBtn).find("a").powerSwitch({
+	eventType: "hover",
+	classAdd: "active",
+	animation: "fade",
+	autoTime: 3000,
+	onSwitch: function(ul) {
+		if (!ul.attr("src")) {
+			ul.attr("src", ul.attr(".tuang7"));	
+		}
+	}
+}).eq(0).trigger("mouseover");
+
+// 便民服务
+$("#servNav a").powerSwitch({
+	classAdd: "active",
+	eventType: "hover",
+	onSwitch: function() {
+		$("#pointLine").animate({ "left": $(this).position().left}, 200);
+	}
+});
+
+/*
+精彩热门关注的焦点图
+*/
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
   
   
 });
-
-
-
-
-
-
 
 
 
