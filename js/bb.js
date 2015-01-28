@@ -124,20 +124,22 @@ scroll: 1            //控制播放个数
   
   
 
+ 
+  
   var htmlAdBtn = '';                                                             // 大的图片广告   根据图片创建id,按钮元素等，实际开发建议使用JSON数据类似
-$("#dao_all ul").each(function(index, image) {
-	var id = "adImage" + index;
-	htmlAdBtn = htmlAdBtn + '<a href="javascript:" class="dian_tg" data-rel="'+ id +'">'+ '</a>';
-	image.id = id;
+$(".lb_texiao1 .tuang7").each(function(index, ul) {
+	var id = "adUl" + index;
+	htmlAdBtn = htmlAdBtn + '<a href="javascript:" class="tuang_jiaodian_a" data-rel="'+ id +'">'+ '</a>';
+	ul.id = id;
 });
 $("#jdAdBtn").html(htmlAdBtn).find("a").powerSwitch({
 	eventType: "hover",
 	classAdd: "active",
 	animation: "fade",
 	autoTime: 3000,
-	onSwitch: function(image) {
-		if (!image.attr("src")) {
-			image.attr("src", image.attr("data-src"));	
+	onSwitch: function(ul) {
+		if (!ul.attr("src")) {
+			ul.attr("src", ul.attr(".tuang7"));	
 		}
 	}
 }).eq(0).trigger("mouseover");
@@ -151,6 +153,16 @@ $("#servNav a").powerSwitch({
 	}
 });
 
+/*
+精彩热门关注的焦点图
+*/
+  
+  
+  
+  
+  
+  
+  
   
   
   
@@ -169,12 +181,6 @@ $("#servNav a").powerSwitch({
   
   
 });
-
-
-
-
-
-
 
 
 

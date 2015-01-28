@@ -23,7 +23,7 @@
 </head>
 
 <body>
-<!--------------------------导航部分--------------------------><!---
+<!--------------------------导航部分-------------------------->
 <div id="site-nav">
   <div class="life-top"></div>
   <div id="life-nav">
@@ -34,85 +34,130 @@
         <a href="javascript:addToFavortie()" rel="nofollow">收藏精彩生活馆</a>
       </li>
     </ul>
-	<script type="text/javascript">
-	$(document).ready(function(){
-	  $("#home-area").click(function(){
-	  $("#home-area .dd").toggle();
-	  });
-	});
-	</script>
     <dl id="home-area">
       <dt>
-        <b></b>
-        <span>成都市&nbsp;&gt;</span>
+        <i></i>
+        <span>成都市</span>
         <a href="#">金牛区</a>
+        <b></b>
         <span class="blank"></span>
       </dt>
       <dd class="dd">
         <ul class="lh">
-          <li><a href="#">锦江区</a></li>
-          <li><a href="#">青羊区</a></li>
-          <li><a href="#">金牛区</a></li>
-          <li><a href="#">武侯区</a></li>
-          <li><a href="#">成华区</a></li>
-          <li><a href="#">龙泉驿区</a></li>
-          <li><a href="#">青白江区</a></li>
-          <li><a href="#">新都区</a></li>
-          <li><a href="#">温江区</a></li>
-          <li><a href="#">金堂县</a></li>
-          <li><a href="#">双流县</a></li>
-          <li><a href="#">郫县</a></li>
-          <li><a href="#">大邑县</a></li>
-          <li><a href="#">蒲江县</a></li>
-          <li><a href="#">新津县</a></li>
-          <li><a href="#">都江堰市</a></li>
-          <li><a href="#">彭州市</a></li>
-          <li><a href="#">邛崃市</a></li>
-          <li><a href="#">崇州市</a></li>
-          <li><a href="#">其他</a></li>
+          <li><a href="#" onClick="area(this);">锦江区</a></li>
+          <li><a href="#" onClick="area(this);">青羊区</a></li>
+          <li><a href="#" onClick="area(this);">金牛区</a></li>
+          <li><a href="#" onClick="area(this);">武侯区</a></li>
+          <li><a href="#" onClick="area(this);">成华区</a></li>
+          <li><a href="#" onClick="area(this);">龙泉驿区</a></li>
+          <li><a href="#" onClick="area(this);">青白江区</a></li>
+          <li><a href="#" onClick="area(this);">新都区</a></li>
+          <li><a href="#" onClick="area(this);">温江区</a></li>
+          <li><a href="#" onClick="area(this);">金堂县</a></li>
+          <li><a href="#" onClick="area(this);">双流县</a></li>
+          <li><a href="#" onClick="area(this);">郫县</a></li>
+          <li><a href="#" onClick="area(this);">大邑县</a></li>
+          <li><a href="#" onClick="area(this);">蒲江县</a></li>
+          <li><a href="#" onClick="area(this);">新津县</a></li>
+          <li><a href="#" onClick="area(this);">都江堰市</a></li>
+          <li><a href="#" onClick="area(this);">彭州市</a></li>
+          <li><a href="#" onClick="area(this);">邛崃市</a></li>
+          <li><a href="#" onClick="area(this);">崇州市</a></li>
+          <li><a href="#" onClick="area(this);">其他</a></li>
         </ul>
-        <div class="close" onclick="$('#home-area').removeClass('hover')">×</div>
+        <div class="close">×</div>
       </dd>
     </dl>
-    <ul class="fr lh">
-     <li class="greet" id="loginbar">亲，欢迎来精彩生活馆！<span><a href="javascript:login();">[请登录]</a><a href="javascript:regist();" class="link-regist">[免费注册]</a></span></li>
-     <li class="myaccount ld">
-       <s></s>
-       <i></i>
-       <a class="menu-hd" href="#" target="_top" rel="nofollow" tabindex="0">我的账户</a>
-       <b></b>
-       <div class="menu-bd-panel" id="myTaobaoPanel">
-          <ul>
-           <li><a href="#" data-ref="LIFE_TOP_order" target="_blank">我的订单</a></li>
-           <li><a href="#" data-ref="LIFE_TOP_points" target="_blank">我的积分</a></li>
-           <li><a href="#" data-ref="LIFE_TOP_coupon" target="_blank">我的抵用券</a></li>
-           <li><a href="#" data-ref="LIFE_TOP_mycollection" target="_blank">我的收藏夹</a></li>
-           <li><a href="#" data-ref="LIFE_TOP_comment" target="_blank">评价商品</a></li>
-           <li><a href="#" data-ref="LIFE_TOP_vip" target="_blank">会员专享</a></li>
-          </ul>--><!---
+    <ul class="fr lh" id="fright">
+     <li class="greet" id="loginbar">亲，欢迎来精彩生活馆！<span><a href="#" target="_top">[请登录]</a><a href="#" target="_top">[免费注册]</a></span></li>
+     <li class="jl1">|</li>
+     <li class="myaccount ld" style="border:1px solid #666; z-index:105;">
+        <span class="jl2"><img src="images/header3.png"/></span>
+        <div style="float:left;">
+          <a class="menu-hd" href="#" target="_top" rel="nofollow" tabindex="0">我的账户</a>
+          <div class="menu-bd-panel" id="mylifePanel">
+             <ul>
+               <li><a href="#" target="_blank">我的订单</a></li>
+               <li><a href="#" target="_blank">我的积分</a></li>
+               <li><a href="#" target="_blank">我的收藏</a></li>
+               <li><a href="#" target="_blank">我的优惠</a></li>
+             </ul>
+          </div>
        </div>
 	 </li>
-	 <li class="sn-cart mini-cart menu"><i class="mui-global-iconfont">??</i>
-       <a class="sn-cart-link" href="#" target="_top" rel="nofollow" id="mc-menu-hd">购物车<span class="mc-count mc-pt3">0</span>件<iframe id="tmp_downloadhelper_iframe" style="display: none;"></iframe></a>
+     
+     
+     
+     
+	 <li class="sn-cart mini-cart menu ld">
+       <i></i>
+       <a class="sn-cart-link" href="#" target="_top" rel="nofollow" id="mc-menu-hd">购物车<span class="mc-count mc-pt3">&nbsp;0&nbsp;</span>件</a>
      </li>
-     <li class="fore2 ld"><s></s><a href="#">招商加盟</a></li>
-	 <li class="fore2 ld" id="app-life">
+     <li class="sn-join ld">
+       <s></s>
+       <a href="#">招商加盟</a>
+     </li>
+     <script type="text/javascript">
+	$(document).ready(function(){
+	  $("#app-life").mouseover(function(){
+	  $(".sn-qrcode").toggle();
+	  });
+	  $(".myaccount").click(function(){
+		  $("#mylifePanel li").slideToggle();
+		  });
+	  $(".sn-sitemap").mouseover(function(){
+	  $(".hd_site_nav").toggle();
+	  });
+	});
+	</script>
+	 <li class="sn-mobile ld" id="app-life">
 	   <s></s>
 	   <i class="mui-global-iconfont"></i>
 	   <a href="#" target="_top" class="sn-mobile-link">手机版</a>
-	   <div class="sn-qrcode" style="display: none;">
+	   <div class="sn-qrcode" style="display:inline;">
          <div class="sn-qrcode-content"></div>
          <p>扫一扫，定制我的生活！</p>
          <b></b>
        </div>
 	 </li>
-     <li class="fore2 ld"><s></s><a href="#">网站导航</a></li>
+     <li class="sn-sitemap ld">
+       <s></s>
+       <a href="#">网站导航</a>
+       <b></b>
+       <div class="hd_site_nav">
+         <dl class="item fore1">
+           <dt>精彩指南</dt>
+           <dd>
+             <div><a target="_blank" href="#">校园之星</a></div>
+             <div><a target="_blank" href="#">视频购物星</a></div>
+             <div><a target="_blank" href="#">在线读书物</a></div>
+             <div><a target="_blank" href="#">装机大师</a></div>
+             <div><a target="_blank" href="#">家装城</a></div>
+             <div><a target="_blank" href="#">搭配购</a></div>
+           </dd>
+         </dl>
+         <dl class="item fore2">
+           <dt>企业服务</dt>
+           <dd>
+             <div><a target="_blank" href="#">企业采购</a></div>
+             <div><a target="_blank" href="#">办公直通车</a></div>
+           </dd>
+         </dl>
+         <dl class="item fore3">
+           <dt>更多精彩</dt>
+           <dd>
+             <div><a target="_blank" href="#">企业采购</a></div>
+             <div><a target="_blank" href="#">办公直通车</a></div>
+           </dd>
+         </dl>
+       </div>
+     </li>
     </ul>
    </div>
   </div>
-</div>------->
+</div>
 
-<!-----------------------------------------------Header-------------------------------------------------><!---
+<!-----------------------------------------------Header------------------------------------------------->
 <div id="header">
    <div class="headerLayout">
      <div class="headerCon">
@@ -154,121 +199,172 @@
      </div>
    </div>
 </div>
-------->
-<!-----------------------------------------------nav-------star------------------------------------------>
-	
-	<div class="lb_tgdaos01"><!--所有导航--->
-		<div class="lb_tgdaos02"><!------------横向导航------------------->
 
-			<div  class="lb_tgdaos04">
-				<div class="lb_tgdaos05"><a href="">团购分类</a></div>
-				<div class="lb_tgdaos06"><img src="./images/jcd1_05.png" width="100%" height="100%" /></div>
+<!-----------------------------------------------全部商品部分---------------------------------------------------------------------------->	
+	<div class="lb_daos01"><!--所有导航--->
+    
+    
+<!------------------------------------------------------横向导航------------------------------------------------->
+      <div class="lb_daos02bao">
+		<div class="lb_daos02">
+
+			<div  class="lb_daos04">
+				<div class="lb_daos05"><a href="">全部商品分类</a></div>
+				<div class="lb_daos06"><img src="./images/jcd1_05.png" width="100%" height="100%" /></div>
 			</div>
 
-			<div class="lb_tgdaos11">
-				<div class="lb_tgdaos12 padd"><a href="#">首页</a></div>
-				<div class="lb_tgdaos12"><a href="#">今日新单</a></div>
-				<div class="lb_tgdaos12"><a href="#">团购精选</a></div>
-				<div class="lb_tgdaos12"><a href="#">人气单品</a></div>	
+			<div class="lb_daos11">
+				<div class="lb_daos12 padding"><a href="#">精彩推荐专区</a></div>
+				<div class="lb_daos12"><a href="#">产地直送</a></div>
+				<div class="lb_daos12"><a href="#">美食馆</a></div>
+				<div class="lb_daos12"><a href="#">服装馆</a></div>
+				<div class="lb_daos12"><a href="#">养生馆</a></div>
+				<div class="lb_daos12"><a href="#">精彩生活超市</a></div>	
 			</div>
 				
-			<div class="lb_tgdaos13">
+			<div class="lb_daos13">
 				<a href="#">
 					<table>
 						<tr>
-							<td><div class="lb_tgdaos14"><img src="./images/jcd1_03.png" width="100%" height="100%" /></div></td>
-							<td><div class="lb_tgdaos15">手机下单</div></td>
-							<td><div class="lb_tgdaos16">更精彩</div></td>
+							<td><div class="lb_daos14"><img src="./images/jcd1_03.png" width="100%" height="100%" /></div></td>
+							<td><div class="lb_daos15">手机下单</div></td>
+							<td><div class="lb_daos16">更精彩</div></td>
 						</tr>
 					</table>
 				</a>	
-			</div>		
-		</div>
-		
-		<!-----
-		<div class="lb_daos017">---竖向导航部分----------------
+			</div>
+            
+            
+            
+            
+<!--------竖向导航部分-----------------> 
+         <!----   
+           <div class="lb_daos017">
 			<div class="lb_daos018">
 			
 			
 			
-				<div class="lb_daos03 white bo" onmouseover="lb_jc('jia1.html');" onmouseover="lb_jc2('meis.html');">
+				<div class="lb_daos03 white bo"  id="hh" onMouseOver="jia1('load1.html');">
 					<div class="lb_daos20">
-						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_03.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">食品</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
-					</div>
-					
-					<div class="lb_daos019">
-				
-					
-					
+						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/2001.jpg" /></div></td><td><div class="lb_daos09">食品</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
+                        <div class="sanjiao"><img src="images/sanjiao.png"/></div>
+					</div>     
+				</div>
+ 
+ 
+ 
+ 
+             
+				<div class="lb_daos03 gray" onMouseOver="jia1('load2.html');">
+					<div class="lb_daos20">
+						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/2002.jpg" /></div></td><td><div class="lb_daos09">服装</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
+                        <div class="sanjiao"><img src="images/sanjiao.png"/></div>
 					</div>
 				</div>
 				
-				<div class="lb_daos03 gray" onmouseover="lb_jc('ji2.html');">
+             
+				<div class="lb_daos03 white" onMouseOver="jia1('load1.html');">
 					<div class="lb_daos20">
-						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_07.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">服装</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
+						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/2003.jpg"  /></div></td><td><div class="lb_daos09">化妆品</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
+                        <div class="sanjiao"><img src="images/sanjiao.png"/></div>
 					</div>
 				</div>
 				
-				<div class="lb_daos03 white">
+              
+				<div class="lb_daos03 gray" onMouseOver="jia1('load2.html');">
 					<div class="lb_daos20">
-						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_09.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">化妆品</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
+						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/2004.jpg"  /></div></td><td><div class="lb_daos09">医药保健</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
+                        <div class="sanjiao"><img src="images/sanjiao.png"/></div>
 					</div>
 				</div>
 				
-				<div class="lb_daos03 gray">
+             
+				<div class="lb_daos03 white" onMouseOver="jia1('load1.html');">
 					<div class="lb_daos20">
-						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_10.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">医药保健</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
+						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/2005.jpg"  /></div></td><td><div class="lb_daos09">汽车</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
+                        <div class="sanjiao"><img src="images/sanjiao.png"/></div>
 					</div>
 				</div>
-				
-				<div class="lb_daos03 white">
+             
+                
+				<div class="lb_daos03 gray" onMouseOver="jia1('load2.html',this);">
 					<div class="lb_daos20">
-						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_11.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">汽车</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
+						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/2006.jpg"  /></div></td><td><div class="lb_daos09">茶叶</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
+                        <div class="sanjiao"><img src="images/sanjiao.png"/></div>
 					</div>
 				</div>
-				
-				<div class="lb_daos03 gray">
+               
+				<div class="lb_daos03 white" onMouseOver="jia1('load1.html');">
 					<div class="lb_daos20">
-						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_12.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">茶叶</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
+						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/2007.jpg"  /></div></td><td><div class="lb_daos09">洗衣店</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
+                        <div class="sanjiao"><img src="images/sanjiao.png"/></div>
 					</div>
 				</div>
-				
-				<div class="lb_daos03 white">
+              
+				<div class="lb_daos03 gray" onMouseOver="jia1('load2.html');">
 					<div class="lb_daos20">
-						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_13.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">洗衣店</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
+						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/2008.jpg"  /></div></td><td><div class="lb_daos09">酒店</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
+                        <div class="sanjiao"><img src="images/sanjiao.png"/></div>
 					</div>
 				</div>
-				
-				<div class="lb_daos03 gray">
+                
+				<div class="lb_daos03 white" onMouseOver="jia1('load1.html');">
 					<div class="lb_daos20">
-						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_14.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">酒店</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
+						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/2009.jpg" /></div></td><td><div class="lb_daos09">旅游</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
+                        <div class="sanjiao"><img src="images/sanjiao.png"/></div>
 					</div>
 				</div>
-				
-				<div class="lb_daos03 white">
+               
+				<div class="lb_daos03 gray" onMouseOver="jia1('load2.html');">
 					<div class="lb_daos20">
-						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_15.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">旅游</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
+						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/2010.jpg"  /></div></td><td><div class="lb_daos09">餐饮</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
+                        <div class="sanjiao"><img src="images/sanjiao.png"/></div>
 					</div>
 				</div>
-				
-				<div class="lb_daos03 gray">
+			
+				<div class="lb_daos03 white" onMouseOver="jia1('load1.html');">
 					<div class="lb_daos20">
-						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_16.jpg" width="100%" height="100%" /></div></td><td><div class="lb_daos09">餐饮</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
-					</div>
-				</div>
-				
-				
-				<div class="lb_daos03 white">
-					<div class="lb_daos20">
-						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/jd1_17.gif" width="100%" height="100%" /></div></td><td><div class="lb_daos09">教育</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
+						<a href="#"><div class="lb_daos07"><div class="lb_daos08"><img src="./images/2011.jpg"  /></div></td><td><div class="lb_daos09">教育</div></div><div class="lb_daos10"><img src="./images/jiantou.png" width="100%" height="100%" /></div></a>
+                        <div class="sanjiao"><img src="images/sanjiao.png"/></div>
 					</div>
 				</div>
 
-				
-			</div>----->
-		
+			</div>
 		</div>
-		
+            
+<!--------竖向导航部分结束----------------->            
+            
+    <!--------竖向导航旁边的具体内容加载块---------->
+    <div class="lb_daos019" id="nei1">
+    
+    
+    </div>                
+    <!--------竖向导航旁边的具体内容加载块结束---------->            
+            		
+		</div>
+	</div>	
+
+<!----------------------------------------横向导航结束------------------------------------------->
+
+</div>	
+
+
+
+<script>
+function jia1(a)
+{   
+	
+	$("#nei1").load(a);
+
+}
+</script>
+
+<!-----------------------------------------------全部商品部分代码结束------------------------------------>
+
+
+
+<!----------------------------------------栏目区------------------------------------------->
+
 
 <!--------------------------------------------中部代码开始------------------------------------->
 
@@ -351,7 +447,7 @@
 					<div class="tuang4">
 						<div class="tuang5"><a href="#">今日新单</a></div>
 						<div class="tuang6"><a href="#">一周热点</a></div>
-						
+						<div id="jdAdBtn" class="tuang_jiaodian" ></div>
 					</div>
 					
 					
@@ -364,7 +460,7 @@
 							<a href="#"><p class="tuang10">【玉林】醉烧刀烤肉</p></a>
 							<p class="tuang11">3小时欢快用餐，免费WIFI</p>
 							<div class="tuang12">
-								<p>￥12</p><span><s>￥200</s></span>
+								<p>￥11</p><span><s>￥200</s></span>
 							</div>
 						</li>
 						
@@ -412,7 +508,7 @@
 							<a href="#"><p class="tuang10">【果园】好伦哥（九颗树店）</p></a>
 							<p class="tuang11">单人西式自助餐，午餐/晚餐通用</p>
 							<div class="tuang12">
-								<p>￥12</p><span><s>￥200</s></span>
+								<p>￥22</p><span><s>￥200</s></span>
 							</div>
 						</li>
 						
@@ -434,7 +530,7 @@
 							</div>
 						</li>
 						
-						<li class="tuang8">
+						<li class="tuang8a">
 							<div class="tuang9"><a href="#"><img src="./images/tuang1_11.gif" width="100%" height="100%" alt="" /></a></div>
 							<a href="#"><p class="tuang10">【四季青】鑫源主题量版KTV</p></a>
 							<p class="tuang11">2小时欢唱券，免费WIFI，免费停车</p>
@@ -460,7 +556,7 @@
 							<a href="#"><p class="tuang10">【望丹桥】北京游览</p></a>
 							<p class="tuang11">年票1套</p>
 							<div class="tuang12">
-								<p>￥12</p><span><s>￥200</s></span>
+								<p>￥32</p><span><s>￥200</s></span>
 							</div>
 						</li>
 						
@@ -473,7 +569,7 @@
 							</div>
 						</li>
 						
-						<li class="tuang8">
+						<li class="tuang8a">
 							<div class="tuang9"><a href="#"><img src="./images/tuang1_11.gif" width="100%" height="100%" alt="" /></a></div>
 							<a href="#"><p class="tuang10">【四季青】鑫源主题量版KTV</p></a>
 							<p class="tuang11">2小时欢唱券，免费WIFI，免费停车</p>
@@ -499,7 +595,7 @@
 								<p>￥12</p><span><s>￥200</s></span>
 							</div>
 						</li>
-					<ul>
+					</ul>
 					
 					<ul class="tuang7" id="lb_texiaoxy">
 						<li class="tuang8a">
@@ -507,11 +603,11 @@
 							<a href="#"><p class="tuang10">【望京】美宜佳酒店</p></a>
 							<p class="tuang11">豪华大床房，带电脑，免费WIFI</p>
 							<div class="tuang12">
-								<p>￥12</p><span><s>￥200</s></span>
+								<p>￥42</p><span><s>￥200</s></span>
 							</div>
 						</li>
 						
-						<li class="tuang8">
+						<li class="tuang8a">
 							<div class="tuang9"><a href="#"><img src="./images/tuang1_11.gif" width="100%" height="100%" alt="" /></a></div>
 							<a href="#"><p class="tuang10">【四季青】鑫源主题量版KTV</p></a>
 							<p class="tuang11">2小时欢唱券，免费WIFI，免费停车</p>
@@ -538,7 +634,7 @@
 							</div>
 						</li>
 						
-						<li class="tuang8">
+						<li class="tuang8a">
 							<div class="tuang9"><a href="#"><img src="./images/tuang1_11.gif" width="100%" height="100%" alt="" /></a></div>
 							<a href="#"><p class="tuang10">【四季青】鑫源主题量版KTV</p></a>
 							<p class="tuang11">2小时欢唱券，免费WIFI，免费停车</p>
@@ -548,7 +644,7 @@
 						</li>
 						
 					</ul>
-					<div id="jdAdBtn" class="dian_tg"></div>
+					
 					</div>
 				</div>
 			</div>
@@ -1597,23 +1693,83 @@
 				<div class="tuang36"><!--------精彩--热门关注------->
 					<p class="tuang37">精彩</p>
 					<div class="tuang38">热门关注</div>
+					
+					<div id="jdAdBtnl" class="btn" ></div>
 				</div>
-			
-				<ul class="tuang39">
-					<li class="tuang40"><a href="#"><img src="./images/tuang2_86.jpg" width="100%" height="100%" alt="" /></a></li>
-					<li class="tuang40a"><a href="#"><img src="./images/tuang2_88.jpg" width="100%" height="100%" alt="" /></a></li>
-					<li class="tuang40a"><a href="#"><img src="./images/tuang2_90.jpg" width="100%" height="100%" alt="" /></a></li>
-					<li class="tuang40a"><a href="#"><img src="./images/tuang2_92.jpg" width="100%" height="100%" alt="" /></a></li>
-					<li class="tuang40a"><a href="#"><img src="./images/tuang2_94.gif" width="100%" height="100%" alt="" /></a></li>
-				</ul>
+				<div class="tuang41">
+					<div class="tuang42">
+					
+						<ul class="tuang39">
+							<li class="tuang40a"><a href="#"><img src="./images/tuang2_86.jpg" width="100%" height="100%" alt="" /></a></li>
+							<li class="tuang40a"><a href="#"><img src="./images/tuang2_88.jpg" width="100%" height="100%" alt="" /></a></li>
+							<li class="tuang40a"><a href="#"><img src="./images/tuang2_90.jpg" width="100%" height="100%" alt="" /></a></li>
+							<li class="tuang40a"><a href="#"><img src="./images/tuang2_92.jpg" width="100%" height="100%" alt="" /></a></li>
+							<li class="tuang40a"><a href="#"><img src="./images/tuang2_94.gif" width="100%" height="100%" alt="" /></a></li>
+						</ul>
 				
+						<ul class="tuang39">
+							<li class="tuang40a"><a href="#"><img src="./images/tuang2_88.jpg" width="100%" height="100%" alt="" /></a></li>
+							<li class="tuang40a"><a href="#"><img src="./images/tuang2_86.jpg" width="100%" height="100%" alt="" /></a></li>
+							<li class="tuang40a"><a href="#"><img src="./images/tuang2_90.jpg" width="100%" height="100%" alt="" /></a></li>
+							<li class="tuang40a"><a href="#"><img src="./images/tuang2_92.jpg" width="100%" height="100%" alt="" /></a></li>
+							<li class="tuang40a"><a href="#"><img src="./images/tuang2_94.gif" width="100%" height="100%" alt="" /></a></li>
+						</ul>
+				
+						<ul class="tuang39">
+							<li class="tuang40a"><a href="#"><img src="./images/tuang2_90.jpg" width="100%" height="100%" alt="" /></a></li>
+							<li class="tuang40a"><a href="#"><img src="./images/tuang2_86.jpg" width="100%" height="100%" alt="" /></a></li>
+							<li class="tuang40a"><a href="#"><img src="./images/tuang2_88.jpg" width="100%" height="100%" alt="" /></a></li>
+							<li class="tuang40a"><a href="#"><img src="./images/tuang2_92.jpg" width="100%" height="100%" alt="" /></a></li>
+							<li class="tuang40a"><a href="#"><img src="./images/tuang2_94.gif" width="100%" height="100%" alt="" /></a></li>
+						</ul>
+				
+						<ul class="tuang39">
+							<li class="tuang40a"><a href="#"><img src="./images/tuang2_94.gif" width="100%" height="100%" alt="" /></a></li>
+							<li class="tuang40a"><a href="#"><img src="./images/tuang2_86.jpg" width="100%" height="100%" alt="" /></a></li>
+							<li class="tuang40a"><a href="#"><img src="./images/tuang2_88.jpg" width="100%" height="100%" alt="" /></a></li>
+							<li class="tuang40a"><a href="#"><img src="./images/tuang2_90.jpg" width="100%" height="100%" alt="" /></a></li>
+							<li class="tuang40a"><a href="#"><img src="./images/tuang2_92.jpg" width="100%" height="100%" alt="" /></a></li>
+						</ul>
+						
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 
 
 
+<script>
+  var htmlAdBtn = '';                                                             // 大的图片广告   根据图片创建id,按钮元素等，实际开发建议使用JSON数据类似
+$(".tuang42 .tuang39").each(function(index, ul) {
+	var id = "adUl" + index;
+	htmlAdBtn = htmlAdBtn + '<a href="javascript:" class="btn_a" data-rel="'+ id +'">'+ '</a>';
+	ul.id = id;
+});
+$("#jdAdBtnl").html(htmlAdBtn).find("a").powerSwitch({
+	eventType: "hover",
+	classAdd: "active",
+	animation: "fade",
+	autoTime: 3000,
+	onSwitch: function(ul) {
+		if (!ul.attr("src")) {
+			ul.attr("src", ul.attr(".tuang39"));	
+		}
+	}
+}).eq(0).trigger("mouseover");
 
+// 便民服务
+$("#servNav a").powerSwitch({
+	classAdd: "active",
+	eventType: "hover",
+	onSwitch: function() {
+		$("#pointLine").animate({ "left": $(this).position().left}, 300);
+	}
+});
+
+
+
+</script>
 
 
 <!------------------------------中部代码结束------------------------------------------->
