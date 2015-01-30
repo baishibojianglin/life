@@ -1,0 +1,116 @@
+body, p, form, input, button, dl, dt, dd, ul, ol, li, h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    font: 12px "微软雅黑",Helvetica,sans-serif;
+    color: #333;
+}
+img {
+    border: 0 none;
+    vertical-align: top;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+#container{
+    width: 1160px;
+    height: auto;
+    margin: 0 auto;
+    padding:0;
+}
+/*----------------------------------------life_menu----------------------------------*/
+.l24{line-height:24px;}
+.left_menu .column,.left_menu .column2{border:1px solid #d4d4d4;}
+.left_menu h3{background:url(http://image.yihaodianimg.com/images/help/images/menu_sub_tit.jpg) no-repeat; height:29px; line-height:29px;font-size:12px; padding-left:19px; color:#333; font-weight:normal; border-top:1px solid #d4d4d4; cursor:pointer;}
+.left_menu h3.on{background:url(http://image.yihaodianimg.com/images/help/images/menu_sub_tit_on.jpg) no-repeat; color:#cc0000; font-weight:bold;}
+.column a{background:url(http://image.yihaodianimg.com/images/help/images/listimg.png) no-repeat 0px 7px; height:24px; line-height:24px;padding-left:10px; margin-left:10px;}
+.right_content{ width:760px; float:right;}
+.left_menu .column2 dl{background: #FFF url(http://image.yihaodianimg.com/images/help/images/sub_listbg.png) repeat-x; line-height:24px; padding-right:12px; padding-bottom:10px;}
+.left_menu .column2 dt{ font-weight:bold; color:#333; padding-left:17px;}
+.left_menu .column2 dd{padding-left:70px;}
+.left_menu .column2 .tit{width:70px; text-align:right; margin-left:-70px; float:left;}
+.life-help{
+    zoom:1;
+    display: block;
+    clear: both;
+    margin-top: 20px;
+}
+.life_menu{
+    width: 241px;
+    float: left;
+    border: 1px solid #e4e4e4;
+}
+.left_menu .column{
+    border: 1px solid #e4e4e4;
+}
+.left_menu h2 {
+    background: url(../images/menu_tit.png) repeat-x;
+    height: 30px;
+    line-height: 31px;
+    font-size: 14px;
+    padding-left: 18px;
+    color: #333;
+    cursor: pointer;
+}
+/*-------------------------------------------right----------------------------------*/
+.right_content{
+    width: 899px;
+    float: right;
+}
+.crumb {
+    background: url(../images/homeico.gif) no-repeat 0px 5px;
+    height: 21px;
+    line-height: 21px;
+}
+.crumb a.home {
+    background: none;
+    text-indent: 11px;
+}
+.crumb a {
+    padding: 0 12px;
+    height: 21px;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+}
+.help_box {
+    border: 1px solid #dbdbdb;
+    margin-top: 10px;
+}
+.help_box h3 {
+    background-color: #F2F2F2;
+    border-bottom: 2px solid #FF8A4C;
+    height: 35px;
+    padding-left: 17px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    line-height: 35px;
+}
+.help_detail {
+    padding: 6px 30px 6px 22px;
+}
+.help_detail dl {
+    line-height: 20px;
+}
+.help_detail dt {
+    font-weight: bold;
+    margin-top: 10px;
+}
+.help_detail dd {
+    margin-bottom: 10px;
+}
+a.blue_link {
+    font-size: 14px;
+    color: #3584D6;
+}
+a.blue_link1 {
+    color: #06c;
+}
+.red, a.red {
+    font-size: 16px;
+    color: #FF8A4C;
+}
