@@ -1,8 +1,39 @@
 // JavaScript Document
 $(function(){
+//导航部分代码
+$("#home-area dt").mouseover(function(){
+$("#home-area dd").show();
+$("#home-area dd").mouseover(function(){$(this).show();});
+$("#home-area dd").mouseout(function(){$(this).hide();});
+});
+$(".close").click(function(){$("#home-area dd").hide();});
+
+	
+
+$(".jl3").mouseover(function(){
+	$(".menu-bd-panel").slideDown();
+	$(".menu-bd-panel").mouseover(function(){
+		$(".menu-bd-panel").show();
+		});
+	$(".menu-bd-panel").mouseout(function(){
+		$(".menu-bd-panel").hide();
+		});
+});
+
+$(".sn-sitemap").mouseover(function(){
+	$(".hd_site_nav").slideDown();
+	$(".hd_site_nav").mouseover(function(){
+		$(this).show();
+		});
+	$(".hd_site_nav").mouseout(function(){
+		$(this).hide();
+		});
+});
+
+
+
+
 //jl第一部分特效代码
-
-
 
 /*淡入代码*/
 $(".jl_div1c3").mouseover(function(){
@@ -71,9 +102,7 @@ $(".lb_daos06").click(function(){
 	$(".lb_daos08 img").eq(8).attr("src","./images/2009.jpg");
     $(".lb_daos08 img").eq(9).attr("src","./images/2010.jpg");		
 	$(".lb_daos08 img").eq(10).attr("src","./images/2011.jpg");	
-	
-	
-	
+
 	});
 	
 	
@@ -419,6 +448,8 @@ $(".jl_div1b_dt5f").eq(4).css({"background-color":"#418bef","border":"1px solid 
 $(".jl_div1b_dt5f").eq(5).css({"background-color":"#00CEB8","border":"1px solid #00CEB8"});
 $(".jl_div1b_dt5f").eq(6).css({"background-color":"#FF7C24","border":"1px solid #FF7C24"});
 $(".jl_div1b_dt5f").eq(7).css({"background-color":"#08D0EE","border":"1px solid #08D0EE"});
+$(".jl_div1b_dt5f").eq(8).css({"background-color":"#8354E3","border":"1px solid #8354E3"});
+$(".jl_div1b_dt5f").eq(9).css({"background-color":"#27B63B","border":"1px solid #27B63B"});
 
 //边框颜色
 $(".jl_div1c1f").eq(1).css({"border-top":"5px solid #FF4F4F"});
@@ -428,6 +459,8 @@ $(".jl_div1c1f").eq(4).css({"border-top":"5px solid #418bef"});
 $(".jl_div1c1f").eq(5).css({"border-top":"5px solid #00CEB8"});
 $(".jl_div1c1f").eq(6).css({"border-top":"5px solid #FF7C24"});
 $(".jl_div1c1f").eq(7).css({"border-top":"5px solid #08D0EE"});
+$(".jl_div1c1f").eq(8).css({"border-top":"5px solid #8354E3"});
+$(".jl_div1c1f").eq(9).css({"border-top":"5px solid #27B63B"});
 
 //小边框颜色
 for(i=6;i<=11;i++)
@@ -458,6 +491,14 @@ for(i=42;i<=47;i++)
 {
 $(".jl_div1c1f_2 dt").eq(i).css({"border-left":"5px solid #08D0EE"});
 }
+for(i=48;i<=53;i++)
+{
+$(".jl_div1c1f_2 dt").eq(i).css({"border-left":"5px solid #8354E3"});
+}
+for(i=54;i<=59;i++)
+{
+$(".jl_div1c1f_2 dt").eq(i).css({"border-left":"5px solid #27B63B"});
+}
 });
 
 
@@ -473,6 +514,16 @@ function bofang()
 	$(".jllb_div1a3 img").eq(m).attr("src","./images/dian2.png");	
 	$(".jllb_div1a1").eq(m).fadeIn();	
 	$(".jllb_div1a2").eq(m).fadeIn();
+	if(m==0)
+	{$(".jllb_div1").css({"background-color":"#F95605"})}
+	if(m==1)
+	{$(".jllb_div1").css({"background-color":"#FF7C24"})}
+	if(m==2)
+	{$(".jllb_div1").css({"background-color":"#08D0EE"})}
+	if(m==3)
+	{$(".jllb_div1").css({"background-color":"#418bef"})}
+	if(m==4)
+	{$(".jllb_div1").css({"background-color":"#FF4F4F"})}
 	m++;
 
 }
@@ -485,5 +536,21 @@ function dian(z)
 	$(".jllb_div1a3 img").eq(z).attr("src","./images/dian2.png");	
 	$(".jllb_div1a1").eq(z).fadeIn();	
 	$(".jllb_div1a2").eq(z).fadeIn();
+	if(m==0)
+	{$(".jllb_div1").css({"background-color":"#F95605"})}
+	if(m==1)
+	{$(".jllb_div1").css({"background-color":"#FF7C24"})}
+	if(m==2)
+	{$(".jllb_div1").css({"background-color":"#08D0EE"})}
+	if(m==3)
+	{$(".jllb_div1").css({"background-color":"#418bef"})}
+	if(m==4)
+	{$(".jllb_div1").css({"background-color":"#FF4F4F"})}
 	m=z+1;	
+}
+
+
+function area(a)
+{
+$("#home-area dt a").text($(a).text());
 }
