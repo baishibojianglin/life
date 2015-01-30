@@ -22,38 +22,58 @@ a {
     padding:0;
 }
 /*----------------------------------------life_menu----------------------------------*/
-.l24{line-height:24px;}
-.left_menu .column,.left_menu .column2{border:1px solid #d4d4d4;}
-.left_menu h3{background:url(http://image.yihaodianimg.com/images/help/images/menu_sub_tit.jpg) no-repeat; height:29px; line-height:29px;font-size:12px; padding-left:19px; color:#333; font-weight:normal; border-top:1px solid #d4d4d4; cursor:pointer;}
-.left_menu h3.on{background:url(http://image.yihaodianimg.com/images/help/images/menu_sub_tit_on.jpg) no-repeat; color:#cc0000; font-weight:bold;}
-.column a{background:url(http://image.yihaodianimg.com/images/help/images/listimg.png) no-repeat 0px 7px; height:24px; line-height:24px;padding-left:10px; margin-left:10px;}
-.right_content{ width:760px; float:right;}
-.left_menu .column2 dl{background: #FFF url(http://image.yihaodianimg.com/images/help/images/sub_listbg.png) repeat-x; line-height:24px; padding-right:12px; padding-bottom:10px;}
-.left_menu .column2 dt{ font-weight:bold; color:#333; padding-left:17px;}
-.left_menu .column2 dd{padding-left:70px;}
-.left_menu .column2 .tit{width:70px; text-align:right; margin-left:-70px; float:left;}
-.life-help{
+.clearfix{
     zoom:1;
-    display: block;
-    clear: both;
-    margin-top: 20px;
 }
-.life_menu{
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    line-height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.life-help{
+    margin: 20px 0 40px 0;
+}
+.left_menu{
     width: 241px;
     float: left;
-    border: 1px solid #e4e4e4;
 }
 .left_menu .column{
-    border: 1px solid #e4e4e4;
+    border:1px solid #d4d4d4;
 }
 .left_menu h2 {
-    background: url(../images/menu_tit.png) repeat-x;
-    height: 30px;
-    line-height: 31px;
-    font-size: 14px;
+    background: url("../images/menu_tit.png") no-repeat;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
     padding-left: 18px;
     color: #333;
     cursor: pointer;
+}
+.left_menu h3 {
+    background: url("../images/menu_sub_tit1.jpg")  no-repeat;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    padding-left: 21px;
+    color: #333;
+    font-weight: normal;
+    border-top: 1px solid #d4d4d4;
+    cursor: pointer;
+}
+.left_menu h3.on{
+    background:url("../images/menu_sub_tit.jpg")  no-repeat;
+    color:#FF8A4C;
+    font-weight:bold;}
+.column a{
+    background:url("../images/listimg.png") no-repeat 0px 7px;
+    height:28px;
+    font-size:13px;
+    line-height:28px;
+    padding-left:10px;
+    margin-left:12px;
 }
 /*-------------------------------------------right----------------------------------*/
 .right_content{
@@ -81,7 +101,7 @@ a {
     margin-top: 10px;
 }
 .help_box h3 {
-    background-color: #F2F2F2;
+    background: url("../images/headline_bg.png") repeat-x;
     border-bottom: 2px solid #FF8A4C;
     height: 35px;
     padding-left: 17px;

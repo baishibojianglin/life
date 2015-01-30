@@ -203,15 +203,15 @@
 
 <!----------------------------------------------Content-------------------------------------------------->
 <div id="container">
-  <div class="life-help">
-    <div class="life_menu">
+  <div class="clearfix life-help">
+    <div class="left_menu">
       <ul class="column" id="help_list">
         <li>
           <h2>问题分类</h2>
           <ul>
-            <li>
-              <h3 class="on">新手入门</h3>
-              <ul>
+            <li id="9">
+              <h3 onclick="return chg('test');" id="test_a">新手入门</h3>
+              <ul id="test" style="display: none;">
                 <li><a href="#">常见问题</a></li>
                 <li><a href="#">用户登录</a></li>
                 <li><a href="#">邮箱验证</a></li>
@@ -230,18 +230,71 @@
                 <li><a href="#">会员优势</a></li>
               </ul>
             </li>
-            <li>购物指南</li>
-            <li>关于配送与验收</li>
-            <li>支付方式</li>
-            <li>售后服务</li>
-            <li>自助服务</li>
-            <li>我的精彩生活</li>
-            <li>精彩生活入驻商家</li>
-            <li>客户中心</li>
+            <li id="8">
+              <h3 class="" onclick="return chg('test1');" id="test_b">购物指南</h3>
+              <ul id="test1" style="display: none;">
+                <li><a href="#">常见问题</a></li>
+                <li><a href="#">用户登录</a></li>
+                <li><a href="#">邮箱验证</a></li>
+                <li><a href="#">积分说明</a></li>
+                <li><a href="#">发票制度</a></li>
+                <li><a href="#">找回密码</a></li>
+                <li><a href="#">服务承诺</a></li>
+                <li><a href="#">服务协议</a></li>
+                <li><a href="#">隐私声明</a></li>
+                <li><a href="#">登录帮助</a></li>
+                <li><a href="#">大宗商品购买政策</a></li>
+                <li><a href="#">购物流程</a></li>
+                <li><a href="#">订单状态说明</a></li>
+                <li><a href="#">掌上精彩生活</a></li>
+                <li><a href="#">会员制度</a></li>
+                <li><a href="#">会员优势</a></li>
+              </ul>
+            </li>
+            <li>
+              <h3 class="">关于配送与验收</h3>
+            </li>
+            <li>
+              <h3 class="">支付方式</h3>
+            </li>
+            <li>
+              <h3 class="">售后服务</h3>
+            </li>
+            <li>
+              <h3 class="">自助服务</h3>
+            </li>
+            <li>
+              <h3 class="">我的精彩生活</h3>
+            </li>
+            <li>
+              <h3 class="">精彩生活入驻商家</h3>
+            </li>
+            <li>
+              <h3 class="">客户中心</h3>
+            </li>
           </ul>
         </li>
       </ul>
     </div>
+    <script type="text/javascript">
+      function chg(id_num){
+        var oa = document.getElementById(id_num);
+        var ob = document.getElementById("test_a");
+        var oc = document.getElementById("test_b");
+        if(oa.style.display == "block"||oa.style.cssText == ".left_menu h3"){
+          oa.style.display = "none";
+          oa.style.cssText == "width:241px;height:35px;background: url(../images/menu_sub_tit1.jpg);";
+          /*ob.innerHTML = "background: url("../images/menu_sub_tit1.jpg")  no-repeat;";
+          oc.innerHTML = "购物指南";*/
+        }else{
+          oa.style.display = "block";
+          oa.style.cssText == ".left_menu h3";
+          /*ob.innerHTML = "新手入门";
+          oc.innerHTML = "[-]";*/
+        }
+        return false;
+      }
+    </script>
     <div class="right_content">
       <div class="crumb">
         <a href="#" class="home">首页</a>&gt;<a href="#">帮助中心</a>&gt;<a href="#">新手入门</a>&gt;<a href="#">常见问题</a>

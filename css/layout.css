@@ -44,9 +44,9 @@ legend {color: #000;}
 #lifeSearch #mq {color:#000;padding: 13px 0 13px 5px;outline:0;border:0;font-weight:900;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;}
 #mq {width: 430px !important;position: static;}
 .s-combobox-input {border-radius:2px 0 0 2px;font-size:100%;vertical-align:middle;overflow-y:visible;}
-input, textarea, select {*font-size:100%:;font-family:inherit;}
+input, textarea, select {*font-size:100%;font-family:inherit;}
 
-#lifeSearch button {width: 52px;height: 44px;line-height: 44px;cursor: pointer;color:#FF6600;background-color: #FF6600;}
+#lifeSearch button {width: 52px;height: 45px;line-height: 45px;cursor: pointer;color:#FF6600;background-color: #FF6600;}
 .hot-query {width:100%;height:18px;overflow:hidden;margin-left:10px;padding-top:6px;}
 .hot-query li {display: inline-block;line-height: 1.1;color:#666;padding:0 2px;}
 .hot-query li a{color:#666;}

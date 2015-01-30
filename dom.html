@@ -1,0 +1,54 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <title>点击显示/隐藏层</title>
+    //code from www.jb51.net
+    <style type="text/css">
+        a{text-decoration:none;}
+        .tab{border:1px solid #e57243;border-top:0;margin:10px 0;text-align:left;width:200px;font-size:14px;}
+        .th{border-top:1px solid #e57243;padding:5px;font-weight:700;clear:both;background:#f5e1d9;}
+        .td{background:none;padding-left:37px;}
+    </style>
+    <script type="text/javascript">
+        function chg(id_num){
+            var oa = document.getElementById(id_num);
+            var ob = document.getElementById("test_a");
+            var oc = document.getElementById("test_b");
+            if(oa.style.display == "block"){
+                oa.style.display = "none";
+                ob.innerHTML = "css:.on";
+                oc.innerHTML = "[+]";
+            }else{
+                oa.style.display = "block";
+                ob.innerHTML = "[-]";
+                oc.innerHTML = "[-]";
+            }
+            return false;
+        }
+    </script>
+</head>
+<body>
+<div class="tab">
+    <div class="th" id="9">
+        <a href="#" onclick="return chg('test');" id="test_a">[+]</a> <--点击</div>
+    <div class="th td" id="test" style="display: none;">
+        脚本之家，脚本编程基地。欢迎大家学习交流。</div>
+    <div class="th" id="8">
+        <a href="#" onclick="return chg('test1');" id="test_b">[+]</a> <--点击</div>
+    <div class="th td" id="test1" style="display: none;">
+        脚本之家，脚本编程基地。欢迎大家学习交流。</div>
+    <div class="th" id="7">
+        <a href="#" onclick="return chg('test2');" id="test_a">[+]</a> <--点击</div>
+    <div class="th td" id="test2" style="display: none;">
+        脚本之家，脚本编程基地。欢迎大家学习交流。</div>
+    <div class="th" id="6">
+        <a href="#" onclick="return chg('test3');" id="test_a">[+]</a> <--点击</div>
+    <div class="th td" id="test3" style="display: none;">
+        脚本之家，脚本编程基地。欢迎大家学习交流。</div>
+    <div class="th" id="5">
+        <a href="#" onclick="return chg('test4');" id="test_a">[+]</a> <--点击</div>
+    <div class="th td" id="test4" style="display: none;">
+        脚本之家，脚本编程基地。欢迎大家学习交流。</div>
+</div>
+</body>
+</html>
