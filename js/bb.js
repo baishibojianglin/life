@@ -7,7 +7,7 @@
 
 $(function(){
 	
-var htmlAdBtn = '';                                                             // 大的图片广告   根据图片创建id,按钮元素等，实际开发建议使用JSON数据类似
+var htmlAdBtn = '';                                                             // 
 $("#jdAdSlide img").each(function(index, image) {
 	var id = "adImage" + index;
 	htmlAdBtn = htmlAdBtn + '<a href="javascript:" class="jd_ad_btn_a" data-rel="'+ id +'">'+ '</a>';
@@ -44,11 +44,17 @@ $("#servNav a").powerSwitch({
     $(this).css("background-color","#656563");
   });
   
-  
-  
-  
-  
-  
+
+  $(".tuandaoer_01 li").mouseenter(function()   //团购导航左边下拉导航的出发开始
+        {  
+        $('.tuanger_07', this).stop(false,true);
+        $('.tuanger_07', this).slideDown(300);
+        });
+  $(".tuandaoer_01 li").mouseleave(function()
+        {  
+        $('.tuanger_07', this).stop(false,true);
+        $('.tuanger_07', this).slideUp(300);
+        });                                         //团购导航左边下拉导航的出发结束mouseenter
   
   
    $('.lb_daos018 > .lb_daos03').hover(function(){                           //弹出右边边框=======
@@ -110,7 +116,7 @@ function() {$(this).fadeTo("slow", 5);
   
   
  
-$(".tuang_dao1x8").jCarouselLite({   //团购导航部分的左右滑动
+$(".tuang_dao1x8").jCarouselLite({             //团购导航部分的左右滑动
 btnNext: ".tuang_dao1x6",//左
 btnPrev: ".tuang_dao1x7",//右
 /*auto: 800, */        //自动轮播功能
@@ -126,7 +132,7 @@ scroll: 1            //控制播放个数
 
  
   
-  var htmlAdBtn = '';                                                             // 大的图片广告   根据图片创建id,按钮元素等，实际开发建议使用JSON数据类似
+  var htmlAdBtn = '';                                                             // 团购=====
 $(".lb_texiao1 .tuang7").each(function(index, ul) {
 	var id = "adUl" + index;
 	htmlAdBtn = htmlAdBtn + '<a href="javascript:" class="tuang_jiaodian_a" data-rel="'+ id +'">'+ '</a>';
@@ -159,33 +165,41 @@ $("#servNav a").powerSwitch({
   
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
   
   
 });
 
 
-
-
-
+  
+			
 
 
 

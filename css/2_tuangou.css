@@ -104,7 +104,7 @@ font-style:italic;
 /***********dao**********/
 .tuang_dao{
 width:100%;
-height:278px;
+min-height:10px;
 }
 .tuang_dao1{
 width:938px;
@@ -147,7 +147,7 @@ line-height:46px;
 padding-right:16px;
 }
 .tuang_dao1x4 a:hover{
-color:#63AAE3;
+color:#FF6600;
 }
 /*********导航下滑动部分***********/
 .tuang_dao1x5{
@@ -443,7 +443,7 @@ padding-right:16px;
 }
 .tuang17 p:hover{
 font-size:1.2em;
-color:#2C92D8;
+color:#FF6600;
 text-align:right;
 line-height:40px;
 float:left;
@@ -702,8 +702,211 @@ background-color:#FF9000;
 
 
 
+.lb_daos04tuan{
+width:210px;
+height:40px;
+float:left;
+position:relative;
+background-image:url("../images/jcd1_02.gif");
+background-repeat:no-repeat;
+background-size:100% 100%;
+}
+/****二级导航弹出部分******/
+.tuandaoer{
+width:210px;
+min-height:10px;
+float:left;
+position:relative;
+top:40px;
+left:0px;
+z-index:500;
+display:block;
+}
+.tuandaoer_01{
+width:206px;
+min-height:10px;
+float:left;
+border:2px solid #FF7E00;
+margin-top:-40px;
+}
+.tuanger{
+position:relative;
+z-index:1000;
+left:-1px;
+}
+.mouse-bg{background:url() no-repeat #fff;position:relative;z-index:22;margin-right:-4px;}
+.tuanger_01{
+width:206px;
+height:54px;
+background-color:#FFFFFF;
+border-bottom:2px solid #F7F7F7;
 
-/**********/
+}
+.tuanger_01a{
+width:206px;
+height:52px;
+background-color:#FFFFFF;
+
+}
+.tuanger_02{
+width:182px;
+height:40px;
+padding:8px 12px;
+position:relative;
+}
+.tuanger_03{
+width:20px;
+height:100%;
+float:left;
+}
+.tuanger_04{
+width:16px;
+height:18px;
+float:left;
+}
+.tuanger_05{
+width:162px;
+height:20px;
+float:right;
+}
+.tuanger_05_1{
+font-size:1.4em;
+font-family:SimSun;/***宋体**/
+font-weight:bold;
+float:left;
+}
+.tuanger_05_1 a:hover{
+color:#FF6600;
+border-bottom:1px solid #FF6600;
+}
+.tuanger_05_2{
+width:10px;
+height:10px;
+float:right;
+line-height:20px;
+font-weight:bold;
+}
+.tuanger_06{
+width:162px;
+height:20px;
+float:right;
+}
+.tuanger_06 li{
+font-size:1.2em;
+font-family:SimSun;/***宋体**/
+color:#666666;
+float:left;
+padding-right:14px;
+}
+.tuanger_06 li a:hover{
+color:#FF6600;
+border-bottom:1px solid #FF6600;
+}
+.tuanger_07{ /* 初始化页面时不显示出来 */
+width:710px;
+min-height:10px;
+background-color:#FDFDFD;
+padding:10px;
+border-top:1px solid #E5E5E5;
+border-right:1px solid #E5E5E5;
+border-bottom:1px solid #E5E5E5;
+}
+.tuanger_07 h2 a:hover{
+color:#FF6600;
+}
+#first{
+position:absolute;
+top:-40px;
+left:208px;
+display:none;
+z-index:2000;
+}
+#two{
+position:absolute;
+top:16px;   /****是id="first加上56px的值"***/
+left:208px;
+display:none;
+z-index:2000;
+}
+#three{
+position:absolute;
+top:72px;   /****是id="ftwo加上56px的值"***/
+left:208px;
+display:none;
+z-index:2000;
+}
+#four{
+position:absolute;
+top:128px;   /****是id="three加上56px的值"***/
+left:208px;
+display:none;
+}
+#five{
+position:absolute;
+top:184px;
+left:208px;
+display:none;
+}
+.tuanger_07 li{
+float:none; /* 垂直排列 */
+}
+.tuanger_08{
+width:100%;
+min-height:10px;
+float:left;
+line-height:30px;
+}
+.tuanger_08 li p{
+line-height:12px;
+font-size:1.2em;
+font-family:SimSun;/***宋体**/
+color:#333333;
+float:left;
+padding:8px 8px;
+}
+.tuanger_08 li a{
+height:12px;
+line-height:12px;
+font-size:1.2em;
+font-family:SimSun;/***宋体**/
+color:#333333;
+padding:8px 0px;
+float:left;
+}
+.tuanger_08 li a p{
+height:12px;
+line-height:12px;
+font-size:1.2em;
+font-family:SimSun;/***宋体**/
+color:#333333;
+padding:0px 8px;
+float:left;
+border-right:1px solid #ABABAB;
+}
+.tuanger_08 li a p:hover{
+color:#FF6600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
