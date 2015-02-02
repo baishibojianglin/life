@@ -21,14 +21,20 @@ $(".jl3").mouseover(function(){
 });
 
 $(".sn-sitemap").mouseover(function(){
-	$(".hd_site_nav").slideDown();
+	$(".hd_site_nav").slideDown();	
+	$(".hd_site_nav").css({"border-top":"1px solid #ccc"});
+	$("#jjj").css({"border-color":"#ccc","background":"#FFF"});
 	$(".hd_site_nav").mouseover(function(){
 		$(this).show();
+		$("#jjj").css({"border-color":"#ccc","background":"#FFF"});
 		});
 	$(".hd_site_nav").mouseout(function(){
 		$(this).hide();
+		$("#jjj").css({"border-color":"transparent","background":"#F7F7F7"});
 		});
 });
+
+
 
 
 
