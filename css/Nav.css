@@ -154,10 +154,10 @@ z-index: 9;
 {
 display: none;
 position:absolute;
-top:29px;
-right:0;
+top:28px;
+right:-1px;
 z-index:250;
-width: 150px;
+width: 250px;
 padding: 0 12px 5px;
 border: 1px solid #ccc;
 background: #FFF;
@@ -175,4 +175,4 @@ background: #FFF;
 .jl2aa{float:left;display:inline-block; width:65px; height:29px; line-height:29px; margin-top:-2px;}
 
 .jl3{width:90px; height:29px; position:relative;}
-.hd_site_nav dd div{padding:0 5px; float:left;}
+.hd_site_nav dd div{padding:0 2px; display:inline-block;}
