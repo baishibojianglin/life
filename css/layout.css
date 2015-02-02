@@ -2,13 +2,11 @@
 /*life CSS Document */
 
 /*CSS Reset*/
-body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
-    margin: 0;
-    padding: 0;
-    }
-body {font: 12px/1.5 "Microsoft YaHei",tahoma,arial,\5b8b\4f53;}
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;}
+body {font: 12px/1.5 "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";}
 img {border:none;}
-a {text-decoration:none;}
+a{text-decoration:none;}
+a:hover{text-decoration:underline;}
 
 ul,li{list-style:none;}
 li {display: list-item;text-align: -webkit-match-parent;}
@@ -16,7 +14,7 @@ li {display: list-item;text-align: -webkit-match-parent;}
 /*----------------------------------------------Generalise------------------------------------- */
 
 #header, #Content, #footer {width:100%;height:160px;background-color:#fff;}
-#life-nav, .headerLayout, .content, .life-desc1, .life-intro {width:1160px;margin:0 auto;}
+#life-nav, .headerLayout, /*.content,*/ .life-desc1, .life-intro {width:1160px;margin:0 auto;}
 
 /* ----------------------------------------------Header------------------------------------- */
 .headerLayout {padding-top:10px;}
