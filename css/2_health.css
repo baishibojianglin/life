@@ -12,7 +12,7 @@
 .skin-default .tm-index-qqhsj2015{color:#333}
 .skin-default .tm-top-2014{color:#333}
 .skin-default .sm-margin{color:#333}
-.tm-hqsg-2015 {color: #333;padding-top: 30px;}
+.tm-hqsg-2015 {color: #333;padding-top: 30px;margin: 0;}
 .tm-wrap{width:1160px;margin:0 auto;position: relative;background: #fff;}
 .grid-s4m0 .main-wrap{margin-left:200px}
 .grid-s4m0 .col-sub{width:190px;margin-left:-100%;_margin-left:-1190px}
@@ -46,36 +46,110 @@
 .w990 .grid-s4m0 .col-sub,.w990 .grid-s5m0 .col-sub,.w990 .grid-s6m0 .col-sub,.w990 .grid-s4m0e4 .col-sub,.w990 .grid-s5m0e4 .col-sub,.w990 .grid-e4m0s5 .col-extra,.w990 .grid-s6m0e4 .col-sub,.w990 .grid-e4m0s6 .col-extra{_margin-left:-990px!important}
 .w740 .grid-m0,.w740 .grid-s4m0,.w740 .grid-m0s4,.w740 .grid-s5m0,.w740 .grid-m0s5,.w740 .grid-s6m0,.w740 .grid-m0s6,.w740 .grid-s4m0e4,.w740 .grid-s5m0e4,.w740 .grid-e4m0s5,.w740 .grid-s6m0e4,.w740 .grid-e4m0s6{width:740px!important}
 .w740 .grid-s4m0 .col-sub,.w740 .grid-s5m0 .col-sub,.w740 .grid-s6m0 .col-sub,.w740 .grid-s4m0e4 .col-sub,.w740 .grid-s5m0e4 .col-sub,.w740 .grid-e4m0s5 .col-extra,.w740 .grid-s6m0e4 .col-sub,.w740 .grid-e4m0s6 .col-extra{_margin-left:-740px!important}
+/*-------------common part-------------*/
 h1 {
-border-bottom: 2px solid #000;
-font-size: 20px;
-line-height: 28px;
-display: block;
-font-weight: bold;
+    display: block;
+    border-bottom: 2px solid #000;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 34px;
 }
-/*.life-health, .life-hair, .life-haird, .life-skin, .life-healthpro {width:1160px;}*/
-/*life-recommend*/
+.life-title{      /*-topic Types-*/
+    position: absolute;
+    right: 15px;
+    top: 22px;
+    background: #FFF;
+}
+.life-title a{
+    width:71px;
+    height:24px;
+    line-height:24px;
+    display:inline-block;
+    color:#666;
+    font-size:12px;
+    font-weight:bold;
+    text-align:center;
+}
+.life-title a:hover{
+    color:#FF6600;
+}
+
+
 .life-firstScreen{margin-left:234px;margin-bottom: 29px;}
 .life-fs{border:1px solid #F4F4F4;}
 .life-fs P{height:30px;line-height:30px;font-size:16px;color:#F60;}
 .life-fs span {float:right;}
 .floor-health {
-width: 85px;
-height: 30px;
-display: inline-block;
+    width: 85px;
+    height: 30px;
+    display: inline-block;
 }
-.life-healthnav{position:relative;top:-14px;right:8px;z-index:200;width: 380px;height: 24px;float:right;}
-.life-healthnav a{width:95px;height:24px;display:block;float:left;display:block;color:#666;font-size:16px;font-weight:bold;background-color:#FFF;text-align:right;}
-.life-healthnav a:hover{background:url(../images/healthnav.png) no-repeat;color:#FFF;background-color:#FFF;}
-.hleft{display:block;float:left;}
-.health{height:219px;border:1px solid #EAEAEA;border-left:none;margin-bottom:29px;}
-.hright{width:880px;height:200px;position:relative;top:-4px;right:0;display:block;float:left;}
-.health li{width:210px;height:105px;float:left;padding-left:10px;}
+/*-------------prat2-------------*/
+.life-category-content{
+    border-right:1px solid #EAEAEA;
+    border-bottom:1px solid #EAEAEA;
+    margin-bottom:29px;
+}
+.life-cover{
+    width:280px;
+    height:219px;
+    overflow: hidden;
+}
+.life-items{
+    width:880px;
+    white-space: normal;
+    letter-spacing: -4px;
+    position:absolute;
+    top:55px;
+    right:0;
+    display:inline-block;
+    vertical-align: top;
+}
+.life-item{
+    width: 25%;
+    height: 95px;
+    margin-top: 5px;
+    display: inline-block;
+    letter-spacing: 0;
+    overflow: hidden;
+    vertical-align: top;
+}
+.life-shop-info{
+    position: relative;
+    margin: 5px 0 5px 10px;
+    height: 95px;
+    width: auto;
+    overflow: hidden;
+    transition: all .2s ease-out;
+}
+.life-item:hover .life-shop-info{
+    margin-top:-103px;
+    transition:all .2s ease-out;
+}
+.life-shop-desc{
+    color: #fff;
+    margin: 5px;
+    height: 95px;
+    width: auto;
+}
+.life-shop-desc strong{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 0;
+    display: block;
+    text-align: center;
+}
+.life-shop-desc p{
+    padding: 10px 0;
+    display: block;
+    text-align: center;
+}
+/*-------------prat3-------------*/
 .hair{width:100%;height:384px;}
 .hair li{float:left;}
-.bor1 {width:209px;height:382px;border:1px solid #F4F4F4;border-right:none;}
-.bor2 {width:526px;height:382px;border:1px solid #F4F4F4;}
-.bor3 {width:421px;height:369px;position:relative;top:-12px;right:0;}
+.bor1 {width:209px;height:382px;display:inline-block;border:1px solid #F4F4F4;border-right:none;border-bottom:none;overflow: hidden;}
+.bor2 {width:526px;height:382px;display:inline-block;letter-spacing: -4px;vertical-align: top;border:1px solid #F4F4F4;}
+.bor3 {width:421px;height:369px;display:inline-block;position:relative;top:-12px;right:0;}
 .bor4 {border:1px solid #F4F4F4;border-top:none;border-left:none;float:left;}
 .bor41{width:209px;height:245px;display:block;border-bottom:1px solid #F4F4F4;}
 .bor42{width:209px;height:125px;display:block;}
@@ -110,7 +184,7 @@ display: inline-block;
 .bork5 {width:209px;border:1px solid #F4F4F4;border-top:none;border-left:none;float:left;}
 .bork51{width:209px;height:371px;display:block;border-bottom:2px solid #F4F4F4;}
 /*----------------------------------health care products------------------------------------*/
-.life-category-body {margin-right:240px;position:relative;bottom:24px;right:0;float:left;}
+.life-category-body {margin-right:240px;position:relative;bottom:0px;right:0;z-index: 2}
 .life-category-block {
     display: inline-block;
     margin-bottom: -1px;
