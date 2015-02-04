@@ -1,5 +1,46 @@
 // JavaScript Document
 $(function(){
+//导航第一部分
+$("#h1 dt").eq(1).addClass('header2a_dt2');
+$("#h1 dt").eq(2).addClass('header2a_dt1');
+$("#h1 dt").eq(2).css({'height':'25px'});
+$("#h1 dt").eq(2).addClass('himg');
+$("#h1 dt").eq(6).addClass('header2a_dt2');
+$("#h2 dt").eq(0).addClass('header2a_dt2');	
+$("#h2 dt").eq(3).addClass('header2a_dt2');
+$("#h2 dt").eq(3).addClass('header2a_dt4');
+$("#h2 dt").eq(1).addClass('header2a_dt4');
+$("#h2 dt").eq(4).addClass('header2a_dt4');
+$("#h2 dt").eq(7).addClass('header2a_dt4');
+$("#h2 dt").eq(7).css({'height':'25px'});
+$("#h2 dt").eq(7).addClass('himg');
+$("#h2 dt").eq(6).addClass('header2a_dt2');
+$("#h2 dt").eq(11).addClass('header2a_dt4');
+$("#h2 dt").eq(12).addClass('header2a_dt4');
+$("#h2 dt").eq(11).addClass('header2a_dt2');
+$("#h2 dt").eq(13).addClass('header2a_dt4');
+$("#h2 dt").eq(13).addClass('header2a_dt2');
+$("#h2 dt").eq(14).addClass('header2a_dt4');
+$("#h2 dt").eq(16).addClass('header2a_dt4');
+$("#h2 dt").eq(16).addClass('header2a_dt2');
+$("#h2 dt").eq(17).addClass('header2a_dt4');
+$("#h2 dt").eq(18).addClass('header2a_dt2');
+$("#h2 dt").eq(14).css({'height':'25px'});
+$("#h2 dt").eq(14).addClass('himg');
+});
+
+
+
+
+
+
+
+
+
+
+
+
+/*$(function(){
 //导航部分代码
 $("#home-area dt").mouseover(function(){
 $("#home-area dd").show();
@@ -40,4 +81,4 @@ $(".sn-sitemap").mouseover(function(){
 	
 	
 	
-	});
+	});*/
