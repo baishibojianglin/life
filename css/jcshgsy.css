@@ -114,6 +114,35 @@ margin:0px 16px;
 height:40px;
 float:right;
 }
+.lb_daos13 li:nth-last-child(3){
+width:24px;
+height:40px;
+float:left;
+}
+.lb_daos13 li:nth-last-child(2){
+font-size:2em;
+color:#333333;
+line-height:40px;
+font-weight:bold;
+font-style:italic;
+float:left;
+}
+.lb_daos13 li:nth-last-child(1){
+font-size:2em;
+color:#FF6600;
+font-weight:bold;
+font-style:italic;
+float:left;
+line-height:40px;
+}
+
+
+
+
+
+
+
+
 .lb_daos14{
 width:24px;
 height:40px;
