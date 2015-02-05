@@ -20,8 +20,14 @@ box-shadow:0 -1px 1px #BECACF inset;
 height:100%;
 margin:0 auto;
 }
+.header2a a
+{color:#000;
+}
+.header2a a>dt:hover{color:#F30; text-decoration:underline;}
 .header2a dt
-{font-size:12px;
+{
+position:relative;
+font-size:12px;
 line-height:30px;
 }
 .header2a dt img
@@ -48,6 +54,11 @@ margin-right:2px;}
 .header2a_dt4
 {margin-left:10px;}
 .himg{margin-top:2px;}
+#hxuan1
+{width:15px;height:30px;}
+#hxuan1 img
+{position:absolute; top:3px; transition:all 2s ease;}
+#hxuan1:hover{transform:rotate(90deg); webkit-transform:rotate(90deg);}
 
 /*------------------------------------------------Footer--------------------------------------------*/
 #footer {height:550px;font-size:14px;}
