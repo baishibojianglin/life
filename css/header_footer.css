@@ -62,12 +62,13 @@ margin-right:2px;}
 
 /*------------------------------------------------Footer--------------------------------------------*/
 #footer {height:550px;font-size:14px;}
-.life-ensure {width:1160px;height:139px;background:url(../images/fo.png) 0 50% no-repeat;margin:0 auto;padding:0;border-top:1px solid #ccc;}
-.life-ensure a {width:290px;height:80px;float:left;display:block;text-indent:-1000em;padding:30px 0;}
+.life-ensure {width:1160px;height:139px;background:url(../images/fo.png) 0 50% no-repeat;margin:0 auto;  padding:0;border-top:1px solid #ccc;}
+.life-ensure a {width:290px;height:80px;line-height:80px;font-size:30px;float:left;display:block;color:#666;text-indent:130px;padding:30px 0;}
+.life-ensure img {border-left: 1px solid #ccc;}
 .life-desc {width:100%;background-color:#F9FAFC;padding:21px 0;border-top:1px solid #ccc;}
-.life-desc1 {height:173px;}
+.life-desc1 {width:1160px;height:173px;margin: 0 auto;}
 .life-desc1 dl {width:217px;float:left;padding-left:15px;}
-.life-desc1 dl dt {height:41px;line-height:41px;color:#6E6F73;font-size:20px;font-weight:550;}
+.life-desc1 dl dt {height:41px;line-height:41px;color:#6E6F73;font-size:20px;}
 .life-desc1 dl a {width:217px;heihgt:26px;line-height:26px;display:block;overflow:hidden;text-align:left;color:#999;}
 .life-desc1 a:hover,.life-desc1 a:active {color:#FF6600;}
 .life-mobile dd{padding-top:15px;}
