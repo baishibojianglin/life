@@ -530,8 +530,3 @@ function dian(z)
 	m=z+1;	
 }
 
-
-function area(a)
-{
-$("#home-area dt a").text($(a).text());
-}
