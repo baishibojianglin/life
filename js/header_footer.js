@@ -19,6 +19,7 @@ $("#h2 a").addClass('h1_span2');
 $("#h2 span").eq(4).css({"color":"#999"});
 $("#h2").addClass('bor');
 $("#h4 span").eq(2).addClass('h1_span1');
+$("#h5 img").css({'height':'11px'});
 $("#h6 img").css({'height':'11px'});
 $("#h7 span").eq(1).addClass('h1_span1');
 //城市
