@@ -1,6 +1,13 @@
 // JavaScript Document
 $(function(){
-
+//全部商品分类
+$("#tea1a dt").eq(0).addClass('tea1_div1_dt1');
+$("#tea1a span").eq(0).addClass('tea1_div1_dt1_span1');
+$("#tea1b dt").addClass('tea1_div1_dt2');
+$("#tea1c dt").addClass('tea1_div1_dt3');
+$("#tea1c dt").eq(0).addClass('tea1_div1_dt4');
+$("#tea1c dt").eq(1).addClass('tea1_div1_dt5');
+$("#tea1c dt").eq(2).addClass('tea1_div1_dt6');
 
 
 
@@ -52,7 +59,7 @@ $(".jl_div1b dt").eq(5).mouseout(function(){
 $(this).css({"color":"#666666"});
 	});		
 
-$(".lb_daos06").click(function(){
+/*$(".lb_daos06").click(function(){
 	$(".lb_daos017").slideToggle();
 	$("#nei1").hide();
 	$(".sanjiao").hide();
@@ -400,7 +407,7 @@ $(".lb_daos03").eq(10).mouseover(function(){
 	$(".lb_daos08 img").eq(9).attr("src","./images/2010.jpg");
 	
 	});
-
+*/
 
 
 

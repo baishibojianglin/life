@@ -4,9 +4,79 @@
 a{text-decoration:none;}
 
 
+/*全部商品分类*/
+.tea1_div
+{
+width:100%;
+height:40px;
+background-image:url(../images/huaz1_70.gif);
+background-repeat:repeat;
+}
+.tea1_div1
+{
+width:1160px;
+height:100%;
+margin:0 auto;
+}
+#tea1a,#tea1b
+{float:left;}
+#tea1c
+{float:right;}
+.tea1_div1_dt1
+{
+width:200px;
+height:40px;
+background-color:#FF6C00;
+line-height:35px;
+font-size:14px;
+font-family:"Microsoft Yahei";
+color:#ffffff;
+font-weight:600;
+box-shadow:0px -1px 2px 2px #E53000 inset;
+cursor:pointer;
+}
+.tea1_div1_dt1_span1
+{padding:0 60px 0 15px;}
+.tea1_div1_dt2
+{
+float:left;
+height:40px;
+line-height:35px;
+font-size:14px;
+font-family:"Microsoft Yahei";
+color:#000;
+font-weight:600;
+padding-left:30px;
+}
+#tea1b a{display:inline-block;}
+#tea1b a>dt:hover{color:#F30; text-decoration:underline;}
+.tea1_div1_dt3
+{
+float:left;
+height:40px;
+line-height:35px;
+font-size:18px;
+font-family:"Microsoft Yahei";
+font-weight:800;
+}
+.tea1_div1_dt4
+{margin:5px 5px 0 0;}
+.tea1_div1_dt5
+{color:#000;}
+.tea1_div1_dt6
+{color:#F60;}
+#tea1a
+{position:relative;}
+#tea1a dd
+{position:absolute; z-index:100;}
+#tea1ali0
+{background-image:url(../images/2001.jpg); background-repeat:no-repeat;  background-position:10px center;}
+#tea1ali0a
+{background-image:url(../images/001.png); background-repeat:no-repeat;  background-position:10px center;}
 
 
-/*耍大牌部分样式*//
+
+/*耍大牌部分样式*/
 .jl_div1
 {
 width:100%;
