@@ -12,7 +12,7 @@
 <script type="text/javascript" src="js/index.js"></script>
 </head>
 <body>
-<!--------------------------------------------------------------------导航开始------------------------------------------------------------------------------->
+<!---------------------------------------------导航开始------------------------------------------------>
 <!------顶部彩色图-------->
 <div class="header1"></div>
 <!------导航第一板块------>
@@ -21,8 +21,8 @@
         <div id="hd1">
             <dl id="h1">
                 <dt>
-                    <span><img src="images/header1.png"/></span>
-                    <span><a href="#">收藏精彩生活馆</a></span>
+                    <img src="images/header1.png"/>
+                    <a href="#">收藏精彩生活馆</a>
                 </dt>
             </dl>
             <dl id="h2">
@@ -30,10 +30,10 @@
                     <span><img src="images/header2.png"/></span>
                 </dt>
                 <dt>
-                    <span><a href="#">成都市</span></a></span>
-                    <span>＞</span>
+                    <span><a href="#">成都市</a></span>
+                    <span >&gt;</span>
                     <span><a href="#">金牛区</a></span>
-                    <span id="hs1">▼</span>
+                    <span id="hs1"><img src="images/show-up.png"/></span>
                 </dt>
                 <dd>
                     <ul>
@@ -82,20 +82,19 @@
                         <li><a href="#" onClick="area(this);">其他</a></li>
                     </ul>
                 </dd>
-
             </dl>
         </div>
 
         <div id="hd2">
             <dl id="h3">
                 <dt>
-                    <span><a href="#">亲，欢迎来精彩生活馆！</a></span>
+                    <span>亲，欢迎来精彩生活馆！</span>
                 </dt>
             </dl>
             <dl>
                 <dt>
-                    <span><a href="#">[请登录]</a></span>
-                    <span><a href="#">[免费注册]</a></span>
+                    <a href="#">[请登录]</a>
+                    <a href="#">[免费注册]</a>
                 </dt>
             </dl>
             <dl>
@@ -105,7 +104,7 @@
                 <dt>
                     <span><img src="images/header3.png"/></span>
                     <span><a href="#">我的账户</a></span>
-                    <span id='hs2'>▼</span>
+                    <span id='hs2'><img src="images/show-up.png"/></span>
                 </dt>
                 <dd>
                     <ul>
@@ -145,7 +144,7 @@
             <dl id='h7'>
                 <dt>
                     <span><a href="#">网站导航</a></span>
-                    <span id='hs3'>▼</span>
+                    <span id='hs3'><img src="images/show-up.png"/></span>
                 </dt>
                 <div>
                     <dt>精彩指南</dt>
@@ -155,11 +154,6 @@
                             <li><a href="#">视频购物星</a></li>
                             <li><a href="#">在线读书物</a></li>
                             <li><a href="#">装机大师</a></li>
-                        </ul>
-                    </dd>
-                    <dt>精彩指南</dt>
-                    <dd>
-                        <ul>
                             <li><a href="#">校园之星</a></li>
                             <li><a href="#">视频购物星</a></li>
                             <li><a href="#">在线读书物</a></li>
@@ -167,9 +161,24 @@
                         </ul>
                     </dd>
                     <dt>精彩指南</dt>
-                    <dd>
+                    <dd class="dtt">
                         <ul>
                             <li><a href="#">校园之星</a></li>
+                            <li><a href="#">视频购物星</a></li>
+                            <li><a href="#">在线读书物</a></li>
+                            <li><a href="#">装机大师</a></li>
+                            <li><a href="#">视频购物星</a></li>
+                            <li><a href="#">在线读书物</a></li>
+                            <li><a href="#">装机大师</a></li>
+                        </ul>
+                    </dd>
+                    <dt>精彩指南</dt>
+                    <dd class="dtt">
+                        <ul>
+                            <li><a href="#">校园之星</a></li>
+                            <li><a href="#">视频购物星</a></li>
+                            <li><a href="#">在线读书物</a></li>
+                            <li><a href="#">装机大师</a></li>
                             <li><a href="#">视频购物星</a></li>
                             <li><a href="#">在线读书物</a></li>
                             <li><a href="#">装机大师</a></li>
@@ -180,10 +189,51 @@
         </div>
     </div>
 </div>
-<!-----------------------------------------------------------------------导航结束------------------------------------------------------------------------------->
+<!-----导航搜索板块------->
+<div id="header">
+   <div class="headerLayout">
+     <div class="headerCon">
+        <div id="lifeLogo">
+          <a href="#"><img src="images/logo1.gif" width="295" height="109"/></a>
+        </div>
+        <div class="header-extra">
+          <div class="header-banner">
+            <a href="#"><img src="images/logo2.png" width="190" height="109" alt=""/></a>
+          </div>
+          <div id="lifeSearch" class="life-search">
+            <form class="lifeSearch-form" name="searchTop" action="#" target="_top" accept-charset="uft-8">
+              <fieldset>
+                <legend>精彩生活搜索</legend>
+                <div class="lifeSearch-input clearfix">
+                  <label for="mq" style="visibility: visible; display: none;">搜索 生活 商品/品牌</label>
+                  <div class="s-combobox" id="s-combobox-226">
+                    <div class="s-combobox-input-wrap">
+                       <input type="text" name="q" id="mq" tabindex="9" accesskey="s" autocomplete="off" autofocus="true" x-webkit-speech="" x-webkit-grammar="builtin:translate" class="s-combobox-input" role="combobox" aria-haspopup="true" title="请输入搜索文字" aria-label="请输入搜索文字">
+                    </div>
+                    <!--<label for="mq" class="s-combobox-placeholder" style="color: rgb(102, 102, 102); visibility: visible;">Iphone 6 plus</label>-->
+				  </div>
+                  <button type="submit"><img src="images/sou.png" width="32" height="44"></button>
+                </div>
+              </fieldset>
+            </form>
+            <ul class="hot-query">
+			  <li>热门搜索：</li>
+			  <li><a href="#">大码女装</a></li>
+              
+			  <li class="hot-query-highlight"><a href="#">雪地靴</a></li>
+			  <li><a href="#">羽绒衣</a></li>
+			  <li class="hot-query-highlight"><a href="#">秋冬童装</a></li>
+			  <li><a href="#">男鞋</a></li>
+			  <li><a href="#">时尚保温杯</a></li>
+			  <li class="hot-query-highlight"><a href="#">进口零食</a></li>
+			</ul>
+		  </div>
+		</div>
+     </div>
+   </div>
+</div>
 
-
-
+<!---------------------------------------------导航结束------------------------------------------------>
 
 
 <!----------------------------------------栏目区------------------------------------------->

@@ -19,6 +19,7 @@ $("#h2 a").addClass('h1_span2');
 $("#h2 span").eq(4).css({"color":"#999"});
 $("#h2").addClass('bor');
 $("#h4 span").eq(2).addClass('h1_span1');
+$("#h5 img").css({'height':'11px'});
 $("#h6 img").css({'height':'11px'});
 $("#h7 span").eq(1).addClass('h1_span1');
 //城市
@@ -59,7 +60,7 @@ $("#h2 dd").eq(1).mouseout(function(){
 //我的账户
 $("#h4 span").eq(1).mouseover(function(){
   $("#h4 dd").show();
-  $("#h4").css({"border-color":"#000","background-color":"#fff"});
+  $("#h4").css({"border-color":"#ccc","background-color":"#fff"});
 });
 $("#h4 span").eq(1).mouseout(function(){
   $("#h4 dd").hide();
@@ -67,7 +68,7 @@ $("#h4 span").eq(1).mouseout(function(){
 });
 $("#h4 dd").mouseover(function(){
   $("#h4 dd").show();
-  $("#h4").css({"border-color":"#000","background-color":"#fff"});
+  $("#h4").css({"border-color":"#ccc","background-color":"#fff"});
 });
 $("#h4 dd").mouseout(function(){
   $("#h4 dd").hide();
