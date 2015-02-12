@@ -60,7 +60,7 @@ $("#h2 dd").eq(1).mouseout(function(){
 //我的账户
 $("#h4 span").eq(1).mouseover(function(){
   $("#h4 dd").show();
-  $("#h4").css({"border-color":"#000","background-color":"#fff"});
+  $("#h4").css({"border-color":"#ccc","background-color":"#fff"});
 });
 $("#h4 span").eq(1).mouseout(function(){
   $("#h4 dd").hide();
@@ -68,7 +68,7 @@ $("#h4 span").eq(1).mouseout(function(){
 });
 $("#h4 dd").mouseover(function(){
   $("#h4 dd").show();
-  $("#h4").css({"border-color":"#000","background-color":"#fff"});
+  $("#h4").css({"border-color":"#ccc","background-color":"#fff"});
 });
 $("#h4 dd").mouseout(function(){
   $("#h4 dd").hide();

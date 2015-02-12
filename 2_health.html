@@ -9,99 +9,222 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <title>精彩生活网</title>
 <link rel="shortcut icon" href="images/shopping.ico" type="image/x-icon">
-<link rel="stylesheet" type="text/css" href="css/index.css" />
-<link href="css/header_footer.css" rel="stylesheet" type="text/css">
-<link href="css/Nav.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="css/jcshgsy.css" />
+<link rel="stylesheet" type="text/css" href="css/header_footer.css">
 <link rel="stylesheet" type="text/css" href="css/2_health.css" />
 <script type="text/javascript" src="js/jq1.7.1.js"></script>
-<script type="text/javascript" src="js/index.js"></script>
-<script src="js/jquery-powerSwitch.js"></script>
-<script type="text/javascript" src="js/bb.js"></script>
-<script type="text/javascript" src="js/js.js"></script>
+<script type="text/javascript" src="js/header_footer.js"></script>
+<script type="text/javascript" src="js/nav.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
 </head>
 
 <body>
 <!--------------------------导航部分-------------------------->
-<!------顶部彩色图-------->
 <div class="header1"></div>
-<!------导航第一板块------>
 <div class="header2">
     <div class="header2a">
-        <dl id="h1">
-            <dt id="hxuan1"><b><img src="images/header1.png"/></b></dt>
-            <a href="#"><dt>收藏精彩生活馆</dt></a>
-            <dt><img src="images/header2.png"/></dt>
-            <a href="#"><dt>成都市</dt></a>
-            <dt>＞</dt>
-            <a href="#"><dt>金牛区</dt></a>
-            <dt>▼</dt>
-        </dl>
-        <dl id="h2">
-            <a href="#"><dt>亲，欢迎来精彩生活馆！</dt></a>
-            <a href="#"><dt>[请登录]</dt></a>
-            <a href="#"><dt>[免费注册]</dt></a>
-            <dt>|</dt>
-            <dt><img src="images/header3.png"/></dt>
-            <a href="#"><dt>我的账户</dt></a>
-            <dt>▼</dt>
-            <dt><img src="images/header4.png"/></dt>
-            <a href="#"><dt>购物车</dt></a>
-            <a href="#"><dt>0</dt></a>
-            <a href="#"><dt>件</dt></a>
-            <dt>|</dt>
-            <a href="#"><dt>招商加盟</dt></a>
-            <dt>|</dt>
-            <dt><img src="images/header5.png"/></dt>
-            <a href="#"><dt>手机版</dt></a>
-            <dt>|</dt>
-            <a href="#"><dt>网站导航</dt></a>
-            <dt>▼</dt>
-        </dl>
+        <div id="hd1">
+            <dl id="h1">
+                <dt>
+                    <span><img src="images/header1.png"/></span>
+                    <span><a href="#">收藏精彩生活馆</a></span>
+                </dt>
+            </dl>
+            <dl id="h2">
+                <dt>
+                    <span><img src="images/header2.png"/></span>
+                </dt>
+                <dt>
+                    <span><a href="#">成都市</span></a></span>
+                    <span>＞</span>
+                    <span><a href="#">金牛区</a></span>
+                    <span id="hs1">▼</span>
+                </dt>
+                <dd>
+                    <ul>
+                        <li><a href="#" onClick="city(this);">成都市</a></li>
+                        <li><a href="#" onClick="city(this);">德阳市</a></li>
+                        <li><a href="#" onClick="city(this);">绵阳市</a></li>
+                        <li><a href="#" onClick="city(this);">资阳市</a></li>
+                        <li><a href="#" onClick="city(this);">遂宁市</a></li>
+                        <li><a href="#" onClick="city(this);">南充市</a></li>
+                        <li><a href="#" onClick="city(this);">巴中市</a></li>
+                        <li><a href="#" onClick="city(this);">广汉市</a></li>
+                        <li><a href="#" onClick="city(this);">广元市</a></li>
+                        <li><a href="#" onClick="city(this);">自贡市</a></li>
+                        <li><a href="#" onClick="city(this);">泸州市</a></li>
+                        <li><a href="#" onClick="city(this);">内江市</a></li>
+                        <li><a href="#" onClick="city(this);">乐山市</a></li>
+                        <li><a href="#" onClick="city(this);">宜宾市</a></li>
+                        <li><a href="#" onClick="city(this);">广安市</a></li>
+                        <li><a href="#" onClick="city(this);">达州市</a></li>
+                        <li><a href="#" onClick="city(this);">雅安市</a></li>
+                        <li><a href="#" onClick="city(this);">眉山市</a></li>
+                        <li><a href="#" onClick="city(this);">攀枝花市</a></li>
+                        <li><a href="#" onClick="city(this);">阿坝州</a></li>
+                        <li><a href="#" onClick="city(this);">甘孜州</a></li>
+                        <li><a href="#" onClick="city(this);">凉山州</a></li>
+                    </ul>
+                </dd>
+                <dd>
+                    <ul>
+                        <li><a href="#" onClick="area(this);">金牛区</a></li>
+                        <li><a href="#" onClick="area(this);">成华区</a></li>
+                        <li><a href="#" onClick="area(this);">青羊区</a></li>
+                        <li><a href="#" onClick="area(this);">武侯区</a></li>
+                        <li><a href="#" onClick="area(this);">锦江区</a></li>
+                        <li><a href="#" onClick="area(this);">高新区</a></li>
+                        <li><a href="#" onClick="area(this);">温江区</a></li>
+                        <li><a href="#" onClick="area(this);">新都区</a></li>
+                        <li><a href="#" onClick="area(this);">金堂县</a></li>
+                        <li><a href="#" onClick="area(this);">双流县</a></li>
+                        <li><a href="#" onClick="area(this);">浦江县</a></li>
+                        <li><a href="#" onClick="area(this);">新津县</a></li>
+                        <li><a href="#" onClick="area(this);">大邑县</a></li>
+                        <li><a href="#" onClick="area(this);">郫县</a></li>
+                        <li><a href="#" onClick="area(this);">龙泉驿区</a></li>
+                        <li><a href="#" onClick="area(this);">青白江区</a></li>
+                        <li><a href="#" onClick="area(this);">其他</a></li>
+                    </ul>
+                </dd>
+
+            </dl>
+        </div>
+
+        <div id="hd2">
+            <dl id="h3">
+                <dt>
+                    <span>亲，欢迎来精彩生活馆！</span>
+                </dt>
+            </dl>
+            <dl>
+                <dt>
+                    <span><a href="#">[请登录]</a></span>
+                    <span><a href="#">[免费注册]</a></span>
+                </dt>
+            </dl>
+            <dl>
+                <dt><span>|</span></dt>
+            </dl>
+            <dl id="h4">
+                <dt>
+                    <span><img src="images/header3.png"/></span>
+                    <span><a href="#">我的账户</a></span>
+                    <span id='hs2'>▼</span>
+                </dt>
+                <dd>
+                    <ul>
+                        <li><a href="#">我的订单</a></li>
+                        <li><a href="#">我的积分</a></li>
+                        <li><a href="#">我的收藏</a></li>
+                        <li><a href="#">我的优惠</a></li>
+                    </ul>
+                </dd>
+            </dl>
+            <dl id="h5">
+                <dt>
+                    <span><img src="images/header4.png"/></span>
+                    <span><a href="#">购物车 0 件</a></span>
+                </dt>
+            </dl>
+            <dl>
+                <dt><span>|</span></dt>
+            </dl>
+            <dl>
+                <dt>
+                    <span><a href="#">招商加盟</a></span>
+                </dt>
+            </dl>
+            <dl>
+                <dt><span>|</span></dt>
+            </dl>
+            <dl id='h6'>
+                <dt>
+                    <span><img src="images/header5.png"/></span>
+                    <span><a href="#">手机版</a></span>
+                </dt>
+            </dl>
+            <dl>
+                <dt><span>|</span></dt>
+            </dl>
+            <dl id='h7'>
+                <dt>
+                    <span><a href="#">网站导航</a></span>
+                    <span id='hs3'>▼</span>
+                </dt>
+                <div>
+                    <dt>精彩指南</dt>
+                    <dd>
+                        <ul>
+                            <li><a href="#">校园之星</a></li>
+                            <li><a href="#">视频购物星</a></li>
+                            <li><a href="#">在线读书物</a></li>
+                            <li><a href="#">装机大师</a></li>
+                        </ul>
+                    </dd>
+                    <dt>精彩指南</dt>
+                    <dd>
+                        <ul>
+                            <li><a href="#">校园之星</a></li>
+                            <li><a href="#">视频购物星</a></li>
+                            <li><a href="#">在线读书物</a></li>
+                            <li><a href="#">装机大师</a></li>
+                        </ul>
+                    </dd>
+                    <dt>精彩指南</dt>
+                    <dd>
+                        <ul>
+                            <li><a href="#">校园之星</a></li>
+                            <li><a href="#">视频购物星</a></li>
+                            <li><a href="#">在线读书物</a></li>
+                            <li><a href="#">装机大师</a></li>
+                        </ul>
+                    </dd>
+                </div>
+            </dl>
+        </div>
     </div>
 </div>
-
 <!-----------------------------------------------Header------------------------------------------------->
 <div id="header">
-   <div class="headerLayout">
-     <div class="headerCon">
-        <div id="lifeLogo">
-          <a href="#"><img src="images/logo1.gif" width="295" height="109"/></a>
-        </div>
-        <div class="header-extra">
-          <div class="header-banner">
-            <a href="#"><img src="images/logo2.png" width="190" height="109" alt=""/></a>
-          </div>
-          <div id="lifeSearch" class="life-search">
-            <form class="lifeSearch-form" name="searchTop" action="#" target="_top" accept-charset="uft-8">
-              <fieldset>
-                <legend>精彩生活搜索</legend>
-                <div class="lifeSearch-input clearfix">
-                  <label for="mq" style="visibility: visible; display: none;">搜索 生活 商品/品牌</label>
-                  <div class="s-combobox" id="s-combobox-226">
-                    <div class="s-combobox-input-wrap">
-                       <input type="text" name="q" id="mq" tabindex="9" accesskey="s" autocomplete="off" autofocus="true" x-webkit-speech="" x-webkit-grammar="builtin:translate" class="s-combobox-input" role="combobox" aria-haspopup="true" title="请输入搜索文字" aria-label="请输入搜索文字">
-                    </div>
-                    <label for="mq" class="s-combobox-placeholder" style="color: rgb(102, 102, 102); visibility: visible;">Iphone 6 plus</label>
-				  </div>
-                  <button type="submit"><img src="images/sou.png" width="32" height="44"></button>
+    <div class="headerLayout">
+        <div class="headerCon">
+            <div id="lifeLogo">
+                <a href="#"><img src="images/logo1.gif" width="295" height="109"/></a>
+            </div>
+            <div class="header-extra">
+                <div class="header-banner">
+                    <a href="#"><img src="images/logo2.png" width="190" height="109" alt=""/></a>
                 </div>
-              </fieldset>
-            </form>
-            <ul class="hot-query">
-			  <li>热门搜索：</li>
-			  <li><a href="#">大码女装</a></li>
-			  <li class="hot-query-highlight"><a href="#">雪地靴</a></li>
-			  <li><a href="#">羽绒衣</a></li>
-			  <li class="hot-query-highlight"><a href="#">秋冬童装</a></li>
-			  <li><a href="#">男鞋</a></li>
-			  <li><a href="#">时尚保温杯</a></li>
-			  <li class="hot-query-highlight"><a href="#">进口零食</a></li>
-			</ul>
-		  </div>
-		</div>
-     </div>
-   </div>
+                <div id="lifeSearch" class="life-search">
+                    <form class="lifeSearch-form" name="searchTop" action="#" target="_top" accept-charset="uft-8">
+                        <fieldset>
+                            <legend>精彩生活搜索</legend>
+                            <div class="lifeSearch-input clearfix">
+                                <label for="mq" style="visibility: visible; display: none;">搜索 生活 商品/品牌</label>
+                                <div class="s-combobox" id="s-combobox-226">
+                                    <div class="s-combobox-input-wrap">
+                                        <input type="text" name="q" id="mq" tabindex="9" accesskey="s" autocomplete="off" autofocus="true" x-webkit-speech="" x-webkit-grammar="builtin:translate" class="s-combobox-input" role="combobox" aria-haspopup="true" title="请输入搜索文字" aria-label="请输入搜索文字">
+                                    </div>
+                                    <label for="mq" class="s-combobox-placeholder" style="color: rgb(102, 102, 102); visibility: visible;">Iphone 6 plus</label>
+                                </div>
+                                <button type="submit"><img src="images/sou.png" width="50" height="44"></button>
+                            </div>
+                        </fieldset>
+                    </form>
+                    <ul class="hot-query">
+                        <li>热门搜索：</li>
+                        <li><a href="#">大码女装</a></li>
+                        <li class="hot-query-highlight"><a href="#">雪地靴</a></li>
+                        <li><a href="#">羽绒衣</a></li>
+                        <li class="hot-query-highlight"><a href="#">秋冬童装</a></li>
+                        <li><a href="#">男鞋</a></li>
+                        <li><a href="#">时尚保温杯</a></li>
+                        <li class="hot-query-highlight"><a href="#">进口零食</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <!----------------------------------------------Content-------------------------------------------------->
@@ -131,8 +254,8 @@
                 <div class="lf-content">
                   <div class="tm-wrap">
                     <!-- 分类导航 -->
-                    <div class="lf-category hover">
-                      <dl class="lf-catagory-index-1 first lf-orange">
+                    <div class="lf-category hover" id="SNmenuNav">
+                      <dl class="lf-catagory-index-1 first">
                         <dt>
                         <h2>养生</h2>
                         <p>
@@ -144,33 +267,18 @@
                         <dd class="double">
                           <a class="J_category_close btn-close tm-iconfont"></a>
 
-                          <div class="tm-category-block">
-                            <div class="tm-category-title">
+                          <div class="life-category-block">
+                            <div class="life-category-title">
                               <em class="tm-iconfont"></em>
                               <h3>宝宝食品</h3>
                             </div>
                             <hr>
                             <span>
-                                    <a href="#"><font color="#C40000">牛奶粉</font></a>
-                                    <a href="#">羊奶粉</a>
-                                    <a href="#">米粉</a>
-                                    <a href="http://list.tmall.com/search_product.htm?q=%C5%A3%B3%F5%C8%E9&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">牛初乳</a>
-                                    <a href="http://list.tmall.com/search_product.htm?q=%B6%B9%C4%CC%B7%DB&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">豆奶粉</a>
-                                    <a href="http://list.tmall.com/search_product.htm?q=1%B6%CE%C4%CC%B7%DB&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">1段奶粉</a>
-                                    <a href="http://list.tmall.com/search_product.htm?q=2%B6%CE%C4%CC%B7%DB&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">2段奶粉</a>
-                                    <a href="http://list.tmall.com/search_product.htm?q=3%B6%CE%C4%CC%B7%DB&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">3段奶粉</a>
-                                    <a href="http://list.tmall.com/search_product.htm?q=4%B6%CE%C4%CC%B7%DB&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">4段奶粉</a>
-                                    <a href="http://list.tmall.com/search_product.htm?cat=52816004&amp;auction_tag=13186">DHA</a>
-                                    <a href="http://list.tmall.com/search_product.htm?cat=52824003&amp;auction_tag=13186">钙铁锌</a>
-                                    <a href="http://list.tmall.com/search_product.htm?cat=52828005&amp;auction_tag=13186">鱼肝油</a>
-                                    <a href="http://list.tmall.com/search_product.htm?cat=52814006&amp;auction_tag=13186">维生素</a>
-                                    <a href="http://list.tmall.com/search_product.htm?cat=50038368&amp;auction_tag=13186">益生菌</a>
-                                    <a href="http://list.tmall.com/search_product.htm?q=DHA%2F%BA%CB%CC%D2%D3%CD&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">DHA/核桃油</a>
-                                    <a href="http://list.tmall.com/search_product.htm?cat=50038241&amp;auction_tag=13186">磨牙饼干</a>
-                                    <a href="http://list.tmall.com/search_product.htm?cat=51044001&amp;auction_tag=13186">果泥/肉泥</a>
-                                    <a href="http://list.tmall.com/search_product.htm?q=%B9%FB%C8%E2%CC%F5&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">果肉条</a>
-                                    <a href="http://list.tmall.com/search_product.htm?q=%C4%CC%C0%D2&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">奶酪</a>
-                                    <a href="http://list.tmall.com/search_product.htm?q=%C4%CC%C6%AC&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">奶片</a>
+                              <a href="#"><font color="#C40000">牛奶粉</font></a>
+                              <a href="#">羊奶粉</a>
+                              <a href="#">米粉</a>
+                              <a href="#">牛初乳</a>
+                              <a href="#">豆奶粉</a>
                             </span>
                           </div>
 
@@ -181,21 +289,11 @@
                             </div>
                             <hr>
                             <span>
-                                    <a href="http://list.tmall.com/search_product.htm?cat=50024810&amp;auction_tag=13186">纸尿裤</a>
-                                    <a href="http://list.tmall.com/search_product.htm?cat=52810003&amp;auction_tag=13186"><font color="#C40000">耳温枪</font></a>
-                                    <a href="http://list.tmall.com/search_product.htm?cat=52832004&amp;auction_tag=13186">奶瓶</a>
-                                    <a href="http://list.tmall.com/search_product.htm?q=%C4%CC%D7%EC&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186&amp;spm=a2222.1279144.z6654ak.c543">奶嘴</a>
-                                    <a href="http://list.tmall.com/search_product.htm?q=%C4%CC%C6%BF%CB%A2%2F%C4%CC%D7%EC%CB%A2&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">奶瓶刷/奶嘴刷</a>
-                                    <a href="http://list.tmall.com/search_product.htm?cat=50024827&amp;auction_tag=13186">水杯</a>
-                                    <a href="http://list.tmall.com/search_product.htm?q=%B8%A8%CA%B3%C1%CF%C0%ED%BB%FA&amp;auction_tag=13186">辅食料理机</a>
-                                    <a href="http://list.tmall.com/search_product.htm?q=%B6%F9%CD%AF%B2%CD%BE%DF&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">宝宝餐具</a>
-                                    <a href="http://list.tmall.com/search_product.htm?cat=50350010&amp;auction_tag=13186">婴儿湿巾</a>
-                                    <a href="http://list.tmall.com/search_product.htm?q=%CA%B3%CE%EF%D2%A7%D2%A7%B4%FC&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">食物咬咬袋</a>
-                                    <a href="http://list.tmall.com/search_product.htm?cat=50101459&amp;auction_tag=13186">推车/床</a>
-                                    <a href="http://list.tmall.com/search_product.htm?q=%B1%B3%B4%F8%2F%B1%B3%B4%FC&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">背带/背袋</a>
-                                    <a href="http://list.tmall.com/search_product.htm?cat=50544006&amp;auction_tag=13186">安全座椅</a>
-                                    <a href="http://list.tmall.com/search_product.htm?q=%CE%B9%D2%A9%C6%F7&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">喂药器</a>
-                                    <a href="http://list.tmall.com/search_product.htm?q=%CD%CB%C9%D5%CC%F9&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">退烧贴</a>
+                              <a href="#">纸尿裤</a>
+                              <a href="#"><font color="#C40000">耳温枪</font></a>
+                              <a href="#">奶瓶</a>
+                              <a href="#">奶嘴</a>
+                              <a href="#">奶瓶刷/奶嘴刷</a>
                             </span>
                           </div>
 
@@ -205,18 +303,13 @@
                               <h3>宝宝洗护</h3>
                             </div>
                             <hr>
-            <span>
-                                    <a href="http://list.tmall.com/search_product.htm?cat=50354017&amp;auction_tag=13186">驱蚊防虫</a>
-                                    <a href="http://list.tmall.com/search_product.htm?cat=50350015&amp;auction_tag=13186">爽身防痱</a>
-                                    <a href="http://list.tmall.com/search_product.htm?cat=50034780&amp;auction_tag=13186">宝贝防晒</a>
-                                    <a href="http://list.tmall.com/search_product.htm?cat=50034775&amp;auction_tag=13186">宝贝护肤</a>
-                                    <a href="http://list.tmall.com/search_product.htm?cat=50034774&amp;auction_tag=13186">洗发沐浴</a>
-                                    <a href="http://list.tmall.com/search_product.htm?cat=50034779&amp;auction_tag=13186">护臀膏</a>
-                                    <a href="http://list.tmall.com/search_product.htm?q=%C8%F3%B7%F4%C8%E9&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">宝宝润肤乳</a>
-                                    <a href="http://list.tmall.com/search_product.htm?cat=50340017&amp;auction_tag=13186">按摩油</a>
-                                    <a href="http://list.tmall.com/search_product.htm?cat=50338018&amp;auction_tag=13186">牙膏牙刷</a>
-                                    <a href="http://list.tmall.com/search_product.htm?q=%B1%A6%B1%A6%CF%B4%CA%D6%D2%BA&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">宝宝洗手液</a>
-                                    <a href="http://list.tmall.com/search_product.htm?q=%B1%A6%B1%A6%CF%B4%D2%C2%D2%BA&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">宝宝洗衣液</a>
+                            <span>
+                              <a href="#">驱蚊防虫</a>
+                              <a href="#">爽身防痱</a>
+                              <a href="#">宝贝防晒</a>
+                              <a href="#">宝贝护肤</a>
+                              <a href="#">洗发沐浴</a>
+                              <a href="#">护臀膏</a>
                             </span>
                           </div>
 
@@ -226,19 +319,12 @@
                               <h3>孕产妇用品</h3>
                             </div>
                             <hr>
-            <span>
-                                    <a href="http://list.tmall.com/search_product.htm?cat=50350006&amp;auction_tag=13186">妊娠纹护理</a>
-                                    <a href="http://list.tmall.com/search_product.htm?q=%B5%AD%B0%CC%BB%A4%C0%ED&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186"><font color="#C40000">淡疤护理</font></a>
-                                    <a href="http://list.tmall.com/search_product.htm?q=%C8%E9%B7%BF%BB%A4%C0%ED%A3%A8%D0%C2%A3%A9&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">乳房护理（新）</a>
-                                    <a href="http://list.tmall.com/search_product.htm?cat=50097124&amp;auction_tag=13186">孕妇DHA</a>
-                                    <a href="http://list.tmall.com/search_product.htm?q=%D4%D0%B2%FA%B8%BE%B8%C6%CC%FA%D0%BF&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">孕产妇钙铁锌</a>
-                                    <a href="http://list.tmall.com/search_product.htm?q=%D4%D0%B2%FA%B8%BE%CE%AC%C9%FA%CB%D8&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">孕产妇维生素</a>
-                                    <a href="http://list.tmall.com/search_product.htm?cat=50105798&amp;auction_tag=13186">催奶发奶</a>
-                                    <a href="http://list.tmall.com/search_product.htm?cat=50096679&amp;auction_tag=13186">吸奶器</a>
-                                    <a href="http://list.tmall.com/search_product.htm?cat=50024888&amp;auction_tag=13186">防溢乳垫</a>
-                                    <a href="http://list.tmall.com/search_product.htm?q=%B2%FA%B8%BE%CE%C0%C9%FA%BD%ED&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">产妇卫生巾</a>
-                                    <a href="http://list.tmall.com/search_product.htm?cat=50102869&amp;auction_tag=13186">孕妇装</a>
-                                    <a href="http://list.tmall.com/search_product.htm?q=%B2%B8%C8%E9%B5%F5%B4%F8&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">哺乳吊带</a>
+                            <span>
+                              <a href="#">妊娠纹护理</a>
+                              <a href="#"><font color="#C40000">淡疤护理</font></a>
+                              <a href="#">乳房护理（新）</a>
+                              <a href="#">孕妇DHA</a>
+                              <a href="#">孕产妇钙铁锌</a>
                             </span>
                           </div>
 
@@ -289,7 +375,7 @@
                       </dl>
 
 
-                      <dl class="lf-catagory-index-2 lf-red">
+                      <dl class="lf-catagory-index-2">
                         <dt>
                         <h2>美容</h2>
                         <p>
@@ -301,8 +387,8 @@
                         <dd class="double">
                           <a class="J_category_close btn-close tm-iconfont"></a>
 
-                          <div class="tm-category-block">
-                            <div class="tm-category-title">
+                          <div class="life-category-block">
+                            <div class="life-category-title">
                               <em class="tm-iconfont"></em>
                               <h3>美妆护肤</h3>
                             </div>
@@ -444,7 +530,7 @@
                       </dl>
 
 
-                      <dl class="lf-catagory-index-3 lf-green">
+                      <dl class="lf-catagory-index-3">
                         <dt>
                         <h2>美发</h2>
                         <p>
@@ -602,7 +688,7 @@
                       </dl>
 
 
-                      <dl class="lf-catagory-index-4 lf-pink">
+                      <dl class="lf-catagory-index-4">
                         <dt>
                         <h2>护肤</h2>
                         <p>
@@ -752,7 +838,7 @@
                       </dl>
 
 
-                      <dl class="lf-catagory-index-5 lf-blue">
+                      <dl class="lf-catagory-index-5">
                         <dt>
                         <h2>保健品</h2>
                         <p>
@@ -858,6 +944,218 @@
                         </dd>
                         <div class="tm-underline"></div>
                       </dl>
+                      <dl class="lf-catagory-index-6">
+                        <dt>
+                          <h2>品牌</h2>
+                          <p>
+                            <a href="#">国际品牌</a>
+                            <a href="#">大众名品</a>
+                          </p>
+                        </dt>
+                            <dd class="double">
+                                <a class="J_category_close btn-close tm-iconfont"></a>
+
+                                <div class="tm-category-block">
+                                    <div class="tm-category-title">
+                                        <em class="tm-iconfont"></em>
+                                        <h3>生活电器</h3>
+                                    </div>
+                                    <hr>
+            <span>
+                                    <a href="http://list.tmall.com/search_product.htm?cat=50918010&amp;auction_tag=13186"><font color="#C40000">净水器</font></a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=%BE%BB%CB%AE%BA%F8&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">净水壶</a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=%BE%BB%BB%AF%C6%F7&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">空气净化器</a>
+                                    <a href="http://list.tmall.com/search_product.htm?cat=50936010&amp;auction_tag=13186">扫地机</a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=%CE%FC%B3%BE%C6%F7&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">吸尘器</a>
+                                    <a href="http://list.tmall.com/search_product.htm?cat=50918011&amp;auction_tag=13186">咖啡机</a>
+                                    <a href="http://list.tmall.com/search_product.htm?spm=a2222.1279144.1998170891.312.lbnIlh&amp;q=%C3%C0%C8%DD%D2%C7&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">美容仪</a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=%C9%FA%BB%EE%B5%E7%C6%F7&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">生活电器</a>
+                            </span>
+                                </div>
+
+                                <div class="tm-category-block">
+                                    <div class="tm-category-title">
+                                        <em class="tm-iconfont"></em>
+                                        <h3>厨房用具</h3>
+                                    </div>
+                                    <hr>
+            <span>
+                                    <a href="http://list.tmall.com/search_product.htm?q=%B9%F8&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">厨房锅具</a>
+                                    <a href="http://list.tmall.com/search_product.htm?cat=50027315&amp;auction_tag=13186">炒锅</a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=%B5%B6%BE%DF&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">刀具</a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=%B2%CB%B0%E5&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">菜板</a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=%B1%A3%CE%C2%B1%AD&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186"><font color="#C40000">保温杯</font></a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=NEOFLAM&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">NEOFLAM</a>
+                            </span>
+                                </div>
+
+                                <div class="tm-category-block">
+                                    <div class="tm-category-title">
+                                        <em class="tm-iconfont"></em>
+                                        <h3>其他生活用品</h3>
+                                    </div>
+                                    <hr>
+            <span>
+                                    <a href="http://list.tmall.com/search_product.htm?q=%BC%F4%B5%B6&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">家用剪刀</a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=%CA%D5%C4%C9%BA%D0&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">收纳盒</a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=%B1%A3%CE%C2%BA%F8&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186"><font color="#C40000">保温壶</font></a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=%BF%DA%D5%D6&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">防霾口罩</a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=%D5%F4%C6%FB%D1%DB%D5%D6&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">蒸汽眼膜</a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=%B1%DC%D4%D0%CC%D7&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186"><font color="#C40000">避孕套</font></a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=%B9%AB%C2%B7%D7%D4%D0%D0%B3%B5&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">公路自行车</a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=%CB%AE%BA%F8%BC%DC&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">自行车水壶架</a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=%C8%D5%D2%B9%CE%C0%C9%FA%BD%ED&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543">日夜卫生巾</a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=%CD%E0%D7%D3&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543">袜子</a>
+                            </span>
+                                </div>
+
+                                <div class="tm-category-block">
+                                    <div class="tm-category-title">
+                                        <em class="tm-iconfont"></em>
+                                        <h3>数码音响</h3>
+                                    </div>
+                                    <hr>
+            <span>
+                                    <a href="http://list.tmall.com/search_product.htm?q=%CA%FD%C2%EB%CF%E0%BB%FA&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">数码相机</a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=%B6%FA%BB%FA&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543">耳机</a>
+                                    <a href="http://list.tmall.com/search_product.htm?cat=50022645&amp;auction_tag=13186">CD</a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=%CA%D6%BB%FA%BF%C7&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186&amp;spm=a2222.1279144.z6654ak.c543">手机壳</a>
+                            </span>
+                                </div>
+
+                                <div class="tm-category-block">
+                                    <div class="tm-category-title">
+                                        <em class="tm-iconfont"></em>
+                                        <h3>热门畅销品牌</h3>
+                                    </div>
+                                    <hr>
+            <span>
+                                    <a href="http://list.tmall.com/search_product.htm?q=%CB%F7%C4%E1&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543"><font color="#C40000">索尼</font></a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=BRITA%2F%B1%CC%C8%BB%B5%C2&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">BRITA/碧然德</a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=dyson%2F%B4%F7%C9%AD&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">dyson/戴森</a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=%C9%C5%C4%A7%CA%A6&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186"><font color="#C40000">膳魔师</font></a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=MAXI-COSI&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">MAXI-COSI</a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=RECARO&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">RECARO</a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=pobling&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">pobling</a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=nespresso&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">nespresso</a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=Bosch%2F%B2%A9%CA%C0&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">Bosch/博世</a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=KISS+YOU&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">KISS YOU</a>
+                                    <a href="http://list.tmall.com/search_product.htm?spm=a220m.1000858.1000720.1.adaMrl&amp;brand=5767077&amp;q=%B9%F8&amp;sort=s&amp;style=g&amp;auction_tag=13186&amp;from=sn_1_brand&amp;active=1#J_crumbs"><font color="#C40000">NEOFLAM/佑福来</font></a>
+                                    <a href="http://list.tmall.com/search_product.htm?spm=a220m.1000858.1000720.3.rLOuOM&amp;cat=50918010&amp;brand=77738448&amp;sort=s&amp;style=g&amp;auction_tag=13186&amp;from=sn_1_brand-qp&amp;active=1&amp;industryCatId=50918010#J_crumbs">Aquasana/阿夸莎娜</a>
+                                    <a href="http://list.tmall.com/search_product.htm?spm=a220m.1000858.1000720.3.Xbc1Ts&amp;brand=3222887&amp;q=%B9%F8&amp;sort=s&amp;style=g&amp;auction_tag=13186&amp;from=sn_1_brand&amp;active=1#J_crumbs">Fissler/菲仕乐</a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=Skeppshult&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">Skeppshult</a>
+                            </span>
+                                </div>
+
+                            </dd>
+                            <div class="tm-underline"></div>
+                        </dl>
+                      <dl class="lf-catagory-index-7">
+                            <dt>
+                            <h2>传统滋补</h2>
+                            <p>
+                                <a href="#">核桃</a>
+                                <a href="#">紫菜</a>
+                            </p>
+                            </dt>
+                            <dd class="double">
+                                <a class="J_category_close btn-close tm-iconfont"></a>
+
+                                <div class="tm-category-block">
+                                    <div class="tm-category-title">
+                                        <em class="tm-iconfont"></em>
+                                        <h3>生活电器</h3>
+                                    </div>
+                                    <hr>
+            <span>
+                                    <a href="http://list.tmall.com/search_product.htm?cat=50918010&amp;auction_tag=13186"><font color="#C40000">净水器</font></a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=%BE%BB%CB%AE%BA%F8&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">净水壶</a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=%BE%BB%BB%AF%C6%F7&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">空气净化器</a>
+                                    <a href="http://list.tmall.com/search_product.htm?cat=50936010&amp;auction_tag=13186">扫地机</a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=%CE%FC%B3%BE%C6%F7&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">吸尘器</a>
+                                    <a href="http://list.tmall.com/search_product.htm?cat=50918011&amp;auction_tag=13186">咖啡机</a>
+                                    <a href="http://list.tmall.com/search_product.htm?spm=a2222.1279144.1998170891.312.lbnIlh&amp;q=%C3%C0%C8%DD%D2%C7&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">美容仪</a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=%C9%FA%BB%EE%B5%E7%C6%F7&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">生活电器</a>
+                            </span>
+                                </div>
+
+                                <div class="tm-category-block">
+                                    <div class="tm-category-title">
+                                        <em class="tm-iconfont"></em>
+                                        <h3>厨房用具</h3>
+                                    </div>
+                                    <hr>
+            <span>
+                                    <a href="http://list.tmall.com/search_product.htm?q=%B9%F8&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">厨房锅具</a>
+                                    <a href="http://list.tmall.com/search_product.htm?cat=50027315&amp;auction_tag=13186">炒锅</a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=%B5%B6%BE%DF&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">刀具</a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=%B2%CB%B0%E5&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">菜板</a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=%B1%A3%CE%C2%B1%AD&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186"><font color="#C40000">保温杯</font></a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=NEOFLAM&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">NEOFLAM</a>
+                            </span>
+                                </div>
+
+                                <div class="tm-category-block">
+                                    <div class="tm-category-title">
+                                        <em class="tm-iconfont"></em>
+                                        <h3>其他生活用品</h3>
+                                    </div>
+                                    <hr>
+            <span>
+                                    <a href="http://list.tmall.com/search_product.htm?q=%BC%F4%B5%B6&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">家用剪刀</a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=%CA%D5%C4%C9%BA%D0&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">收纳盒</a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=%B1%A3%CE%C2%BA%F8&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186"><font color="#C40000">保温壶</font></a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=%BF%DA%D5%D6&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">防霾口罩</a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=%D5%F4%C6%FB%D1%DB%D5%D6&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">蒸汽眼膜</a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=%B1%DC%D4%D0%CC%D7&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186"><font color="#C40000">避孕套</font></a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=%B9%AB%C2%B7%D7%D4%D0%D0%B3%B5&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">公路自行车</a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=%CB%AE%BA%F8%BC%DC&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">自行车水壶架</a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=%C8%D5%D2%B9%CE%C0%C9%FA%BD%ED&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543">日夜卫生巾</a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=%CD%E0%D7%D3&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543">袜子</a>
+                            </span>
+                                </div>
+
+                                <div class="tm-category-block">
+                                    <div class="tm-category-title">
+                                        <em class="tm-iconfont"></em>
+                                        <h3>数码音响</h3>
+                                    </div>
+                                    <hr>
+            <span>
+                                    <a href="http://list.tmall.com/search_product.htm?q=%CA%FD%C2%EB%CF%E0%BB%FA&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">数码相机</a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=%B6%FA%BB%FA&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543">耳机</a>
+                                    <a href="http://list.tmall.com/search_product.htm?cat=50022645&amp;auction_tag=13186">CD</a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=%CA%D6%BB%FA%BF%C7&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186&amp;spm=a2222.1279144.z6654ak.c543">手机壳</a>
+                            </span>
+                                </div>
+
+                                <div class="tm-category-block">
+                                    <div class="tm-category-title">
+                                        <em class="tm-iconfont"></em>
+                                        <h3>热门畅销品牌</h3>
+                                    </div>
+                                    <hr>
+            <span>
+                                    <a href="http://list.tmall.com/search_product.htm?q=%CB%F7%C4%E1&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543&amp;spm=a2222.1279144.z6654ak.c543"><font color="#C40000">索尼</font></a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=BRITA%2F%B1%CC%C8%BB%B5%C2&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">BRITA/碧然德</a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=dyson%2F%B4%F7%C9%AD&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">dyson/戴森</a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=%C9%C5%C4%A7%CA%A6&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186"><font color="#C40000">膳魔师</font></a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=MAXI-COSI&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">MAXI-COSI</a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=RECARO&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">RECARO</a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=pobling&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">pobling</a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=nespresso&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">nespresso</a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=Bosch%2F%B2%A9%CA%C0&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">Bosch/博世</a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=KISS+YOU&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">KISS YOU</a>
+                                    <a href="http://list.tmall.com/search_product.htm?spm=a220m.1000858.1000720.1.adaMrl&amp;brand=5767077&amp;q=%B9%F8&amp;sort=s&amp;style=g&amp;auction_tag=13186&amp;from=sn_1_brand&amp;active=1#J_crumbs"><font color="#C40000">NEOFLAM/佑福来</font></a>
+                                    <a href="http://list.tmall.com/search_product.htm?spm=a220m.1000858.1000720.3.rLOuOM&amp;cat=50918010&amp;brand=77738448&amp;sort=s&amp;style=g&amp;auction_tag=13186&amp;from=sn_1_brand-qp&amp;active=1&amp;industryCatId=50918010#J_crumbs">Aquasana/阿夸莎娜</a>
+                                    <a href="http://list.tmall.com/search_product.htm?spm=a220m.1000858.1000720.3.Xbc1Ts&amp;brand=3222887&amp;q=%B9%F8&amp;sort=s&amp;style=g&amp;auction_tag=13186&amp;from=sn_1_brand&amp;active=1#J_crumbs">Fissler/菲仕乐</a>
+                                    <a href="http://list.tmall.com/search_product.htm?q=Skeppshult&amp;code=gbk&amp;area=b2c&amp;auction_tag=13186">Skeppshult</a>
+                            </span>
+                                </div>
+
+                            </dd>
+                            <div class="tm-underline"></div>
+                        </dl>
                     </div>
                   </div>
                   <!-- 广告 -->
@@ -870,14 +1168,111 @@
                         <h2>精彩推荐</h2>
                         <a class="lf-more" href="#"><img src="images/recomd_2.jpg"></a>
                       </div>
-                      <div class="lf-referral-list">
-                        <ul>
-                          <li>1</li>
-                          <li>2</li>
-                          <li>3</li>
-                          <li>4</li>
-                          <li>5</li>
-                        </ul>
+                      <div class="lf-referral-items">
+                        <div class="lf-referral-item">
+                          <div class="lf-referral-info">
+                            <img src="images/tuijian-01.jpg" alt=""/>
+                            <p>热门品类</p>
+                            <span>护肤彩妆启示</span>
+                          </div>
+                          <div class="lf-referral-it">
+                            <a href="#">面膜</a>
+                            <a href="#">护手霜</a>
+                            <a href="#">洗发水</a>
+                            <a href="#">口红</a>
+                            <a href="#">香水</a>
+                            <a href="#">眼霜</a>
+                            <a href="#">身体乳</a>
+                            <a href="#">爽肤水</a>
+                            <a href="#">面霜</a>
+                            <a href="#">染发膏</a>
+                            <a href="#">唇蜜</a>
+                            <a href="#">美甲工具</a>
+                            <a href="#">精油皂</a>
+                          </div>
+                        </div>
+                        <div class="lf-referral-item">
+                          <div class="lf-referral-info">
+                            <img src="images/tuijian-02.jpg" alt=""/>
+                            <p>强效保养</p>
+                            <span>逆转皮肤问题</span>
+                          </div>
+                          <div class="lf-referral-it">
+                            <a href="#">去黑头</a>
+                            <a href="#">祛痘</a>
+                            <a href="#">祛斑</a>
+                            <a href="#">补水</a>
+                            <a href="#">减肥</a>
+                            <a href="#">染发</a>
+                            <a href="#">瘦身</a>
+                            <a href="#">保湿</a>
+                            <a href="#">美白</a>
+                            <a href="#">收缩毛孔</a>
+                            <a href="#">遮瑕</a>
+                            <a href="#">隔离</a>
+                            <a href="#">抗皱</a>
+                            <a href="#">防晒</a>
+                            <a href="#">淡斑</a>
+                          </div>
+                        </div>
+                        <div class="lf-referral-item">
+                          <div class="lf-referral-info">
+                            <img src="images/tuijian-03.jpg" alt=""/>
+                            <p>人气品牌</p>
+                            <span>最in大牌</span>
+                          </div>
+                          <div class="lf-referral-it">
+                            <a href="#">面膜</a>
+                            <a href="#">护手霜</a>
+                            <a href="#">洗发水</a>
+                            <a href="#">口红</a>
+                            <a href="#">香水</a>
+                            <a href="#">眼霜</a>
+                            <a href="#">身体乳</a>
+                            <a href="#">爽肤水</a>
+                            <a href="#">面霜</a>
+                            <a href="#">染发膏</a>
+                            <a href="#">唇蜜</a>
+                            <a href="#">美甲工具</a>
+                            <a href="#">精油皂</a>
+                          </div>
+                        </div>
+                        <div class="lf-referral-item">
+                          <div class="lf-referral-info">
+                            <img src="images/tuijian-04.jpg" alt=""/>
+                            <p>潮流单品</p>
+                            <span>当季最红</span>
+                          </div>
+                          <div class="lf-referral-it">
+                            <a href="#">芦荟胶</a>
+                            <a href="#">气垫BB霜</a>
+                            <a href="#">喷雾</a>
+                            <a href="#">氧气面膜</a>
+                            <a href="#">无添加</a>
+                            <a href="#">蜗牛霜</a>
+                            <a href="#">气垫唇膏</a>
+                            <a href="#">气垫眼线</a>
+                            <a href="#">薰衣草精油</a>
+                            <a href="#">睡眠面膜</a>
+                          </div>
+                        </div>
+                        <div class="lf-referral-item1">
+                          <div class="lf-referral-info">
+                            <img src="images/tuijian-05.jpg" alt=""/>
+                            <p>美妆精选</p>
+                            <span>超赞专题</span>
+                          </div>
+                          <div class="lf-referral-it">
+                            <a href="#">孕妇护肤</a>
+                            <a href="#">换季保养</a>
+                            <a href="#">护肤嫩白集锦</a>
+                            <a href="#">快速约会妆</a>
+                            <a href="#">画眉神器</a>
+                            <a href="#">晒后美白</a>
+                            <a href="#">美容时钟模式</a>
+                            <a href="#">5步护肤术</a>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -979,8 +1374,25 @@
                     </div>
                   </div>
                   <div class="life-skin">
-                    <a class="life-skin1" href="#"><img src="images/skin_01.jpg" width="584" height="283"></a>
-                    <a class="life-skin2" href="#"><img src="images/skin_02.jpg" width="537" height="283"></a>
+                    <!--<a class="life-skin1" href="#"><img src="images/skin_01.jpg" width="584" height="283"></a>-->
+                    <div class="life-skin2">
+                      <p><i>M站!<span>the beauty bbs</span></i>—————————————| More |</p>
+                      <div class="life-skin-left">
+                        <a href="#"><img src="images/bbs_01.png" alt=""/></a>
+                      </div>
+                      <div class="life-skin-right">
+                        <div>
+                          <img src="images/bbs_02.png" alt=""/>
+                          <p>【换季护肤】植物系最爱</p>
+                          <p><span>植物系的护肤是闻妞的最爱，稳定安全又温和，为什么我会这么偏爱植物类的水乳，是因为你会慢慢感受它的好...</span></p>
+                        </div>
+                        <div>
+                          <img src="images/bbs_03.png" alt=""/>
+                          <p>【换季护肤】植物系最爱</p>
+                          <p><span>植物系的护肤是闻妞的最爱，稳定安全又温和，为什么我会这么偏爱植物类的水乳，是因为你会慢慢感受它的好...</span></p>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -1269,7 +1681,7 @@
                     <div class="life-category-popular">
                       <h2>精彩推荐</h2>
                       <div class="life-popular-info">
-                        <img src="images/hepro-1.jpg" width="57" height="57" alt=""/>
+                        <img src="images/hepro-1.jpg" alt=""/>
                         <p>美国产康宝来奶昔套餐减肥代餐粉</p>
                         <p>
                           <label class="life-price">
@@ -1285,7 +1697,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="life-category-banner1">
+                  <div class="life-category-banner">
                     <div class="floor-ad-banner">
                       <ins style="display:inline-block;padding:0;margin:0;width:1160px;height:96px;*zoom:1;*display:inline";id="ad-banner">
                         <div  style="display:inline-block;position:relative;width:1160px;height:96px;*display:inline;*zoom:1;font:12px/1.5 tahoma,'Hiragino Sans GB','microsoft yahei',sans-serif;">
@@ -1304,7 +1716,7 @@
   </div>
 </div>
 
-<!---------------------------底部代码块---------------------->
+<!---------------------------Footer----------------------->
 <div class="footer">
   <div id="footer">
     <div class="life-ensure">

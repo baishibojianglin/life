@@ -9,152 +9,183 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <title>精彩生活网</title>
 <link rel="shortcut icon" href="images/shopping.ico" type="image/x-icon">
-<link rel="stylesheet" type="text/css" href="css/index.css" />
 <link rel="stylesheet" type="text/css" href="css/header_footer.css">
 <link rel="stylesheet" type="text/css" href="css/2_help.css" />
 <script type="text/javascript" src="js/jq1.7.1.js"></script>
-<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/header_footer.js"></script>
 <script type="text/javascript" src="js/js.js"></script>
 </head>
 
 <body>
-<!--------------------------导航部分-------------------------->
-<div id="site-nav">
-  <div class="life-top"></div>
-  <div id="life-nav">
-   <div class="sn-container">
-    <ul class="enshrine">
-      <li class="fore1 ld">
-        <b></b>
-        <a href="javascript:addToFavortie()" rel="nofollow">收藏精彩生活馆</a>
-      </li>
-    </ul>
-	<script type="text/javascript">
-	$(document).ready(function(){
-	  $("#home-area").mouseover(function(){
-	  $("#home-area .dd").toggle();
-	  });
-	});
-	</script>
-    <dl id="home-area">
-      <dt>
-        <i></i>
-        <span>成都市&nbsp;&gt;</span>
-        <a href="#">金牛区</a>
-        <b></b>
-        <span class="blank"></span>
-      </dt>
-      <dd class="dd">
-        <ul class="lh">
-          <li><a href="#">锦江区</a></li>
-          <li><a href="#">青羊区</a></li>
-          <li><a href="#">金牛区</a></li>
-          <li><a href="#">武侯区</a></li>
-          <li><a href="#">成华区</a></li>
-          <li><a href="#">龙泉驿区</a></li>
-          <li><a href="#">青白江区</a></li>
-          <li><a href="#">新都区</a></li>
-          <li><a href="#">温江区</a></li>
-          <li><a href="#">金堂县</a></li>
-          <li><a href="#">双流县</a></li>
-          <li><a href="#">郫县</a></li>
-          <li><a href="#">大邑县</a></li>
-          <li><a href="#">蒲江县</a></li>
-          <li><a href="#">新津县</a></li>
-          <li><a href="#">都江堰市</a></li>
-          <li><a href="#">彭州市</a></li>
-          <li><a href="#">邛崃市</a></li>
-          <li><a href="#">崇州市</a></li>
-          <li><a href="#">其他</a></li>
-        </ul>
-        <div class="close" onclick="$('#home-area').removeClass('hover')">×</div>
-      </dd>
-    </dl>
-    <ul class="fr lh" id="fright">
-     <li class="greet" id="loginbar">亲，欢迎来精彩生活馆！<span><a href="#" target="_top">[请登录]</a><a href="#" target="_top">[免费注册]</a></span></li>
-     <li class="myaccount ld">
-       <s></s>
-       <i></i>
-       <a class="menu-hd" href="#" target="_top" rel="nofollow" tabindex="0">我的账户</a>
-       <b></b>
-       <div class="menu-bd-panel" id="mylifePanel">
+<!-------------------------Navigation-------------------->
+<div class="header1"></div>
+<!------导航第一板块------>
+<div class="header2">
+  <div class="header2a">
+    <div id="hd1">
+      <dl id="h1">
+        <dt>
+          <span><img src="images/header1.png"/></span>
+          <span><a href="#">收藏精彩生活馆</a></span>
+        </dt>
+      </dl>
+      <dl id="h2">
+        <dt>
+          <span><img src="images/header2.png"/></span>
+        </dt>
+        <dt>
+          <span><a href="#">成都市</span></a></span>
+          <span>＞</span>
+          <span><a href="#">金牛区</a></span>
+          <span id="hs1">▼</span>
+        </dt>
+        <dd>
           <ul>
-           <li><a href="#" target="_blank">我的订单</a></li>
-           <li><a href="#" target="_blank">我的积分</a></li>
-           <li><a href="#" target="_blank">我的收藏</a></li>
-           <li><a href="#" target="_blank">我的优惠</a></li>
+            <li><a href="#" onClick="city(this);">成都市</a></li>
+            <li><a href="#" onClick="city(this);">德阳市</a></li>
+            <li><a href="#" onClick="city(this);">绵阳市</a></li>
+            <li><a href="#" onClick="city(this);">资阳市</a></li>
+            <li><a href="#" onClick="city(this);">遂宁市</a></li>
+            <li><a href="#" onClick="city(this);">南充市</a></li>
+            <li><a href="#" onClick="city(this);">巴中市</a></li>
+            <li><a href="#" onClick="city(this);">广汉市</a></li>
+            <li><a href="#" onClick="city(this);">广元市</a></li>
+            <li><a href="#" onClick="city(this);">自贡市</a></li>
+            <li><a href="#" onClick="city(this);">泸州市</a></li>
+            <li><a href="#" onClick="city(this);">内江市</a></li>
+            <li><a href="#" onClick="city(this);">乐山市</a></li>
+            <li><a href="#" onClick="city(this);">宜宾市</a></li>
+            <li><a href="#" onClick="city(this);">广安市</a></li>
+            <li><a href="#" onClick="city(this);">达州市</a></li>
+            <li><a href="#" onClick="city(this);">雅安市</a></li>
+            <li><a href="#" onClick="city(this);">眉山市</a></li>
+            <li><a href="#" onClick="city(this);">攀枝花市</a></li>
+            <li><a href="#" onClick="city(this);">阿坝州</a></li>
+            <li><a href="#" onClick="city(this);">甘孜州</a></li>
+            <li><a href="#" onClick="city(this);">凉山州</a></li>
           </ul>
-       </div>
-	 </li>
-	 <li class="sn-cart mini-cart menu ld">
-       <i></i>
-       <a class="sn-cart-link" href="#" target="_top" rel="nofollow" id="mc-menu-hd">购物车<span class="mc-count mc-pt3">&nbsp;0&nbsp;</span>件</a>
-     </li>
-     <li class="sn-join ld">
-       <s></s>
-       <a href="#">招商加盟</a>
-     </li>
-     <script type="text/javascript">
-	$(document).ready(function(){
-	  $("#app-life").mouseover(function(){
-	  $(".sn-qrcode").toggle();
-	  });
-	  $(".myaccount").click(function(){
-		  $("#mylifePanel li").slideToggle();
-		  });
-	  $(".sn-sitemap").mouseover(function(){
-	  $(".hd_site_nav").toggle();
-	  });
-	});
-	</script>
-	 <li class="sn-mobile ld" id="app-life">
-	   <s></s>
-	   <i class="mui-global-iconfont"></i>
-	   <a href="#" target="_top" class="sn-mobile-link">手机版</a>
-	   <div class="sn-qrcode" style="display:inline;">
-         <div class="sn-qrcode-content"></div>
-         <p>扫一扫，定制我的生活！</p>
-         <b></b>
-       </div>
-	 </li>
-     <li class="sn-sitemap ld">
-       <s></s>
-       <a href="#">网站导航</a>
-       <b></b>
-       <div class="hd_site_nav">
-         <dl class="item fore1">
-           <dt>精彩指南</dt>
-           <dd>
-             <div><a target="_blank" href="#">校园之星</a></div>
-             <div><a target="_blank" href="#">视频购物星</a></div>
-             <div><a target="_blank" href="#">在线读书物</a></div>
-             <div><a target="_blank" href="#">装机大师</a></div>
-             <div><a target="_blank" href="#">家装城</a></div>
-             <div><a target="_blank" href="#">搭配购</a></div>
-           </dd>
-         </dl>
-         <dl class="item fore2">
-           <dt>企业服务</dt>
-           <dd>
-             <div><a target="_blank" href="#">企业采购</a></div>
-             <div><a target="_blank" href="#">办公直通车</a></div>
-           </dd>
-         </dl>
-         <dl class="item fore3">
-           <dt>更多精彩</dt>
-           <dd>
-             <div><a target="_blank" href="#">企业采购</a></div>
-             <div><a target="_blank" href="#">办公直通车</a></div>
-           </dd>
-         </dl>
-       </div>
-     </li>
-    </ul>
-   </div>
+        </dd>
+        <dd>
+          <ul>
+            <li><a href="#" onClick="area(this);">金牛区</a></li>
+            <li><a href="#" onClick="area(this);">成华区</a></li>
+            <li><a href="#" onClick="area(this);">青羊区</a></li>
+            <li><a href="#" onClick="area(this);">武侯区</a></li>
+            <li><a href="#" onClick="area(this);">锦江区</a></li>
+            <li><a href="#" onClick="area(this);">高新区</a></li>
+            <li><a href="#" onClick="area(this);">温江区</a></li>
+            <li><a href="#" onClick="area(this);">新都区</a></li>
+            <li><a href="#" onClick="area(this);">金堂县</a></li>
+            <li><a href="#" onClick="area(this);">双流县</a></li>
+            <li><a href="#" onClick="area(this);">浦江县</a></li>
+            <li><a href="#" onClick="area(this);">新津县</a></li>
+            <li><a href="#" onClick="area(this);">大邑县</a></li>
+            <li><a href="#" onClick="area(this);">郫县</a></li>
+            <li><a href="#" onClick="area(this);">龙泉驿区</a></li>
+            <li><a href="#" onClick="area(this);">青白江区</a></li>
+            <li><a href="#" onClick="area(this);">其他</a></li>
+          </ul>
+        </dd>
+
+      </dl>
+    </div>
+
+    <div id="hd2">
+      <dl id="h3">
+        <dt>
+          <span><a href="#">亲，欢迎来精彩生活馆！</a></span>
+        </dt>
+      </dl>
+      <dl>
+        <dt>
+          <span><a href="#">[请登录]</a></span>
+          <span><a href="#">[免费注册]</a></span>
+        </dt>
+      </dl>
+      <dl>
+        <dt><span>|</span></dt>
+      </dl>
+      <dl id="h4">
+        <dt>
+          <span><img src="images/header3.png"/></span>
+          <span><a href="#">我的账户</a></span>
+          <span id='hs2'>▼</span>
+        </dt>
+        <dd>
+          <ul>
+            <li><a href="#">我的订单</a></li>
+            <li><a href="#">我的积分</a></li>
+            <li><a href="#">我的收藏</a></li>
+            <li><a href="#">我的优惠</a></li>
+          </ul>
+        </dd>
+      </dl>
+      <dl id="h5">
+        <dt>
+          <span><img src="images/header4.png"/></span>
+          <span><a href="#">购物车 0 件</a></span>
+        </dt>
+      </dl>
+      <dl>
+        <dt><span>|</span></dt>
+      </dl>
+      <dl>
+        <dt>
+          <span><a href="#">招商加盟</a></span>
+        </dt>
+      </dl>
+      <dl>
+        <dt><span>|</span></dt>
+      </dl>
+      <dl id='h6'>
+        <dt>
+          <span><img src="images/header5.png"/></span>
+          <span><a href="#">手机版</a></span>
+        </dt>
+      </dl>
+      <dl>
+        <dt><span>|</span></dt>
+      </dl>
+      <dl id='h7'>
+        <dt>
+          <span><a href="#">网站导航</a></span>
+          <span id='hs3'>▼</span>
+        </dt>
+        <div>
+          <dt>精彩指南</dt>
+          <dd>
+            <ul>
+              <li><a href="#">校园之星</a></li>
+              <li><a href="#">视频购物星</a></li>
+              <li><a href="#">在线读书物</a></li>
+              <li><a href="#">装机大师</a></li>
+            </ul>
+          </dd>
+          <dt>精彩指南</dt>
+          <dd>
+            <ul>
+              <li><a href="#">校园之星</a></li>
+              <li><a href="#">视频购物星</a></li>
+              <li><a href="#">在线读书物</a></li>
+              <li><a href="#">装机大师</a></li>
+            </ul>
+          </dd>
+          <dt>精彩指南</dt>
+          <dd>
+            <ul>
+              <li><a href="#">校园之星</a></li>
+              <li><a href="#">视频购物星</a></li>
+              <li><a href="#">在线读书物</a></li>
+              <li><a href="#">装机大师</a></li>
+            </ul>
+          </dd>
+        </div>
+      </dl>
+    </div>
   </div>
 </div>
 
-<!-----------------------------------------------Header------------------------------------------------->
+<!-------------------------Header------------------------>
 <div id="header">
    <div class="headerLayout">
      <div class="headerCon">
@@ -177,7 +208,7 @@
                     </div>
                     <label for="mq" class="s-combobox-placeholder" style="color: rgb(102, 102, 102); visibility: visible;">Iphone 6 plus</label>
 				  </div>
-                  <button type="submit"><img src="images/sou.png" width="32" height="44"></button>
+                  <button type="submit"><img src="images/sou.png" width="50" height="44"></button>
                 </div>
               </fieldset>
             </form>
@@ -197,7 +228,7 @@
    </div>
 </div>
 
-<!----------------------------------------------Content-------------------------------------------------->
+<!------------------------Content------------------------>
 <div id="container">
   <div class="clearfix life-help">
     <div class="left_menu">
@@ -363,10 +394,7 @@
   </div>
 </div>
 
-<!---------------------------底部代码块---------------------->
-<table cellpadding="0" cellspacing="0" width="100%">
-<tr>
-  <td>
+<!------------------------Footer------------------------->
 <div class="footer">
   <div id="footer">
     <div class="life-ensure">
@@ -427,8 +455,5 @@
     </div>
   </div>
 </div>
-  </td>
- </tr>
-</table>
 </body>
 </html>
