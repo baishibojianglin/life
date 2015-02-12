@@ -2,21 +2,7 @@
 /*life CSS Document */
 
 /*CSS Reset*/
-body, p, form, input, button, dl, dt, dd, ul, ol, li, h1, h2, h3 {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-body{
-    font: 12px "Microsoft YaHei",Helvetica,sans-serif;
-    color: #333;
-}
-img {
-    border: 0 none;
-    vertical-align: top;
-}
 a {
-    text-decoration: none;
     color: #333;
 }
 #container{
